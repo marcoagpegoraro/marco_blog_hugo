@@ -5,7 +5,8 @@
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Blog do Marco(Marco&#39;s Blog)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <copyright>© [Marco Pegoraro](https://marcoagpegoraro.com.br).</copyright>
     <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>

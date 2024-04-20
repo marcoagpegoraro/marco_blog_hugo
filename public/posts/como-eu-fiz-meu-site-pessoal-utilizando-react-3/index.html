@@ -2,7 +2,7 @@
 <html lang="en">
 
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>Como eu fiz meu site pessoal utilizando React &ndash; Blog do Marco(Marco&#39;s Blog)</title>
-
+<meta name="description" content="Hello, my name is Marco, welcome to my personal blog, here i write posts about tecnology, programming, life, tech reviews among other things.">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8"/>
@@ -118,8 +118,9 @@ const [isAnimatedAlready, setIsAnimatedAlready] = useState(false)
 if(inView &amp;&amp; !isAnimatedAlready)
 setIsAnimatedAlready(true)</p>
 <p>return &lt;div ref={ref} className={<code>about-me-page  ${isAnimatedAlready ? 'animation-in' : 'animation-out'}</code>}&gt;</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<!--content-->
+</div>
+Precisei utilizar uma variavel isAnimatedAlready pra gravar se o usuário já passou pela página para ela ser animada só na primeira vez, caso eu quisesse animar todas as vezes, seria necessário só remover essa variavel.
 <p><img src="https://miro.medium.com/v2/resize:fit:1400/1*41dPGvM6f746nh_Bx9fnXQ.gif" alt=""></p>
 <h1 id="suporte-a-outros-idiomas">Suporte a outros idiomas</h1>
 <p>Gostaria que o site estivesse disponível em outras linguas alem do portugues também, para isso, utilizei a biblioteca i18n, na qual possúi suporte a diversas linguas, para isso, utilizei como base o artigo Como adicionar internacionalização (i18n) no React do <a href="https://medium.com/@lucas%5Fpinheiro">Lucas Pinheiro</a>, basicamente é necessário criar um arquivo para cada idioma que deseja adicionar, no meu caso, en-US.js, pt-BR.js e it-IT.js, e dentro deles, exportar um objeto com chave sendo o que o HTML vai procurar e o valor que seria o texto da linguagem selecionada.</p>
@@ -144,14 +145,20 @@ const [webSiteLanguage, setWebSiteLanguage] = React.useState(i18n.language)</p>
 setWebSiteLanguage(event.target.value)
 i18n.changeLanguage(event.target.value)
 }</p>
-<p>return <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->Language<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-&lt;MenuItem value={&rsquo;en-US&rsquo;}&gt;🇺🇸 English<!-- raw HTML omitted -->
-&lt;MenuItem value={&lsquo;pt-BR&rsquo;}&gt;🇧🇷 Português<!-- raw HTML omitted -->
-&lt;MenuItem value={&lsquo;it-IT&rsquo;}&gt;🇮🇹 Italiano<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p>return <FormControl size="small">
+<InputLabel id="Language">Language</InputLabel>
+<Select
+labelId="Language"
+id="Language"
+value={webSiteLanguage}
+label="Language"
+onChange={handleLanguageChange}
+>
+&lt;MenuItem value={&rsquo;en-US&rsquo;}&gt;🇺🇸 English</MenuItem>
+&lt;MenuItem value={&lsquo;pt-BR&rsquo;}&gt;🇧🇷 Português</MenuItem>
+&lt;MenuItem value={&lsquo;it-IT&rsquo;}&gt;🇮🇹 Italiano</MenuItem>
+</Select>
+</FormControl>
 }
 Para mais informações, recomendo bastante o artigo do Lucas Pinheiro indicado logo acima.</p>
 <h1 id="tema-claro-e-escuro">Tema claro e escuro</h1>
@@ -182,16 +189,16 @@ mode,
 );</p>
 <p>return (
 &lt;ColorModeContext.Provider value={colorMode}&gt;
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<ThemeProvider theme={theme}>
+<CssBaseline />
+<div className="app">
+<NavBar colorModeContext={ColorModeContext} />
+<div className='app-content'>
+<!-- content -->
+</div>
+<Footer />
+</div>
+</ThemeProvider>
 &lt;/ColorModeContext.Provider&gt;
 );
 }</p>
@@ -215,8 +222,35 @@ mode,
 
             <section class="page__aside">
                 <div class="aside__about">
+<div class="aside__about">
+    <span class="about__logo" role="img">💻</span>&nbsp;
+    
+<h1 class="about__title">Marco Pegoraro</h1>
+<p class="about__description">Hello, my name is Marco, welcome to my personal blog, here i write posts about tecnology, programming, life, tech reviews among other things.</p>
+</div>
+
 
 <ul class="aside__social-links">
+    
+    <li>
+        <a href="https://github.com/marcoagpegoraro" rel="me" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="mailto:marco@marcoagpegoraro.com.br" rel="me" aria-label="Email" title="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="https://www.youtube.com/@marcoagpegoraro" rel="me" aria-label="Youtube" title="Youtube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="https://www.linkedin.com/in/marco-antonio-goncalves" rel="me" aria-label="Linkedin" title="Linkedin"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="https://medium.com/@tete5423" rel="me" aria-label="Medium" title="Medium"><i class="fa-brands fa-medium" aria-hidden="true"></i></a>&nbsp;
+    </li>
     
 </ul>
 </div>
@@ -257,7 +291,7 @@ mode,
     
 </p>
 <br /><br />
-<p class="copyright"></p>
+<p class="copyright">© <a href="https://marcoagpegoraro.com.br">Marco Pegoraro</a>.</p>
 <p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
 </footer>
 

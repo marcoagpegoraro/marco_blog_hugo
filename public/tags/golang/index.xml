@@ -5,7 +5,8 @@
     <link>http://localhost:1313/tags/golang/</link>
     <description>Recent content in GoLang on Blog do Marco(Marco&#39;s Blog)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <copyright>© [Marco Pegoraro](https://marcoagpegoraro.com.br).</copyright>
     <lastBuildDate>Fri, 27 Oct 2023 21:44:06 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>

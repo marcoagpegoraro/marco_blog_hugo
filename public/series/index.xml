@@ -5,7 +5,8 @@
     <link>http://localhost:1313/series/</link>
     <description>Recent content in Series on Blog do Marco(Marco&#39;s Blog)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <copyright>© [Marco Pegoraro](https://marcoagpegoraro.com.br).</copyright>
     <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
