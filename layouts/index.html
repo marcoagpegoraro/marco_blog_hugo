@@ -4,7 +4,7 @@
         {{ .Content }}
     </header>
 
-    {{ range (where .Site.RegularPages "Section" "post") }}
+    {{ range (where .Site.RegularPages "Section" "posts") }}
     <article class="post">
         <header class="post__header">
             <h1><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>

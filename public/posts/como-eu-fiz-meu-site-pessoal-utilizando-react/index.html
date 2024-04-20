@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>Emoji Support &ndash; Blog do Marco(Marco&#39;s Blog)</title>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/palettes/base16-dark.css">
+<link rel="stylesheet" href="http://localhost:1313/css/risotto.css">
+<link rel="stylesheet" href="http://localhost:1313/css/custom.css">
+
+
+
+
+
+
+
+</head>
+
+    <body>
+        <div class="page">
+
+            <header class="page__header"><nav class="page__nav main-nav">
+    <ul>
+      <li class="nomarker"><h1 class="page__logo"><a href="http://localhost:1313/" class="page__logo-inner">Blog do Marco(Marco&#39;s Blog)</a></h1></li>
+    
+    
+    </ul>
+</nav>
+
+</header>
+
+            <section class="page__body">
+    <header class="content__header">
+        <h1>Emoji Support</h1>
+    </header>
+    <div class="content__body">
+        <p><img src="%22https://miro.medium.com/v2/resize:fit:1400/1*aIBlqgTuJH5IhAd5rWAe_A.png%22" alt="">Introdução&lt;\/h1&gt;</p>
+<p>Com a facilidade das redes sociais, fica muito facil termos como criar um perfil no qual podemos inserir quaisquer informaçoes sobre nós mesmos, por exemplo, no Instagram existe a opção de criar <em>highliths &lt;\/em&gt;com momentos importantes da nossa vida agrupadamente, como uma viagem ao exterior ou com as primeiras fotos de nossos filhos.&lt;\/p&gt;</em></p>
+<p><em>No ambito profissional, temos o Linkedin, sendo possível colocar diversas informações sobre nossa carreira, como empregos, projetos, certificados, projetos pessoais, etc. As possibilidades de interatividade crescem exponencialmente, fica muito mais fácil encontrar pessoas que trabalham na mesma empresa que você ou com a mesma area de atuação.&lt;\/p&gt;</em></p>
+<p><em>Porém nem sempre foi assim, antes do advento das redes sociais, pessoas que quisessem mostrar seu trabalho na internet, sendo elas fisicas ou juridicas, precisavam de um endereço na WWW, isso passava muito mais credibilidade para o cliente, hoje em dia isso se perdeu, porém ainda pode ser um fator decisivo para conquistar o cliente.&lt;\/p&gt;</em></p>
+<p><em>Se imagine como um cliente que, ao decidir contratar um serviço, encontra duas empresas na qual as duas oferecem serviços semelhantes, tem o mesmo tempo de mercado e preços iguais, porém uma tem um site profissional com tudo o que a empresa pode oferecer e outra só tem redes sociais, pode ser que isso não seja um fator decisivo, mas a empresa que possui o site com certeza passaria mais credibilidade.&lt;\/p&gt;</em></p>
+<p>===========================================================================================================================================</p>
+<p>_Vamos começar!&lt;\/h1&gt;</p>
+<p>Há três anos atras, fiz meu primeiro site pessoal utilizando Angular 9, porém ele estava bem primitivo, eu sabia que podia melhorar, então optei por utilizar a plataforma do Github chamada Pages, é um serviço gratuito que toda pessoa com uma conta Github pode usar, com ele você consegue criar um repositório com o seu \&ldquo;username\&rdquo; e terminando com o final \&quot;.github.io\&quot; e o arquivo index.html que estiver nele, o github vai subir automaticamente para a web no endereço do repositorio que você criou, esse link explica com mais detalhes: <a href="%22https://pages.github.com/%22">https:\/\/pages.github.com&lt;\/a&gt;&lt;\/p&gt;</a></p>
+<p><a href="%22https://pages.github.com/%22">No meu caso, criei um repositório chamado <em>marcoagpegoraro.github.io&lt;\/em&gt;, Com isso, você já conseguiria programar o site da maneira que você desejar, podendo inclusive colocar avontate arquivos .css e .js para seu index.html consumir, mas para quem quer demonstrar que conhece algum tipo de framework frontend, como por exemplo, React, Vue, Angular, etc, fica interessante programar o site em algum framework e publicar o código na branch main do repositorio para o código ser servido automaticamente, foi isso que eu fiz, no meu caso, eu tenho experiencia com o framework Angular, porém decidi programar meu site utilizando React, poís é a tecnologia mais utilizada atualmente no frontend.&lt;\/p&gt;</em></a></p>
+<p>[_Como programar utilizando o React e exportar o build para o Github Pages?&lt;\/h1&gt;</p>
+<p>Ai que fica interessante, o Github Pages leva em conta o que está na branch main, porém qualquer outra branch é ignorada pelo mesmo, então você poderia criar uma outra branch para o código da sua aplicação, por exemplo, uma branch chamada \&ldquo;develop\&rdquo; ou \&ldquo;react\&rdquo;, e quando quiser realizar um deploy para o site em produção, fazer o build da aplicação, como por exemplo, utilizando o comando \&ldquo;npm run build — prod\&rdquo;, e pegar o conteudo da pasta \&ldquo;build\&rdquo; gerada e colocar este código na branch main, porém isso seria muito trabalhoso.&lt;\/p&gt;</p>
+<p><em>](&quot;https://pages.github.com/&quot;)</em></p>
+<p><a href="%22https://pages.github.com/%22">Mas e se tivesse algum comando que faça isso automaticamente? Procurando eu ví que existia já um pacote chamado</a> <a href="%22https://www.npmjs.com/package/gh-pages%22">gh-pages&lt;\/a&gt; que faz exatamente isso, facilitando demais o processo de deploy, então instalei o pacote na minha aplicação e coloquei o seguinte script no meu package.json&lt;\/p&gt;</a></p>
+<blockquote>
+<p>[“deploy”: “gh-pages -d build -b main”,&lt;\/blockquote&gt;</p>
+<p>Com isso, sempre que eu quiser realizar um deploy, é só eu rodar o comando \&ldquo;npm run deploy\&rdquo; que o pacote já faz o deploy pra mim, muito fácil e prático.&lt;\/p&gt;</p>
+<p>](&quot;https://www.npmjs.com/package/gh-pages&quot;)</p>
+<p>[Como programei o meu site?&lt;\/h1&gt;</p>
+<p>Todo o código do meu site está disponível neste repositório:&lt;\/p&gt;</p>
+<p>](&quot;https://www.npmjs.com/package/gh-pages&quot;)</p>
+<p><a href="%22https://www.npmjs.com/package/gh-pages%22"></a><a href="%22https://github.com/marcoagpegoraro/marcoagpegoraro.github.io/blob/develop/package.json%22">https:\/\/github.com\/marcoagpegoraro\/marcoagpegoraro.github.io&lt;\/a&gt;&lt;\/p&gt;</a></p>
+<p><a href="%22https://github.com/marcoagpegoraro/marcoagpegoraro.github.io/blob/develop/package.json%22">Primeiramente, criei um novo projeto React na branch develop, importei a lib do</a> <a href="%22https://www.npmjs.com/package/gh-pages%22">gh-pages&lt;\/a&gt; e fiz um teste pra saber se funcionou o deploy automaticamente, feito isso, comecei o desenvolvimento do site.&lt;\/p&gt;</a></p>
+<p><a href="%22https://www.npmjs.com/package/gh-pages%22">A primeira coisa que fiz foi pesquisar algum framework CSS para utilizar na aplicação, pensei em utilizar</a> <a href="%22https://react-bootstrap.netlify.app/%22">Bootstrap&lt;\/a&gt;, acho uma biblioteca incrível que agiliza demais o desenvolvimento, principalmente para sistemas internos de empresas, mas acho que peca muito no visual, o que não é algo que queremos em um site pessoal, pensando nisso, pesquisei e ví que tinha uma chamada</a> <a href="%22https://mui.com/%22">Material UI React (MUI)&lt;\/a&gt;, vi que os componentes utilizam como base o material design da google, e que diversas empresas utilizam, então optei por usar ele.&lt;\/p&gt;</a></p>
+<p><a href="%22https://mui.com/%22">Páginas&lt;\/h1&gt;</a></p>
+<p><a href="%22https://mui.com/%22">Apresentação&lt;\/h2&gt;</a></p>
+<p><a href="%22https://mui.com/%22">Optei por deixar o site bem simples e direto, sem roteamento, somente utilizando scroll para baixo, então com isso em mente, começei o desenvolvimento do app. Criei primeiramente uma pasta chamada Pages, na qual teria todas as \&ldquo;páginas\&rdquo; do site, ou seja, a cada 100</a> <a href="%22https://www.sitepoint.com/css-viewport-units-quick-start/%22">view height&lt;\/a&gt;, seria uma página nova.&lt;\/p&gt;</a></p>
+<p><a href="%22https://www.sitepoint.com/css-viewport-units-quick-start/%22">A primeira página do site contem somente uma</a> <a href="%22https://mui.com/material-ui/api/app-bar/%22">AppBar&lt;\/a&gt; com links para minhas redes sociais, posteriormente, coloquei um input</a> <a href="%22https://mui.com/material-ui/react-select/%22">select&lt;\/a&gt; com as linguagens disponíveis no site e um botão para alterar o tema do site.&lt;\/p&gt;</a></p>
+<p><a href="%22https://mui.com/material-ui/react-select/%22"><img src="%22https://miro.medium.com/v2/resize:fit:1400/1*FPdVSzeQwLSJk6w6menf-A.png%22" alt="">&lt;\/p&gt;</a></p>
+<p><a href="%22https://mui.com/material-ui/react-select/%22">É bom sempre adotar as melhores práticas de componentização, por exemplo, os icones de redes sociais eu utilizo tanto na AppBar quanto no Footer do site, e como está componentizado, só preciso importar o mesmo componente nessas partes do código.&lt;\/p&gt;</a></p>
+<p><a href="%22https://mui.com/material-ui/react-select/%22">Para deixar centralizado, utilizei as propriedades de</a> <a href="%22https://css-tricks.com/snippets/css/a-guide-to-flexbox/%22">flex&lt;\/a&gt; do CSS, e alinhei todo o conteudo no centro, é uma habilidade primordial aprender como funciona pra quem quer trabalhar como desenvolvedor frontend, basicamente coloquei o display da página como flex e pedi para alinhar os itens ao centro:&lt;\/p&gt;</a></p>
+<p>[.presentation-page {\r\n    display: flex;\r\n    align-items: center;\r\n    flex-direction: column;\r\n    height: 100vh;\r\n    flex-wrap: wrap;\r\n    animation: fadeIn 3s;\r\n}\r\n&lt;\/pre&gt;</p>
+<p>Sobre mim&lt;\/h2&gt;</p>
+<p>Em seguida, temos a página na qual escrevi um texto com um mini resumo da minha vída, separei em três paragrafos principais, caso queira se basear, o primeiro paragrafo é uma pequena introdução sobre mim e onde trabalho atualmente. O segundo paragrafo é algo mais tecnico, para demonstrar quais habilidades eu sei e quais que já trabalhei e, por tanto, tenho afinidade. Por fim, escrevi um ultimo paragrafo para \&ldquo;quebrar o gelo\&rdquo; e falar sobre meus hobbies e coisas da minha vida pessoal, afinal, i&rsquo;m only human, after all.&lt;\/p&gt;</p>
+<p><img src="%22https://miro.medium.com/v2/resize:fit:1400/1*ih26j9TcviKBIEjWn6IJfg.png%22" alt="">&lt;\/p&gt;</p>
+<hr>
+<p>](&quot;https://css-tricks.com/snippets/css/a-guide-to-flexbox/&quot;)</p>
+<p>[Experiencia profissional&lt;\/h2&gt;</p>
+<p>Aqui eu pensei em deixar minha experiencia profissional, bem semelhante a aquela seção que temos no perfil do linkedin, porém queria deixar com um visual criativo que remetesse a algo que gosto.&lt;\/p&gt;</p>
+<p><img src="%22https://miro.medium.com/v2/resize:fit:1400/1*76ansUJaCSvsVCDIL7YkkQ.png%22" alt="">&lt;\/p&gt;</p>
+<p>](&quot;https://css-tricks.com/snippets/css/a-guide-to-flexbox/&quot;)</p>
+<p><a href="%22https://css-tricks.com/snippets/css/a-guide-to-flexbox/%22">Por ai sempre vejo os tutoriais utilizarem a janela do macOS como frame para códigos, com aqueles três botões: vermelho, amarelo e verde, decidi fazer o mesmo mas achei que ficou muito genérico, então tive a ideia de programar o estilo da janela do Windows XP, já que gosto bastante de tecnologias antigas, foi o primeiro sistema operacional que tive, porém iria dar bastante trabalho, então optei por fazer a janela do Windows 98, então com um pouco de CSS, ficou pronto do jeito que eu queria, dentro da janela, decidi deixar o visual do material design mesmo para facilitar a navegação e leitura de quem estiver lendo, imagine aqueles</a> <a href="%22https://mui.com/material-ui/react-chip/%22">chips&lt;\/a&gt; com o visual do Windows 98, todo quadrado e sem icones, não iria ficar tão legal, né?&lt;\/p&gt;</a></p>
+<hr>
+<p>[Portifolio (Projetos)&lt;\/h2&gt;</p>
+<p>Aqui eu dediquei uma area para projetos e coisas legais que já fiz ou conquistei, como por exemplo, certificados, projetos, apresentações e artigos.&lt;\/p&gt;</p>
+<p><img src="%22https://miro.medium.com/v2/resize:fit:1400/1*xdEDLcT2rPXVFr-Svm90Gw.png%22" alt="">&lt;\/p&gt;</p>
+<p>](&quot;https://mui.com/material-ui/react-chip/&quot;)</p>
+<p><a href="%22https://mui.com/material-ui/react-chip/%22">No futuro gostaria de separar os projetos em uma página especifica, o problema é que não tenho muitos projetos rs, poís a maioria dos códigos que já escrevi na vida foram códigos para a empresa onde trabalho e empresas que já trabalhei, e códigos de empresas são das empresas (e permanecerá assim), então ainda preciso dedicar alguns finais de semana para fazer</a> <a href="%22https://www.techtarget.com/searchcio/definition/proof-of-concept-POC%22">POCs&lt;\/a&gt; sobre tecnologias ou frameworks nas quais tenho interesse em aprender, e, em seguida, fazer uma página só para esses projetos.&lt;\/p&gt;</a></p>
+<p><a href="%22https://www.techtarget.com/searchcio/definition/proof-of-concept-POC%22">Decidi utilizar</a> <a href="%22https://mui.com/material-ui/react-card/%22">cards&lt;\/a&gt; para cada projeto, fica uma visualização bem fácil, ainda mais com imagens.&lt;\/p&gt;</a></p>
+<hr>
+<p><a href="%22https://mui.com/material-ui/react-card/%22">Contato&lt;\/h2&gt;</a></p>
+<p><a href="%22https://mui.com/material-ui/react-card/%22">Para finalizar, fiz uma página de contato bem simples, com o titulo ao lado esquerdo e um campo de texto a direita com dois botões de mensagem, um para envio de mensagem por Whatsapp e outro para Email, é bem mais fácil do que parece fazer esses botões funcionarem, o do Whatsapp é só criar um</a> <a href="%22https://faq.whatsapp.com/5913398998672934%22">link customizado&lt;\/a&gt; com o número que deseja mandar a mensagem e o conteudo e o navegador já abre direto em uma conversa comigo e a mensagem digitada, o do e-mail é só fazer um link</a> <a href="%22https://www.simplilearn.com/tutorials/html-tutorial/html-mailto%22">mail:to&lt;\/a&gt;.&lt;\/p&gt;</a></p>
+<p><a href="%22https://www.simplilearn.com/tutorials/html-tutorial/html-mailto%22">Abaixo temos o footer do site, deixei um texto sobre as tecnologias utilizadas no site e os links das mesmas, também deixei o link do repositório para caso alguem queira ver.&lt;\/p&gt;</a></p>
+<p><a href="%22https://www.simplilearn.com/tutorials/html-tutorial/html-mailto%22"><img src="%22https://miro.medium.com/v2/resize:fit:1400/1*ENjI9a25gvZNXo-2x17oBg.png%22" alt="">&lt;\/p&gt;</a></p>
+<p><a href="%22https://www.simplilearn.com/tutorials/html-tutorial/html-mailto%22">A direita deixei os mesmos links de redes sociais que tem na app bar, graças a componentização, foi só importar o mesmo componente nas duas partes do site.&lt;\/p&gt;</a></p>
+<hr>
+<p><a href="%22https://www.simplilearn.com/tutorials/html-tutorial/html-mailto%22">Suporte a telas de celular&lt;\/h1&gt;</a></p>
+<p><a href="%22https://www.simplilearn.com/tutorials/html-tutorial/html-mailto%22">Depois que programei o site, foi necessário corrigir alguns problemas quando o site era apresentado em uma tela de celular, para isso utilizei</a> <a href="%22https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries%22">media queries&lt;\/a&gt; para alterar o tamanho de algumas partes do site, ou até mesmo removelas por completo,&lt;\/p&gt;</a></p>
+<p><a href="%22https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries%22">Na app bar, quando o tamanho da tela é menor que um tamanho especifico, eu troco de lugar o componente de icones de redes sociais com os botões de troca de idioma e dark mode, para a visualização ficar mais agradavel.&lt;\/p&gt;</a></p>
+<p><a href="%22https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries%22"><img src="%22https://miro.medium.com/v2/resize:fit:1400/1*8gsUJWF4XV9wzr16X_kxkQ.png%22" alt="">&lt;\/p&gt;</a></p>
+<p><a href="%22https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries%22">Na tela de apresentação, eu ocultei completamente minha foto apresentando pois não haveria espaço para ela, então eu coloquei um media query exatamente no ponto na qual a imagem quebraria para a linha de baixo e faço ela ter um display: none.&lt;\/p&gt;</a></p>
+<p><a href="%22https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries%22">Uma página que precisei alterar bastante o design foi a de experiências profissionais, não teria espaço para uma sidebar ao lado, então eu ocultei ela por completo, então tive a ideia de substituir ela por uma</a> <a href="%22https://en.wikipedia.org/wiki/File_menu%22">\&ldquo;File menu bar\&quot;&lt;\/a&gt; logo abaixo da</a> <a href="%22https://learn.microsoft.com/en-us/windows/apps/develop/title-bar?tabs=wasdk%22">\&ldquo;title bar\&quot;&lt;\/a&gt;, com um select para a pessoa escolher qual informação deseja visualizar, ficou bem fácil a adaptação, já que os componentes do conteudo se ajustaram automaticamente.&lt;\/p&gt;</a></p>
+<p><a href="%22https://learn.microsoft.com/en-us/windows/apps/develop/title-bar?tabs=wasdk%22"><img src="%22https://miro.medium.com/v2/resize:fit:1400/1*EKStUfbzaVxWUhfwV_OWpw.png%22" alt="">&lt;\/p&gt;</a></p>
+<p><a href="%22https://learn.microsoft.com/en-us/windows/apps/develop/title-bar?tabs=wasdk%22">As demais páginas não precisaram de nenhum ajuste muito especifico, somente ajustar o tamanho quando a tela diminuia foi o suficiente para caber tudo na mesma tela.&lt;\/p&gt;</a></p>
+<p><a href="%22https://learn.microsoft.com/en-us/windows/apps/develop/title-bar?tabs=wasdk%22"><img src="%22https://miro.medium.com/v2/resize:fit:1400/1*khLS8NKmcNakJGO1racVNA.png%22" alt="">&lt;\/p&gt;</a></p>
+<p>==================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================</p>
+<p><a href="%22https://learn.microsoft.com/en-us/windows/apps/develop/title-bar?tabs=wasdk%22">Animações&lt;\/h1&gt;</a></p>
+<p><a href="%22https://learn.microsoft.com/en-us/windows/apps/develop/title-bar?tabs=wasdk%22">Gostaria de deixar o site mais agradavel aos olhos, para isso, utilizei também algumas animações CSS, na página inicial, utilizei uma simples animação de</a> <a href="%22https://blog.hubspot.com/website/css-fade-in%22">fade in&lt;\/a&gt;, já deixou o site com uma cara bem profissional.&lt;\/p&gt;</a></p>
+<p><a href="%22https://blog.hubspot.com/website/css-fade-in%22"><img src="%22https://miro.medium.com/v2/resize:fit:1400/1*SzDxG8t3NePwhoyryBkfVg.gif%22" alt="">&lt;\/p&gt;</a></p>
+<p><a href="%22https://blog.hubspot.com/website/css-fade-in%22">Para as demais páginas (exceto o footer), utilizei uma classe do Javascript chamada</a> <a href="%22https://www.youtube.com/watch?v=T33NN_pPeNI%22">Intersection Observer&lt;\/a&gt;, com ele, é possível saber se o usuario está visualizando ou não determinado elemento HTML, e com isso, realizar alguma logica desejada, é muito utilizado pra fazer um scroll infinito, como o do Facebook por exemplo, ou em animações quando o usuário passa por uma parte do site, igual acontece no meu caso.&lt;\/p&gt;</a></p>
+<p><a href="%22https://www.youtube.com/watch?v=T33NN_pPeNI%22">Para o React, existe uma implementação chamada</a> <a href="%22https://www.npmjs.com/package/react-intersection-observer%22">react-intersection-observer&lt;\/a&gt;, utilizei ela e o código ficou assim:&lt;\/p&gt;</a></p>
+<p>[import { useInView } from &lsquo;react-intersection-observer&rsquo;;\r\nexport const Page = () =&gt; {\r\n  const { ref, inView, entry } = useInView({})\r\n  const [isAnimatedAlready, setIsAnimatedAlready] = useState(false)\r\n  if(inView &amp;&amp; !isAnimatedAlready)\r\n    setIsAnimatedAlready(true)\r\n  \r\n  return &lt;div ref={ref} className={`about-me-page \r\n${isAnimatedAlready ? &lsquo;animation-in&rsquo; : &lsquo;animation-out&rsquo;}`}&gt;\r\n<!-- raw HTML omitted -->\r\n&lt;\/div&gt;\r\n&lt;\/pre&gt;</p>
+<p>Precisei utilizar uma variavel isAnimatedAlready pra gravar se o usuário já passou pela página para ela ser animada só na primeira vez, caso eu quisesse animar todas as vezes, seria necessário só remover essa variavel.&lt;\/p&gt;</p>
+<p><img src="%22https://miro.medium.com/v2/resize:fit:1400/1*41dPGvM6f746nh_Bx9fnXQ.gif%22" alt="">&lt;\/p&gt;</p>
+<p>](&quot;https://www.npmjs.com/package/react-intersection-observer&quot;)</p>
+<p><a href="%22https://www.npmjs.com/package/react-intersection-observer%22">Suporte a outros idiomas&lt;\/h1&gt;</a></p>
+<p><a href="%22https://www.npmjs.com/package/react-intersection-observer%22">Gostaria que o site estivesse disponível em outras linguas alem do portugues também, para isso, utilizei a biblioteca i18n, na qual possúi suporte a diversas linguas, para isso, utilizei como base o artigo Como adicionar internacionalização (i18n) no React do</a> <a href="%22https://medium.com/@lucas_pinheiro%22">Lucas Pinheiro&lt;\/a&gt;, basicamente é necessário criar um arquivo para cada idioma que deseja adicionar, no meu caso, en-US.js, pt-BR.js e it-IT.js, e dentro deles, exportar um objeto com chave sendo o que o HTML vai procurar e o valor que seria o texto da linguagem selecionada.&lt;\/p&gt;</a></p>
+<p>[\/\/Ingles (en-US.js) \r\npresentation: {\r\n  title: `Fullstack Software Developer | AWS | Java | JavaScript`\r\n},\r\n\/\/Portugues (pt-BR.js) \r\npresentation: {\r\n  title: `Desenvolvedor de software Fullstack | AWS | Java | JavaScript`\r\n},\r\n\/\/Italiano (it-IT.js)\r\npresentation: {\r\n  title: `Sviluppatore Software Fullstack | AWS | Java | JavaScript`\r\n},\r\n&lt;\/pre&gt;</p>
+<p>Para selecionar a linguagem, criei na app bar um select de linguagens, quando alterado, ele pede para o i18n alterar qual arquivo utilizar para o idioma do site, o legal é que fica salvo no local storage qual foi a linguagem escolhida, fica mais ou menos assim a implementação:&lt;\/p&gt;</p>
+<p>](&quot;https://medium.com/@lucas_pinheiro&quot;)</p>
+<p>[import { useTranslation } from &lsquo;react-i18next&rsquo;\r\n\r\nexport const SelectLanguageInput = () =&gt; {\r\n  const { i18n } = useTranslation()\r\n  const [webSiteLanguage, setWebSiteLanguage] = React.useState(i18n.language)\r\n\r\n  const handleLanguageChange = (event: SelectChangeEvent) =&gt; {\r\n    setWebSiteLanguage(event.target.value)\r\n    i18n.changeLanguage(event.target.value)\r\n  }\r\n\r\n  return &lt;FormControl size=\&ldquo;small\&quot;&gt;\r\n      &lt;InputLabel id=\&ldquo;Language\&quot;&gt;Language&lt;\/InputLabel&gt;\r\n      &lt;Select\r\n        labelId=\&ldquo;Language\&rdquo;\r\n        id=\&ldquo;Language\&rdquo;\r\n        value={webSiteLanguage}\r\n        label=\&ldquo;Language\&rdquo;\r\n        onChange={handleLanguageChange}\r\n      &gt;\r\n        &lt;MenuItem value={&rsquo;en-US&rsquo;}&gt;🇺🇸 English&lt;\/MenuItem&gt;\r\n        &lt;MenuItem value={&lsquo;pt-BR&rsquo;}&gt;🇧🇷 Português&lt;\/MenuItem&gt;\r\n        &lt;MenuItem value={&lsquo;it-IT&rsquo;}&gt;🇮🇹 Italiano&lt;\/MenuItem&gt;\r\n      &lt;\/Select&gt;\r\n    &lt;\/FormControl&gt;\r\n}\r\n&lt;\/pre&gt;</p>
+<p>Para mais informações, recomendo bastante o artigo do Lucas Pinheiro indicado logo acima.&lt;\/p&gt;</p>
+<p>](&quot;https://medium.com/@lucas_pinheiro&quot;)</p>
+<p><a href="%22https://medium.com/@lucas_pinheiro%22">Tema claro e escuro&lt;\/h1&gt;</a></p>
+<p><a href="%22https://medium.com/@lucas_pinheiro%22">Para finalizar, o MUI possui a possiblidade de implantar</a> <a href="%22https://mui.com/material-ui/customization/dark-mode/%22">tema escuro&lt;\/a&gt;, o famoso Dark Theme que programadores tanto amam (e uns nem tanto), pra isso, foi só seguir a documentação do framwork que rapidamente já estava com algo funcional no site, é necessário verificar qual tema o usuário prefere, light ou dark, gravar o estado dessa variavel e colocar todos os componentes do site sendo filhos do <em>ThemeProvider&lt;\/em&gt;, ficou assim:&lt;\/p&gt;</em></a></p>
+<p>[_\r\nimport React from &lsquo;react&rsquo;;\r\nimport { NavBar } from &lsquo;.\/components\/NavBar&rsquo;;\r\nimport { AppBar, Box, Button, Card, CardContent, CardMedia, CssBaseline, Fab, useTheme, ThemeProvider, Toolbar, Typography, createTheme, useMediaQuery } from &lsquo;@mui\/material&rsquo;;\r\nimport { themes } from &lsquo;.\/config\/themes&rsquo;;\r\n\r\nconst ColorModeContext = React.createContext({ toggleColorMode: () =&gt; { } });\r\n\r\nfunction App() {\r\n  const prefersDarkMode = useMediaQuery(&rsquo;(prefers-color-scheme: dark)&rsquo;);\r\n\r\n  const [mode, setMode] = React.useState&lt;&lsquo;light&rsquo; | &lsquo;dark&rsquo;&gt;(prefersDarkMode ? &lsquo;dark&rsquo; : &rsquo;light&rsquo;,);\r\n  const colorMode = React.useMemo(\r\n    () =&gt; ({\r\n      toggleColorMode: () =&gt; {\r\n        setMode((prevMode) =&gt; (prevMode === &rsquo;light&rsquo; ? &lsquo;dark&rsquo; : &rsquo;light&rsquo;));\r\n      },\r\n    }),\r\n    [],\r\n  );\r\n\r\n  const theme = React.useMemo(\r\n    () =&gt; createTheme({ palette: {\r\n          mode,\r\n          &hellip;(themes(mode)),\r\n        },\r\n      }),\r\n    [mode],\r\n  );\r\n\r\n  return (\r\n    &lt;ColorModeContext.Provider value={colorMode}&gt;\r\n      <!-- raw HTML omitted -->\r\n        &lt;CssBaseline \/&gt;\r\n        &lt;div className=\&ldquo;app\&quot;&gt;\r\n          &lt;NavBar colorModeContext={ColorModeContext} \/&gt;\r\n          <!-- raw HTML omitted -->\r\n            <!-- raw HTML omitted -->\r\n          &lt;\/div&gt;\r\n          &lt;Footer \/&gt;\r\n        &lt;\/div&gt;\r\n      &lt;\/ThemeProvider&gt;\r\n    &lt;\/ColorModeContext.Provider&gt;\r\n  );\r\n}\r\n\r\nexport default App;\r\n&lt;\/pre&gt;</p>
+<p>Dominio customizado&lt;\/h1&gt;</p>
+<p>E foi assim que fiz meu site, pra finalizar, contratei o serviço de dominio do registro.br, para o site ficar com .com.br ao invés de .github.io, caso tenha interesse, leia este outro artigo que escrevi sobre o assunto:&lt;\/p&gt;</p>
+<p>===============================================================================================================================================================================================================================================================</p>
+<p><em>](&quot;https://mui.com/material-ui/customization/dark-mode/&quot;)</em></p>
+<p><a href="%22https://mui.com/material-ui/customization/dark-mode/%22"></a><a href="%22https://medium.com/@tete5423/como-fazer-um-site-no-github-pages-ter-um-dominio-registrado-no-registro-br-872482317901?source=post_page-----88c12bca47d0--------------------------------%22">Como fazer um site no Github pages ter um dominio registrado no registro.br&lt;\/a&gt;&lt;\/h2&gt;</a></p>
+<h3 id="httpsmediumcomtete5423como-fazer-um-site-no-github-pages-ter-um-dominio-registrado-no-registro-br-872482317901sourcepost_page-----88c12bca47d0--------------------------------configurando-tanto-o-registrobr-quanto-o-github-pagesah3httpsmediumcomtete5423como-fazer-um-site-no-github-pages-ter-um-dominio-registrado-no-registro-br-872482317901sourcepost_page-----88c12bca47d0--------------------------------"><a href="%22https://medium.com/@tete5423/como-fazer-um-site-no-github-pages-ter-um-dominio-registrado-no-registro-br-872482317901?source=post_page-----88c12bca47d0--------------------------------%22"></a><a href="%22https://medium.com/@tete5423/como-fazer-um-site-no-github-pages-ter-um-dominio-registrado-no-registro-br-872482317901?source=post_page-----88c12bca47d0--------------------------------%22">Configurando tanto o registro.br quanto o Github pages&lt;\/a&gt;&lt;\/h3&gt;</a></h3>
+<p><a href="%22https://medium.com/@tete5423/como-fazer-um-site-no-github-pages-ter-um-dominio-registrado-no-registro-br-872482317901?source=post_page-----88c12bca47d0--------------------------------%22"></a><a href="%22https://medium.com/@tete5423/como-fazer-um-site-no-github-pages-ter-um-dominio-registrado-no-registro-br-872482317901?source=post_page-----88c12bca47d0--------------------------------%22">medium.com&lt;\/a&gt;&lt;\/p&gt;</a></p>
+<p><a href="%22https://medium.com/@tete5423/como-fazer-um-site-no-github-pages-ter-um-dominio-registrado-no-registro-br-872482317901?source=post_page-----88c12bca47d0--------------------------------%22"><br>
+&lt;\/p&gt;</a></p>
+<p>[Resultado final&lt;\/h1&gt;</p>
+<p>Você pode verificar tanto o código do projeto quanto o resultado nesses links a seguir:&lt;\/p&gt;</p>
+<p>](&quot;https://medium.com/@tete5423/como-fazer-um-site-no-github-pages-ter-um-dominio-registrado-no-registro-br-872482317901?source=post_page&mdash;&ndash;88c12bca47d0&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;&quot;)</p>
+<p><a href="%22https://medium.com/@tete5423/como-fazer-um-site-no-github-pages-ter-um-dominio-registrado-no-registro-br-872482317901?source=post_page-----88c12bca47d0--------------------------------%22"></a><a href="%22https://marcoagpegoraro.com.br/%22">https:\/\/www.marcoagpegoraro.com.br&lt;\/a&gt;&lt;\/p&gt;</a></p>
+<p><a href="%22https://github.com/marcoagpegoraro/marcoagpegoraro.github.io%22">https:\/\/github.com\/marcoagpegoraro\/marcoagpegoraro.github.io&lt;\/a&gt;&lt;\/p&gt;</a></p>
+<p><a href="%22https://github.com/marcoagpegoraro/marcoagpegoraro.github.io%22"><br>
+&lt;\/p&gt;</a></p>
+<p><a href="%22https://github.com/marcoagpegoraro/marcoagpegoraro.github.io%22">É isso pessoal, até a proxima!&lt;\/p&gt;</a></p>
+<p><a href="%22https://github.com/marcoagpegoraro/marcoagpegoraro.github.io%22"><br>
+&lt;\/p&gt;</a></p>
+<p><a href="%22https://github.com/marcoagpegoraro/marcoagpegoraro.github.io%22">Da pra fazer com qualquer framework frontend!&lt;\/p&gt;</a></p>
+<p>========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================</p>
+<hr>
+<p>_</p>
+<p>=======================================================================================================================================================================================================================================================================================================================================================================</p>
+<p>===============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================</p>
+<p>=======================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================</p>
+<hr>
+<p>======================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================</p>
+</blockquote>
+<h1 id="_">_</h1>
+<h1 id="_-1">_</h1>
+
+    </div>
+    <footer class="content__footer"></footer>
+
+            </section>
+
+            <section class="page__aside">
+                <div class="aside__about">
+
+<ul class="aside__social-links">
+    
+</ul>
+</div>
+                <hr>
+                <div class="aside__content">
+    <p>Guide to emoji usage in Hugo</p>
+    
+        <p>
+            By Hugo Authors, 
+            2019-03-05
+        </p>
+    
+
+    
+
+                </div>
+            </section>
+
+            <footer class="page__footer"><p>
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+          
+            
+            
+                <br/><span class="active">$ echo $LANG<br/><b></b></span><br/>
+
+            
+          
+      
+    
+</p>
+<br /><br />
+<p class="copyright"></p>
+<p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
+</footer>
+
+        </div>
+    </body>
+
+</html>
