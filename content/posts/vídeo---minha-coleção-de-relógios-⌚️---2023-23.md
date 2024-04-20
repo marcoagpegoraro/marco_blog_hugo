@@ -5,6 +5,7 @@
   description = ""
   tags = ["Video","Watches"] 
   header_image = "https://i.ytimg.com/vi/VCDd44JAGjU/hqdefault.jpg"
+  embedded_youtube_video_link = "https://www.youtube.com/embed/VCDd44JAGjU?si=hktEtIttxNbsXVrv"
 +++
   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VCDd44JAGjU?si=hktEtIttxNbsXVrv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="width: 100%;" height="415" src="https://www.youtube.com/embed/VCDd44JAGjU?si=hktEtIttxNbsXVrv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
