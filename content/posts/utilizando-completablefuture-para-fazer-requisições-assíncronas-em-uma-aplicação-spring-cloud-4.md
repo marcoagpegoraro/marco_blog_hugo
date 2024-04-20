@@ -4,6 +4,7 @@
   date = "2020-08-22 00:00:00"
   description = ""
   tags = ["Completable Future","Java","Spring"] 
+  header_image = "https://miro.medium.com/v2/resize:fit:1400/1*eWlh07xrpxE2LHGjGqqjzg.png"
 +++
   
 ![](https://miro.medium.com/v2/resize:fit:1400/1*eWlh07xrpxE2LHGjGqqjzg.png)Com um mundo cada vez mais demandando velocidade e usuários cada vez mais exigentes, surge a necessidade de realizar otimizações em aplicações rest para o tempo de requisição ser o menor possível.

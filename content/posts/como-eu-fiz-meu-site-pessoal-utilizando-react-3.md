@@ -4,6 +4,7 @@
   date = "2023-07-30 00:00:00"
   description = "Utilizando Github Pages, Material Ui Design, animações e i18n"
   tags = ["Github Pages","i18n","Material UI","React"] 
+  header_image = "https://miro.medium.com/v2/resize:fit:1400/1*aIBlqgTuJH5IhAd5rWAe_A.png"
 +++
   
 # ![](https://miro.medium.com/v2/resize:fit:1400/1*aIBlqgTuJH5IhAd5rWAe_A.png)Introdução

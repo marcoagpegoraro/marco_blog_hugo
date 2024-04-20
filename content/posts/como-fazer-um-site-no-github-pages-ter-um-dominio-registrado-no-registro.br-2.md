@@ -4,6 +4,7 @@
   date = "2023-07-30 00:00:00"
   description = "Configurando tanto o registro.br e o Github pages"
   tags = ["DNS","Github Pages","Registro.br"] 
+  header_image = "https://miro.medium.com/v2/resize:fit:1400/1*w1-0p7xElUKPEw_ILNJvZA.png"
 +++
   
   

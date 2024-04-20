@@ -4,6 +4,7 @@
   date = "2019-10-26 00:00:00"
   description = ""
   tags = ["Api","Aqueduct","Dart","Databases","JWT"] 
+  header_image = "https://miro.medium.com/v2/resize:fit:1400/1*E2_tBhriGjKZz3NM_Lh3QA.png"
 +++
   
 O Dart é uma linguagem de programação criada dentro da Google em 2011 com o objetivo de substituir o javascript como linguagem principal nos navegadores. porém, devido a sua facilidade e curva de aprendizado, acabou se tornando uma linguagem com propósito geral, podendo hoje ser utilizada no backend, frontend e principalmente no mobile e desktop utilizando o framework Flutter.

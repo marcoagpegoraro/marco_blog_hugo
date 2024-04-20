@@ -4,6 +4,7 @@
   date = "2023-10-27 21:44:06.531000000"
   description = "Golang + Fiber + Gorm + AWS S3 + Django Templates + FlatifyCSS + Railway"
   tags = ["AWS","Fiber","FlatifyCSS","Go","GoLang","GORM","Railway","S3"] 
+  header_image = "https://marco-blog-post-images.s3.sa-east-1.amazonaws.com/2365d858-d162-4736-89d4-6d2e7eeab154.jpg"
 +++
   
 Em 2007, engenheiros da Google perceberam que a base de código, principalmente escrita em C++, estava complexa demais e isso estava atrasando entregas, foi então visto que seria necessário a criação de uma nova linguagem de programação. Então Robert Griesemer, Rob Pike, e Ken Thompson - também criador da linguagem B - se reuniram e, com suas habilidades, criaram a linguagem Go, com o propósito de ser uma linguagem simples como Python, porém robusta e performática como C.

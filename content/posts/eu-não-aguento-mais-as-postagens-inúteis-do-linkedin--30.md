@@ -4,6 +4,7 @@
   date = "2024-01-11 01:53:25.309000000"
   description = "FaceBook 2012 vibes"
   tags = ["","Linkedin","Social Networks"] 
+  header_image = "https://marco-blog-post-images.s3.sa-east-1.amazonaws.com/90da8e74-406c-4b70-bae4-b6f04a5bab6c.jpg"
 +++
   
 As redes sociais cada vez mais utilizam algoritmos de sugestões para que o usuário passe o máximo de tempo possível na rede social antes de sair, eu lembro da época de quando eu entrava no YouTube e a página inicial era somente minhas inscrições, porém em um momento, a tela mudou para vídeos recomendados baseados no que eu gosto, tudo calculado para que eu fique mais tempo possível vendo vídeos.

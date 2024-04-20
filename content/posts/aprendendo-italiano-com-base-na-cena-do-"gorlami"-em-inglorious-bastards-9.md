@@ -4,6 +4,7 @@
   date = "2023-04-02 00:00:00"
   description = ""
   tags = ["","Italian","Language"] 
+  header_image = "https://miro.medium.com/v2/resize:fit:996/0*cHwHgiJcCMhQ9ezp.gif"
 +++
   
 Inglorious Bastards é uma obra prima do cinema, o tempo de mais de dez anos de escrita que Tarantino levou de 1998 até o inicio das filmagens em 2008 prova que esta obra pode e deve ser lembrada para toda uma geração de amantes do cinema.

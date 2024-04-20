@@ -4,6 +4,7 @@
   date = "2023-11-20 01:34:04.374000000"
   description = "O gato que só quer amor"
   tags = ["Cat","Mimo"] 
+  header_image = "https://marco-blog-post-images.s3.sa-east-1.amazonaws.com/cea51ff3-8472-47c7-97cb-5ebc2fda4157.jpg"
 +++
   
 Em fevereiro de 2023, estávamos pensando em adotar um novo gato, não lembro exatamente o motivo mas sabíamos que a casa tinha espaço pra pelo menos mais um, optamos então por procurar um gato já com uma certa idade em uma ONG, de preferência um gato que ninguém gostaria, por conta de alguma deficiência ou algo do tipo.

@@ -4,6 +4,7 @@
   date = "2019-10-27 00:00:00"
   description = ""
   tags = [""] 
+  header_image = "https://miro.medium.com/v2/resize:fit:1400/1*x9n1DT5QKLTZa9sFxNxtkg.png"
 +++
   
 ![](https://miro.medium.com/v2/resize:fit:1400/1*x9n1DT5QKLTZa9sFxNxtkg.png)

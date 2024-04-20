@@ -4,6 +4,7 @@
   date = "2022-01-04 00:00:00"
   description = ""
   tags = ["","DLNA","Docker","Linux","Plex","Raspberry Pi","Ubuntu"] 
+  header_image = "https://miro.medium.com/v2/resize:fit:1400/1*GsqI4vM5akhcVLgsq_8Fyw.jpeg"
 +++
   
 # ![](https://miro.medium.com/v2/resize:fit:1400/1*GsqI4vM5akhcVLgsq_8Fyw.jpeg)Introdução

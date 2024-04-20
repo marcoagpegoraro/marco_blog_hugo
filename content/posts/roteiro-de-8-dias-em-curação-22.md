@@ -4,6 +4,7 @@
   date = "2023-11-22 17:36:02.516000000"
   description = ""
   tags = ["Curacao","Trips","Vacation"] 
+  header_image = "https://marco-blog-post-images.s3.sa-east-1.amazonaws.com/c9bdf4d8-0cfc-488d-a741-b50359547ef0.jpg"
 +++
   
 # Dia 1

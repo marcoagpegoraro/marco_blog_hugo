@@ -4,6 +4,7 @@
   date = "2023-11-23 12:49:35.004000000"
   description = "A tecnologia mais avançada nem sempre é a melhor escolha"
   tags = ["","Apple","Casio","Smart Watches","Watches"] 
+  header_image = "https://marco-blog-post-images.s3.sa-east-1.amazonaws.com/2016bd39-3b5b-4131-8ecd-a0b373a357f8.jpg"
 +++
   
 O ano era 2010, a Apple em seu evento anual, o WWDC, anuncia o iPod nano de sexta geração, removendo de vez os botões físicos presentes no iPod desde sua primeira geração trazendo uma tela quadrada com a capacidade de multi touch.
