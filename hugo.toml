@@ -47,6 +47,14 @@ icon = "fa-brands fa-medium"
 title = "Medium"
 url = "https://medium.com/@tete5423"
 
+[menu]
+  [[menu.main]]
+    identifier = "portifolio"
+    name = "Portifolio 🔗"
+    url = "http://portifolio.marcoagpegoraro.com.br"
+    weight = 10
+    params = { target = "_blank" }
+
 # For hugo >= 0.60.0, enable inline HTML
 [markup.goldmark.renderer]
 unsafe = true
