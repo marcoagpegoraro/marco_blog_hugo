@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>Criando uma aplicação web com Dart. Parte 1: Aqueduct: Básico, conexão com banco e autenticação JWT &ndash; Blog do Marco(Marco&#39;s Blog)</title>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/palettes/base16-dark.css">
+<link rel="stylesheet" href="http://localhost:1313/css/risotto.css">
+<link rel="stylesheet" href="http://localhost:1313/css/custom.css">
+
+
+
+
+
+
+
+</head>
+
+    <body>
+        <div class="page">
+
+            <header class="page__header"><nav class="page__nav main-nav">
+    <ul>
+      <li class="nomarker"><h1 class="page__logo"><a href="http://localhost:1313/" class="page__logo-inner">Blog do Marco(Marco&#39;s Blog)</a></h1></li>
+    
+    
+    </ul>
+</nav>
+
+</header>
+
+            <section class="page__body">
+    <header class="content__header">
+        <h1>Criando uma aplicação web com Dart. Parte 1: Aqueduct: Básico, conexão com banco e autenticação JWT</h1>
+    </header>
+    <div class="content__body">
+        <p>O Dart é uma linguagem de programação criada dentro da Google em 2011 com o objetivo de substituir o javascript como linguagem principal nos navegadores. porém, devido a sua facilidade e curva de aprendizado, acabou se tornando uma linguagem com propósito geral, podendo hoje ser utilizada no backend, frontend e principalmente no mobile e desktop utilizando o framework Flutter.</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/1*E2_tBhriGjKZz3NM_Lh3QA.png" alt=""></p>
+<p>Nesse tutorial, iremos utilizar o dart para construir o básico de uma aplicação “to-do list” utilizando o framework Aqueduct.</p>
+<h2 id="requisitos">Requisitos</h2>
+<p>É necessário estar instalado na maquina o SDK do dart, pela linguagem ser multi plataforma, sua instalação pode ser feita tanto para Windows, Linux ou macOS. neste tutorial, estaremos utilizando a versão 2.5.</p>
+<h2 id="get-the-dart-sdkhttpsdartdevget-dartsourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://dart.dev/get-dart?source=post%5Fpage-----bd3afad3ae1a--------------------------------">Get the Dart SDK</a></h2>
+<h3 id="the-dart-sdk-has-the-libraries-and-command-line-tools-that-you-need-to-develop-dart-web-command-line-and-server-appshttpsdartdevget-dartsourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://dart.dev/get-dart?source=post%5Fpage-----bd3afad3ae1a--------------------------------">The Dart SDK has the libraries and command-line tools that you need to develop Dart web, command-line, and server apps…</a></h3>
+<p><a href="https://dart.dev/get-dart?source=post%5Fpage-----bd3afad3ae1a--------------------------------">dart.dev</a></p>
+<p>Com o Dart instalado, abra um terminal e digite o seguinte comando para realizar a instalação do aqueduct pelo pub, que é o próprio gerenciador de pacotes do Dart.</p>
+<p>pub global activate aqueduct</p>
+<p>Estaremos utilizando o Visual Studio Code para editar nossos códigos junto com a extensão oficial do Dart. E para testar a aplicação, estaremos utilizando o PostMan.</p>
+<h2 id="download-visual-studio-code---mac-linux-windowshttpscodevisualstudiocomdownloadsourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://code.visualstudio.com/download?source=post%5Fpage-----bd3afad3ae1a--------------------------------">Download Visual Studio Code - Mac, Linux, Windows</a></h2>
+<h3 id="visual-studio-code-is-free-and-available-on-your-favorite-platform---linux-macos-and-windows-download-visual-studiohttpscodevisualstudiocomdownloadsourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://code.visualstudio.com/download?source=post%5Fpage-----bd3afad3ae1a--------------------------------">Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows. Download Visual Studio…</a></h3>
+<p><a href="https://code.visualstudio.com/download?source=post%5Fpage-----bd3afad3ae1a--------------------------------">code.visualstudio.com</a></p>
+<h2 id="darthttpsmarketplacevisualstudiocomitemsitemnamedart-codedart-codesourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code&amp;source=post%5Fpage-----bd3afad3ae1a--------------------------------">Dart</a></h2>
+<h3 id="dart-code-extends-vs-code-with-support-for-the-dart-programming-language-and-provides-tools-for-effectively-editinghttpsmarketplacevisualstudiocomitemsitemnamedart-codedart-codesourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code&amp;source=post%5Fpage-----bd3afad3ae1a--------------------------------">Dart Code extends VS Code with support for the Dart programming language, and provides tools for effectively editing…</a></h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code&amp;source=post%5Fpage-----bd3afad3ae1a--------------------------------">marketplace.visualstudio.com</a></p>
+<h2 id="download-postman-apphttpswwwgetpostmancomdownloadssourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://www.getpostman.com/downloads/?source=post%5Fpage-----bd3afad3ae1a--------------------------------">Download Postman App</a></h2>
+<h3 id="be-the-first-to-experience-new-postman-features-cant-wait-to-see-what-postman-has-in-store-for-you-be-the-first-tohttpswwwgetpostmancomdownloadssourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://www.getpostman.com/downloads/?source=post%5Fpage-----bd3afad3ae1a--------------------------------">Be the first to experience new Postman features! Can&rsquo;t wait to see what Postman has in store for you? Be the first to…</a></h3>
+<p><a href="https://www.getpostman.com/downloads/?source=post%5Fpage-----bd3afad3ae1a--------------------------------">www.getpostman.com</a></p>
+<h2 id="inicio-do-projeto">Inicio do projeto</h2>
+<p>Com as ferramentas necessárias já instaladas, abra um novo terminal em sua pasta de projetos e rode o seguinte comando para realizar a criação do projeto.</p>
+<p>aqueduct create todo
+Para abrir o projeto no visual studio code, navegue para dentro da pasta utilizando o comando</p>
+<p>cd todo
+e em seguida</p>
+<p>code .
+Dentro da pasta lib, existe um arquivo chamado channel.dart, esse arquivo é onde será declarado as nossa rotas e controllers.</p>
+<p>O primeiro passo que iremos fazer será criar uma pasta dentro da pasta lib chamada models, onde será criado nossas classes modelos. O primeiro arquivo que criaremos será a classe de ToDo, no caso <em>to_do.dart</em>.</p>
+<p>Dentro desse arquivo, criaremos uma classe estendendo de uma outra classe chamada <em>Serializable</em>, isso é necessário para serializar o ToDo para JSON e vice versa.</p>
+<p>Além das propriedades da classe, sendo elas id, name e done, também teremos dois métodos que fazem parte da classe herdada <em>Serializable</em>, sendo elas o asMap e readFromMap. No final, a classe ficará da seguinte maneira:</p>
+<p>Em seguida, criaremos uma pasta dentro da pasta lib chamada <em>controllers</em>, onde iremos criar um arquivo chamado <em>to_do_controller.dart</em>.</p>
+<p>Dentro desse arquivo, criaremos uma classe que irá ser estendida de <em>ResourceController,</em> que é a classe padrão do aqueduct para a criação de métodos http dentro de um controller.</p>
+<p>A controller com os principais métodos http e uma lista de ToDo’s mockados para fins de testes, ficaria assim:</p>
+<p>Por fim, precisaremos incluir a controller de “todos” e qual será a sua rota no arquivo channel.dart.</p>
+<p>Em seguida, abra o terminal do visual studio code utilizando o comando Ctrl + shift + ` e rode o comando “aqueduct serve” para rodar a aplicação.</p>
+<p>Com o postman, você já poderá fazer requisições para a api:</p>
+<p>GET:    localhost:8888/todo
+GET:    localhost:8888/todo/1
+POST:   localhost:8888/todo
+PUT:    localhost:8888/todo
+DELETE: localhost:8888/todo/1</p>
+<p>Porém, você perceberá que os dados não são persistidos, por exemplo, ao fazer um método post ou delete, isto acontece por que o Aqueduct reseta o estado da aplicação para cada request, isso é melhor explicado no seguinte link da documentação oficial:</p>
+<h2 id="multi-threading---aqueducthttpsaqueductiodocsapplicationthreadingsourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://aqueduct.io/docs/application/threading/?source=post%5Fpage-----bd3afad3ae1a--------------------------------">Multi-threading - Aqueduct</a></h2>
+<h3 id="-one-of-the-primary-differentiators-between-aqueduct-and-other-server-frameworks-is-its-multi-threaded-behavior-whenhttpsaqueductiodocsapplicationthreadingsourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://aqueduct.io/docs/application/threading/?source=post%5Fpage-----bd3afad3ae1a--------------------------------"> One of the primary differentiators between Aqueduct and other server frameworks is its multi-threaded behavior. When…</a></h3>
+<p><a href="https://aqueduct.io/docs/application/threading/?source=post%5Fpage-----bd3afad3ae1a--------------------------------">aqueduct.io</a></p>
+<p>Alguns links interessantes:</p>
+<h2 id="the-builder-pattern-in-java-and-dart-cascadeshttpsdevtojvarnessthe-builder-pattern-in-java-and-dart-cascades-5l7sourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://dev.to/jvarness/the-builder-pattern-in-java-and-dart-cascades-5l7?source=post%5Fpage-----bd3afad3ae1a--------------------------------">The Builder Pattern in Java, and Dart Cascades</a></h2>
+<h3 id="object-construction-is-something-that-everyone-will-have-to-do-in-a-language-that-has-object-oriented-paradigmshttpsdevtojvarnessthe-builder-pattern-in-java-and-dart-cascades-5l7sourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://dev.to/jvarness/the-builder-pattern-in-java-and-dart-cascades-5l7?source=post%5Fpage-----bd3afad3ae1a--------------------------------">Object construction is something that everyone will have to do in a language that has object-oriented paradigms…</a></h3>
+<p><a href="https://dev.to/jvarness/the-builder-pattern-in-java-and-dart-cascades-5l7?source=post%5Fpage-----bd3afad3ae1a--------------------------------">dev.to</a></p>
+<h2 id="1-getting-startedhttpsaqueductiodocstutgetting-startedsourcepost5fpage-----bd3afad3ae1a--------------------------------the-more-you-know-multi-threading-and-application-state"><a href="https://aqueduct.io/docs/tut/getting-started/?source=post%5Fpage-----bd3afad3ae1a--------------------------------#the-more-you-know-multi-threading-and-application-state">1. Getting Started</a></h2>
+<h3 id="-by-the-end-of-this-tutorial-you-will-have-created-an-aqueduct-application-that-serves-fictional-heroes-from-ahttpsaqueductiodocstutgetting-startedsourcepost5fpage-----bd3afad3ae1a--------------------------------the-more-you-know-multi-threading-and-application-state"><a href="https://aqueduct.io/docs/tut/getting-started/?source=post%5Fpage-----bd3afad3ae1a--------------------------------#the-more-you-know-multi-threading-and-application-state"> By the end of this tutorial, you will have created an Aqueduct application that serves fictional heroes from a…</a></h3>
+<p><a href="https://aqueduct.io/docs/tut/getting-started/?source=post%5Fpage-----bd3afad3ae1a--------------------------------#the-more-you-know-multi-threading-and-application-state">aqueduct.io</a></p>
+<h1 id="conexão-com-banco-de-dados-postgresql"><strong>Conexão com banco de dados PostgreSQL</strong></h1>
+<p>Agora, iremos fazer algumas modificações para fazer acesso a um banco de dados Postgres em nossa API.</p>
+<p>Primeiramente, é necessário uma instalação do Postgres na maquina de desenvolvimento, podendo ela ser feita direto na maquina ou utilizando o Docker.</p>
+<p>Estarei utilizando neste tutorial, a imagem oficial do Postgres no dockerhub, para subir o serviço na minha maquina, utilizarei o seguinte comando no terminal:</p>
+<p>docker run &ndash;name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres:9.6</p>
+<p>Com o projeto aberto no Visual Studio Code, faremos algumas modificações na model de todo para ser feito o uso dela no banco de dados, a classe não precisará estender de Serializable pois a classe ManagedObject já estende de Serializable.</p>
+<p>Em seguida, faremos algumas modificações no arquivo channel.dart</p>
+<p>Aqui criamos uma variável context que guardará as informações de banco de dados e em seguida, iremos passar ela para o nosso controller de ToDo fazer as consultas de banco de dados. Precisaremos preparar o nosso controller para receber o contexto e fazer as operações de banco de dados, ficando assim:</p>
+<p>Ajustamos o controller para receber o contexto de banco de dados e modicamos todos os métodos http para fazer consultas ao banco de dados utilizando a classe Query do Aqueduct. Mais informações sobre o ORM podem ser encontradas nos links:</p>
+<h2 id="basic-queries--aqueducthttpsaqueductiodocsdbexecuting5fqueriessourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://aqueduct.io/docs/db/executing%5Fqueries/?source=post%5Fpage-----bd3afad3ae1a--------------------------------">Basic Queries — Aqueduct</a></h2>
+<h3 id="-to-send-commands-to-a-database--whether-to-fetch-insert-delete-or-update-objects--you-will-create-configure-andhttpsaqueductiodocsdbexecuting5fqueriessourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://aqueduct.io/docs/db/executing%5Fqueries/?source=post%5Fpage-----bd3afad3ae1a--------------------------------"> To send commands to a database — whether to fetch, insert, delete or update objects — you will create, configure and…</a></h3>
+<p><a href="https://aqueduct.io/docs/db/executing%5Fqueries/?source=post%5Fpage-----bd3afad3ae1a--------------------------------">aqueduct.io</a></p>
+<h2 id="advanced-queries--aqueducthttpsaqueductiodocsdbadvanced5fqueriessourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://aqueduct.io/docs/db/advanced%5Fqueries/?source=post%5Fpage-----bd3afad3ae1a--------------------------------">Advanced Queries — Aqueduct</a></h2>
+<h3 id="-the-rows-from-a-table-can-be-sorted-and-fetched-in-contiguous-chunks-this-sorting-can-occur-on-most-properties-forhttpsaqueductiodocsdbadvanced5fqueriessourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://aqueduct.io/docs/db/advanced%5Fqueries/?source=post%5Fpage-----bd3afad3ae1a--------------------------------"> The rows from a table can be sorted and fetched in contiguous chunks. This sorting can occur on most properties. For…</a></h3>
+<p><a href="https://aqueduct.io/docs/db/advanced%5Fqueries/?source=post%5Fpage-----bd3afad3ae1a--------------------------------">aqueduct.io</a></p>
+<p>Nosso projeto já está quase pronto para funcionar com banco de dados, agora falta somente fazer a migração da model ToDo para o banco de dados, o primeiro passo é criar um arquivo na pasta raiz do projeto chamada database.yaml, que será utilizado pelo aqueduct para localizar o banco de dados e fazer as migrações, o conteúdo do arquivo será então:</p>
+<p>Por fim, iremos criar a migração. Com o terminal do Visual Studio Code aberto, rode o seguinte comando para criar uma migração:</p>
+<p>aqueduct db generate
+Com esse comando, o Aqueduct detecta as models do projeto para criar a migração, as migrações ficam dentro do diretório migrations.</p>
+<p>Para aplicar a migração, precisaremos rodar o comando:</p>
+<p>aqueduct db upgrade
+Aplicada a migração, você já poderá testar o projeto realizando requisições HTTP, você perceberá que os dados agora estão sendo persistidos.</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1330/1*1EcLJoehsq7pmjj91bSmPg.png" alt=""></p>
+<p>Exemplo de requisição POST</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:538/1*ko_oy_7s09m5Q8zd2g9syw.png" alt=""></p>
+<p>Dados persistidos no banco de dados</p>
+<h1 id="autenticação-jwt"><strong>Autenticação JWT</strong></h1>
+<p>Como qualquer aplicação web, é necessário algum tipo de autenticação. Uma das maneiras mais comuns que se tem hoje em dia para realizar autenticação em API’s REST é utilizando um padrão chamado JWT, para mais informações, recomendo a leitura do seguinte artigo do Wellington Nascimento sobre o assunto:</p>
+<h2 id="entendendo-tokens-jwt-json-web-tokenhttpsmediumcomtablelessentendendo-tokens-jwt-json-web-token-413c6d1397f6sourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://medium.com/tableless/entendendo-tokens-jwt-json-web-token-413c6d1397f6?source=post%5Fpage-----bd3afad3ae1a--------------------------------">Entendendo tokens JWT (Json Web Token)</a></h2>
+<h3 id="esse-artigo-apareceu-primeiro-em-wellingtonjhncomhttpsmediumcomtablelessentendendo-tokens-jwt-json-web-token-413c6d1397f6sourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://medium.com/tableless/entendendo-tokens-jwt-json-web-token-413c6d1397f6?source=post%5Fpage-----bd3afad3ae1a--------------------------------">Esse artigo apareceu primeiro em wellingtonjhn.com</a></h3>
+<p><a href="https://medium.com/tableless/entendendo-tokens-jwt-json-web-token-413c6d1397f6?source=post%5Fpage-----bd3afad3ae1a--------------------------------">medium.com</a></p>
+<p>Neste artigo, demonstrarei como aplicar esse padrão de autenticação na nossa API em Dart.</p>
+<p><strong>Relacionamento one-to-many</strong></p>
+<p>A primeira coisa que iremos fazer será criar um model para o usuário e fazer a relação com o ToDo. Dentro da pasta models, criaremos então uma classe user.dart:</p>
+<p>Perceba que existe uma propriedade <em>ManagedSet</em> que será responsável pela relacionamento one-to-many com o ToDo, mas precisaremos incluir o relacionamento também na classe de ToDo, portanto, adicione o atributo a seguir na classe todo.dart:</p>
+<p>@Relate(#toDo)User user;
+Por fim, precisaremos criar uma migration no banco de dados, para criar uma migration, utilizamos o comando</p>
+<p>aqueduct db generate
+Na migration criada, iremos fazer uma pequena alteração, pois ela incluiu a criação de uma coluna <em>password</em> na tabela <em>_user</em>, o que não será necessário pois gravaremos somente o hash da senha no banco de dados, então sinta-se a vontade para remover o seguinte trecho da migration:</p>
+<p>SchemaColumn(&ldquo;password&rdquo;, ManagedPropertyType.string,isPrimaryKey: false,autoincrement: false,isIndexed: false,isNullable: false,isUnique: false),
+Para aplicar a migration, utilize o comando:</p>
+<p>aqueduct db upgrade
+<strong>Geração do token JWT</strong></p>
+<p>Em seguida, importaremos uma dependência que será utilizada para gerar e descriptografar o token JWT. Então no arquivo pubspec.yaml, inclua a dependência:</p>
+<p>jaguar_jwt: ^2.1.6</p>
+<p>Em seguida, criaremos um diretório dentro de <em>lib</em> chamado <em>utils</em> e dentro desta pasta, criar um arquivo utils.dart que será utilizado para deixar funções comuns que serão utilizadas por todo o projeto. Dentro deste arquivo, teremos alguns atributos e métodos:</p>
+<ol>
+<li>jwtKey — A chave privada para a criação dos tokens JWT.</li>
+<li>generateJWT — Método que receberá um usuário e retornará uma string (o próprio token JWT).</li>
+<li>generateSHA256Hash — Método que irá gerar o hash da senha do usuário.</li>
+</ol>
+<p>O arquivo utils.dart ficará assim:</p>
+<p>Agora, precisaremos criar dois novos controllers, o primeiro controller será utilizado para criar um novo usuário e gerar um hash da senha para o mesmo, ficando assim:</p>
+<p>E por fim, um controller que será utilizado para validar o usuário e devolver um token autenticado para ele, chamaremos ele de session_controller.dart.</p>
+<p><strong>Middleware de autenticação</strong></p>
+<p>No Aqueduct, todo controller é um middleware, você pode inclusive encadear controllers para se chegar em um resultado esperado, é isso que iremos fazer, antes da requisição chegar no ToDoController, precisaremos ter um middleware que verificará se o token JWT passado pelo header é realmente válido. Para fazer isso, criaremos uma pasta dentro de lib chamada middlewares, e dentro dela, uma classe jwt_middleware.dart que terá o comportamento muito parecido com um controller, porém não irá retornar nada para o usuário, somente passar a requisição adiante para o próximo controller.</p>
+<p>Neste middleware, vamos descriptografar o token, pegar o id do usuário no token e fazer algumas validações (ver se o usuário existe, verificar a data de expiração do token, etc) e por fim, passar o usuário do token para o próximo controller.</p>
+<p>Para mais informações sobre como validar os dados do token:</p>
+<h2 id="jaguar_jwt--dart-packagehttpspubdevpackagesjaguar5fjwtsourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://pub.dev/packages/jaguar%5Fjwt?source=post%5Fpage-----bd3afad3ae1a--------------------------------">jaguar_jwt | Dart Package</a></h2>
+<h3 id="jwt-utilities-for-dart-and-jaguardart-this-library-can-be-used-to-generate-and-process-json-web-tokens-jwt-for-morehttpspubdevpackagesjaguar5fjwtsourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://pub.dev/packages/jaguar%5Fjwt?source=post%5Fpage-----bd3afad3ae1a--------------------------------">JWT utilities for Dart and Jaguar.dart This library can be used to generate and process JSON Web Tokens (JWT). For more…</a></h3>
+<p><a href="https://pub.dev/packages/jaguar%5Fjwt?source=post%5Fpage-----bd3afad3ae1a--------------------------------">pub.dev</a></p>
+<p>Em seguida, precisaremos fazer algumas modificações na variável routes do arquivo channel.dart para incluir os novos controllers e o novo middleware de autenticação.</p>
+<p>router.route(&quot;/todo/[:id]&quot;).link(() =&gt; JwtMiddleware(context)).link(() =&gt; ToDoController(context));router.route(&quot;/user/[:id]&quot;).link(() =&gt; UserController(context));router.route(&quot;/session/[:id]&quot;).link(() =&gt; SessionController(context));
+Por fim, precisaremos fazer algumas modificações no ToDoController, pois agora o mesmo precisa filtrar os todo’s também pelo id do usuário, existem diversas maneiras de se fazer isso, mas para deixar simplificado, utilizaremos o id que foi obtido do token.</p>
+<p><strong>Testes</strong></p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1344/1*rVL2n9z5uSC0Vo-ufFKbLg.png" alt=""></p>
+<p>Criação de usuário</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/1*VUB06K9BaZcJNonGfHvhrw.png" alt=""></p>
+<p>Autenticação de usuário</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/1*qOqasYbla8vIa1fU7Nl5fg.png" alt=""></p>
+<p>Colocando o token no header da requisição</p>
+<p>Agora você poderá criar, editar, listar e deletar os ToDo’s baseado no usuário logado.</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/1*1CLn1ArVmPhGyS-AN47aNg.png" alt=""></p>
+<p>Inclusão de <em>ToDo</em></p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/1*TPPunKpj7PlmcfyOxWfEpg.png" alt=""></p>
+<p>Listagem de <em>ToDo</em></p>
+<p>Com isso, terminamos o nosso backend em Dart, para finalizar, no próximo artigo demonstrarei como criar um frontend para consumir a API criada utilizando o framework AngularDart.</p>
+<h2 id="criando-uma-aplicação-web-com-dart-parte-2-angulardart-básico-roteamento-e-chamadas-httphttpsmediumcomflutter-comunidade-brcriando-uma-aplicação-web-com-dart-parte-2-angulardart-básico-roteamento-e-chamadas-http-9a7e7187a477sourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://medium.com/flutter-comunidade-br/criando-uma-aplica%C3%A7%C3%A3o-web-com-dart-parte-2-angulardart-b%C3%A1sico-roteamento-e-chamadas-http-9a7e7187a477?source=post%5Fpage-----bd3afad3ae1a--------------------------------">Criando uma aplicação web com Dart. Parte 2: AngularDart: Básico, roteamento e chamadas HTTP</a></h2>
+<h3 id="no-artigo-anterior-ensinei-como-criar-uma-aplicação-backend-utilizando-a-linguagem-de-programação-dart-juntamente-comhttpsmediumcomflutter-comunidade-brcriando-uma-aplicação-web-com-dart-parte-2-angulardart-básico-roteamento-e-chamadas-http-9a7e7187a477sourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://medium.com/flutter-comunidade-br/criando-uma-aplica%C3%A7%C3%A3o-web-com-dart-parte-2-angulardart-b%C3%A1sico-roteamento-e-chamadas-http-9a7e7187a477?source=post%5Fpage-----bd3afad3ae1a--------------------------------">No artigo anterior, ensinei como criar uma aplicação backend utilizando a linguagem de programação Dart juntamente com…</a></h3>
+<p><a href="https://medium.com/flutter-comunidade-br/criando-uma-aplica%C3%A7%C3%A3o-web-com-dart-parte-2-angulardart-b%C3%A1sico-roteamento-e-chamadas-http-9a7e7187a477?source=post%5Fpage-----bd3afad3ae1a--------------------------------">medium.com</a></p>
+<p>O repositório do projeto pode ser encontrado no seguinte link do meu GitHub:</p>
+<h2 id="marcoagpegorarotodo-app-aqueducthttpsgithubcommarcoagpegorarotodo-app-aqueductsourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://github.com/marcoagpegoraro/todo-app-aqueduct?source=post%5Fpage-----bd3afad3ae1a--------------------------------">marcoagpegoraro/todo-app-aqueduct</a></h2>
+<h3 id="its-necessary-a-postgres-database-in-order-for-this-application-to-work-properly-modify-channeldart-anthttpsgithubcommarcoagpegorarotodo-app-aqueductsourcepost5fpage-----bd3afad3ae1a--------------------------------"><a href="https://github.com/marcoagpegoraro/todo-app-aqueduct?source=post%5Fpage-----bd3afad3ae1a--------------------------------">It&rsquo;s necessary a postgres database in order for this application to work properly, modify channel.dart ant…</a></h3>
+<p><a href="https://github.com/marcoagpegoraro/todo-app-aqueduct?source=post%5Fpage-----bd3afad3ae1a--------------------------------">github.com</a></p>
+
+    </div>
+    <footer class="content__footer"></footer>
+
+            </section>
+
+            <section class="page__aside">
+                <div class="aside__about">
+
+<ul class="aside__social-links">
+    
+</ul>
+</div>
+                <hr>
+                <div class="aside__content">
+    
+    
+        <p>
+            By Marco Pegoraro, 
+            2019-10-26
+        </p>
+    
+
+    
+
+                </div>
+            </section>
+
+            <footer class="page__footer"><p>
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+          
+            
+            
+                <br/><span class="active">$ echo $LANG<br/><b></b></span><br/>
+
+            
+          
+      
+    
+</p>
+<br /><br />
+<p class="copyright"></p>
+<p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
+</footer>
+
+        </div>
+    </body>
+
+</html>

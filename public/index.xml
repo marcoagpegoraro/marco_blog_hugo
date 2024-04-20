@@ -6,42 +6,126 @@
     <description>Recent content in Posts on Blog do Marco(Marco&#39;s Blog)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Feb 2024 01:02:38 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/posts/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <title>Meu projeto em Vlang para a Rinha de Backend 2024 Q1</title>
+      <link>http://localhost:1313/posts/meu-projeto-em-vlang-para-a-rinha-de-backend-2024-q1-39/</link>
+      <pubDate>Fri, 16 Feb 2024 01:02:38 +0000</pubDate>
+      <guid>http://localhost:1313/posts/meu-projeto-em-vlang-para-a-rinha-de-backend-2024-q1-39/</guid>
+      <description></description>
     </item>
     <item>
-      <title>Rich Content</title>
-      <link>http://localhost:1313/posts/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+      <title>Git: Aumentando sua produtividade utilizando alias nos comandos</title>
+      <link>http://localhost:1313/posts/git-aumentando-sua-produtividade-utilizando-alias-nos-comandos-36/</link>
+      <pubDate>Wed, 24 Jan 2024 01:32:29 +0000</pubDate>
+      <guid>http://localhost:1313/posts/git-aumentando-sua-produtividade-utilizando-alias-nos-comandos-36/</guid>
+      <description>Hoje estava, como de costume, trabalhando em uma feature no qual eu fazia recorrentes commits e pushs, até que percebi o tanto de tempo gasto na minha vida só para digitar os mesmos comandos todas as vezes, ai que pensei se não existe uma maneira de deixar os comandos mais simples, fui pesquisar e encontrei que existe o comando &amp;ldquo;alias&amp;rdquo; no bash para criar um link de um comando para outro, por exemplo, podemos criar uma alias para o comando git push ser executado se rodarmos o comando &amp;ldquo;gp&amp;rdquo; (git push) da seguinte maneira:</description>
     </item>
     <item>
-      <title>Placeholder Text</title>
-      <link>http://localhost:1313/posts/placeholder-text-1/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/placeholder-text-1/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+      <title>Eu não aguento mais as postagens inúteis do LinkedIn </title>
+      <link>http://localhost:1313/posts/eu-n%C3%A3o-aguento-mais-as-postagens-in%C3%BAteis-do-linkedin--30/</link>
+      <pubDate>Thu, 11 Jan 2024 01:53:25 +0000</pubDate>
+      <guid>http://localhost:1313/posts/eu-n%C3%A3o-aguento-mais-as-postagens-in%C3%BAteis-do-linkedin--30/</guid>
+      <description>As redes sociais cada vez mais utilizam algoritmos de sugestões para que o usuário passe o máximo de tempo possível na rede social antes de sair, eu lembro da época de quando eu entrava no YouTube e a página inicial era somente minhas inscrições, porém em um momento, a tela mudou para vídeos recomendados baseados no que eu gosto, tudo calculado para que eu fique mais tempo possível vendo vídeos.</description>
     </item>
     <item>
-      <title>Math Typesetting</title>
-      <link>http://localhost:1313/posts/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+      <title>Brazil - One of the bad parts</title>
+      <link>http://localhost:1313/posts/brazil---one-of-the-bad-parts-29/</link>
+      <pubDate>Mon, 25 Dec 2023 04:46:04 +0000</pubDate>
+      <guid>http://localhost:1313/posts/brazil---one-of-the-bad-parts-29/</guid>
+      <description>Imagine this, it&amp;rsquo;s Christmas Eve, you are tired because you traveled to a nearby city that is a reference when it comes to Christmas decoration. So you go back home and wait until 12:00 PM to watch the fireworks and then go to sleep, but in Brazil, everything can happen.&#xA;Out of nowhere, a Car with a very loud sound system starts playing a &amp;ldquo;music&amp;rdquo; genre called Brazilian Funk, or just, Funk.</description>
     </item>
     <item>
-      <title>Emoji Support</title>
-      <link>http://localhost:1313/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <title>My 2023 Spotify Wrapped</title>
+      <link>http://localhost:1313/posts/my-2023-spotify-wrapped-24/</link>
+      <pubDate>Thu, 30 Nov 2023 11:38:30 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-2023-spotify-wrapped-24/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vídeo - Minha coleção de relógios ⌚️ - 2023</title>
+      <link>http://localhost:1313/posts/v%C3%ADdeo---minha-cole%C3%A7%C3%A3o-de-rel%C3%B3gios-%EF%B8%8F---2023-23/</link>
+      <pubDate>Tue, 28 Nov 2023 02:21:43 +0000</pubDate>
+      <guid>http://localhost:1313/posts/v%C3%ADdeo---minha-cole%C3%A7%C3%A3o-de-rel%C3%B3gios-%EF%B8%8F---2023-23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Por que eu uso um relogio mecanico na era dos smartwatches?</title>
+      <link>http://localhost:1313/posts/por-que-eu-uso-um-relogio-mecanico-na-era-dos-smartwatches-19/</link>
+      <pubDate>Thu, 23 Nov 2023 12:49:35 +0000</pubDate>
+      <guid>http://localhost:1313/posts/por-que-eu-uso-um-relogio-mecanico-na-era-dos-smartwatches-19/</guid>
+      <description>O ano era 2010, a Apple em seu evento anual, o WWDC, anuncia o iPod nano de sexta geração, removendo de vez os botões físicos presentes no iPod desde sua primeira geração trazendo uma tela quadrada com a capacidade de multi touch.&#xA;Steve Jobs, em sua penúltima apresentação, até brinca que um dos executivos da apple estava utilizando o aparelho em formato de relógio devido ao seu formato. Com isso, não demorou muito para que empresas começassem a fazer pulseiras especificas para o novo aparelho, foi um sucesso e a Apple vendo isso, lançou também muitas &amp;ldquo;Watch Faces&amp;rdquo; para o iPod.</description>
+    </item>
+    <item>
+      <title>Roteiro de 8 dias em curação</title>
+      <link>http://localhost:1313/posts/roteiro-de-8-dias-em-cura%C3%A7%C3%A3o-22/</link>
+      <pubDate>Wed, 22 Nov 2023 17:36:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/roteiro-de-8-dias-em-cura%C3%A7%C3%A3o-22/</guid>
+      <description>Dia 1 No primeiro dia, pegamos o voo de Belo Horizonte para Curaçao pela companhia aérea Azul, é um voo relativamente rápido até, demora cerca de 6 horas, o serviço de bordo é bom também, teve alguns snacks no inicio da viagem e no meio dela, teve um pão com duas opções, frango e vegetariana. Chegando la em Curaçao as 19:00, fomos direto para o guichê das locadoras de carro, tinha alugado previamente na RentCars pela Avis por um preço bem mais elevado que o normal, para 8 dias, ficou cerca de 2700, ou pouco mais de 550 dólares no total, e era o carro mais básico disponível, um Kia Picanto que não funcionava a abertura do porta malas e estava cheio de riscos, o ar condicionado funcionava pelo menos, deixei minha nota para a Avis de curaçao nesse link a seguir: https://maps.</description>
+    </item>
+    <item>
+      <title>Mimo</title>
+      <link>http://localhost:1313/posts/mimo-21/</link>
+      <pubDate>Mon, 20 Nov 2023 01:34:04 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mimo-21/</guid>
+      <description>Em fevereiro de 2023, estávamos pensando em adotar um novo gato, não lembro exatamente o motivo mas sabíamos que a casa tinha espaço pra pelo menos mais um, optamos então por procurar um gato já com uma certa idade em uma ONG, de preferência um gato que ninguém gostaria, por conta de alguma deficiência ou algo do tipo.&#xA;Foi ai que fomos na ONG de animais da cidade procurar um gato, marcamos a visita para um sábado, vimos diversos gatos la, muitos chamaram a atenção, mas entre eles, dois principais, um que tinha a pata da frente quebrada devido a um atropelamento que sofrera quando era ainda jovem, e outro que não tinha a pata da frente por completo.</description>
+    </item>
+    <item>
+      <title>Como aprendi a linguagem de programação Go e utilizei a mesma para programar meu blog pessoal</title>
+      <link>http://localhost:1313/posts/como-aprendi-a-linguagem-de-programa%C3%A7%C3%A3o-go-e-utilizei-a-mesma-para-programar-meu-blog-pessoal-15/</link>
+      <pubDate>Fri, 27 Oct 2023 21:44:06 +0000</pubDate>
+      <guid>http://localhost:1313/posts/como-aprendi-a-linguagem-de-programa%C3%A7%C3%A3o-go-e-utilizei-a-mesma-para-programar-meu-blog-pessoal-15/</guid>
+      <description>Em 2007, engenheiros da Google perceberam que a base de código, principalmente escrita em C++, estava complexa demais e isso estava atrasando entregas, foi então visto que seria necessário a criação de uma nova linguagem de programação. Então Robert Griesemer, Rob Pike, e Ken Thompson - também criador da linguagem B - se reuniram e, com suas habilidades, criaram a linguagem Go, com o propósito de ser uma linguagem simples como Python, porém robusta e performática como C.</description>
+    </item>
+    <item>
+      <title>Como eu fiz meu site pessoal utilizando React</title>
+      <link>http://localhost:1313/posts/como-eu-fiz-meu-site-pessoal-utilizando-react-3/</link>
+      <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/como-eu-fiz-meu-site-pessoal-utilizando-react-3/</guid>
+      <description>Introdução Com a facilidade das redes sociais, fica muito facil termos como criar um perfil no qual podemos inserir quaisquer informaçoes sobre nós mesmos, por exemplo, no Instagram existe a opção de criar highliths com momentos importantes da nossa vida agrupadamente, como uma viagem ao exterior ou com as primeiras fotos de nossos filhos.&#xA;No ambito profissional, temos o Linkedin, sendo possível colocar diversas informações sobre nossa carreira, como empregos, projetos, certificados, projetos pessoais, etc.</description>
+    </item>
+    <item>
+      <title>Como fazer um site no Github pages ter um dominio registrado no registro.br</title>
+      <link>http://localhost:1313/posts/como-fazer-um-site-no-github-pages-ter-um-dominio-registrado-no-registro.br-2/</link>
+      <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/como-fazer-um-site-no-github-pages-ter-um-dominio-registrado-no-registro.br-2/</guid>
+      <description>Introdução Se você caiu neste artigo, certamente tem uma página no Github pages e gostaria de alterar a URL &amp;ldquo;.github.io&amp;rdquo; para uma URL &amp;ldquo;.br&amp;rdquo;, vamos combinar que fica bem mais profissional ter somente o nome da sua marca ou o seu nome no site, ao invés de ter o nome + github, esse artigo veio para te ajudar.&#xA;O registro.br é o lugar que gerencia os dominios &amp;ldquo;.br&amp;rdquo;, então qualquer site que você ver com esse dominio, pode ter certeza que tem o registro.</description>
+    </item>
+    <item>
+      <title>Aprendendo italiano com base na cena do &#34;Gorlami&#34; em Inglorious Bastards</title>
+      <link>http://localhost:1313/posts/aprendendo-italiano-com-base-na-cena-do-gorlami-em-inglorious-bastards-9/</link>
+      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/aprendendo-italiano-com-base-na-cena-do-gorlami-em-inglorious-bastards-9/</guid>
+      <description>Inglorious Bastards é uma obra prima do cinema, o tempo de mais de dez anos de escrita que Tarantino levou de 1998 até o inicio das filmagens em 2008 prova que esta obra pode e deve ser lembrada para toda uma geração de amantes do cinema.&#xA;Estou começando a estudar italiano e, como todo inicio de aprendizado de uma nova lingua, buscamos referencias em filmes, series, musicas, etc. para observar como a lingua é falada.</description>
+    </item>
+    <item>
+      <title>Configurando do inicio ao fim um media server com Raspberry PI, Docker e Plex.</title>
+      <link>http://localhost:1313/posts/configurando-do-inicio-ao-fim-um-media-server-com-raspberry-pi-docker-e-plex.-8/</link>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/configurando-do-inicio-ao-fim-um-media-server-com-raspberry-pi-docker-e-plex.-8/</guid>
+      <description>Introdução Há tempos que tinha um Raspberry PI 3 aqui comigo porém nunca cheguei a utilizar ele para nada além de alguns testes para ver o funcionamento, pois bem, recentemente comprei uma smart TV, e nela, eu conseguia assistir meus filmes, series e animes pelo meu HD externo, foi ai que pensei na ideia, e se fosse possível utilizar meu Raspberry como um media server e acessar meus vídeos diretamente pela TV utilizando minha rede local?</description>
+    </item>
+    <item>
+      <title>Utilizando CompletableFuture para fazer requisições assíncronas em uma aplicação Spring Cloud</title>
+      <link>http://localhost:1313/posts/utilizando-completablefuture-para-fazer-requisi%C3%A7%C3%B5es-ass%C3%ADncronas-em-uma-aplica%C3%A7%C3%A3o-spring-cloud-4/</link>
+      <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/utilizando-completablefuture-para-fazer-requisi%C3%A7%C3%B5es-ass%C3%ADncronas-em-uma-aplica%C3%A7%C3%A3o-spring-cloud-4/</guid>
+      <description>Com um mundo cada vez mais demandando velocidade e usuários cada vez mais exigentes, surge a necessidade de realizar otimizações em aplicações rest para o tempo de requisição ser o menor possível.&#xA;Imagine um cenário onde você possui um orquestrador e para devolver a resposta para seu usuário, você precisa realizar outras requisições HTTP em outros microsserviços,&#xA;Para demonstrar como realizar requisições assíncronas no Spring Cloud utilizando o CompletableFuture do Java 8, será criado um projeto orquestrador que retornará os dados de um usuário, e para agrupar os dados desse usuário, será necessário fazer três requisições para três REST APIs diferentes.</description>
+    </item>
+    <item>
+      <title>Criando uma aplicação web com Dart. Parte 2: AngularDart: Básico, roteamento e chamadas HTTP</title>
+      <link>http://localhost:1313/posts/criando-uma-aplica%C3%A7%C3%A3o-web-com-dart.-parte-2-angulardart-b%C3%A1sico-roteamento-e-chamadas-http-7/</link>
+      <pubDate>Sun, 27 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/criando-uma-aplica%C3%A7%C3%A3o-web-com-dart.-parte-2-angulardart-b%C3%A1sico-roteamento-e-chamadas-http-7/</guid>
+      <description>No artigo anterior, ensinei como criar uma aplicação backend utilizando a linguagem de programação Dart juntamente com o framework Aqueduct, o artigo pode ser encontrado no seguinte link:&#xA;Criando uma aplicação web com Dart. Parte 1: Aqueduct: Básico, conexão com banco e autenticação JWT O Dart é uma linguagem de programação criada dentro da Google em 2011 com o objetivo de substituir o javascript como… medium.com&#xA;Para consumir a api criada, utilizaremos um framework frontend chamado AngularDart, que é uma variação do conhecido framework Angular, só que, ao invés de utilizar o TypeScript, é utilizado o Dart.</description>
+    </item>
+    <item>
+      <title>Criando uma aplicação web com Dart. Parte 1: Aqueduct: Básico, conexão com banco e autenticação JWT</title>
+      <link>http://localhost:1313/posts/criando-uma-aplica%C3%A7%C3%A3o-web-com-dart.-parte-1-aqueduct-b%C3%A1sico-conex%C3%A3o-com-banco-e-autentica%C3%A7%C3%A3o-jwt-6/</link>
+      <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/criando-uma-aplica%C3%A7%C3%A3o-web-com-dart.-parte-1-aqueduct-b%C3%A1sico-conex%C3%A3o-com-banco-e-autentica%C3%A7%C3%A3o-jwt-6/</guid>
+      <description>O Dart é uma linguagem de programação criada dentro da Google em 2011 com o objetivo de substituir o javascript como linguagem principal nos navegadores. porém, devido a sua facilidade e curva de aprendizado, acabou se tornando uma linguagem com propósito geral, podendo hoje ser utilizada no backend, frontend e principalmente no mobile e desktop utilizando o framework Flutter.&#xA;Nesse tutorial, iremos utilizar o dart para construir o básico de uma aplicação “to-do list” utilizando o framework Aqueduct.</description>
     </item>
   </channel>
 </rss>

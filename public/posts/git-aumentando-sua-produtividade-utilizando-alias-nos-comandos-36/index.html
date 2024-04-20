@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>Git: Aumentando sua produtividade utilizando alias nos comandos &ndash; Blog do Marco(Marco&#39;s Blog)</title>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/palettes/base16-dark.css">
+<link rel="stylesheet" href="http://localhost:1313/css/risotto.css">
+<link rel="stylesheet" href="http://localhost:1313/css/custom.css">
+
+
+
+
+
+
+
+</head>
+
+    <body>
+        <div class="page">
+
+            <header class="page__header"><nav class="page__nav main-nav">
+    <ul>
+      <li class="nomarker"><h1 class="page__logo"><a href="http://localhost:1313/" class="page__logo-inner">Blog do Marco(Marco&#39;s Blog)</a></h1></li>
+    
+    
+    </ul>
+</nav>
+
+</header>
+
+            <section class="page__body">
+    <header class="content__header">
+        <h1>Git: Aumentando sua produtividade utilizando alias nos comandos</h1>
+    </header>
+    <div class="content__body">
+        <p>Hoje estava, como de costume, trabalhando em uma feature no qual eu fazia recorrentes commits e pushs, até que percebi o tanto de tempo gasto na minha vida só para digitar os mesmos comandos todas as vezes, ai que pensei se não existe uma maneira de deixar os comandos mais simples, fui pesquisar e encontrei que existe o comando &ldquo;alias&rdquo; no bash para criar um link de um comando para outro, por exemplo, podemos criar uma alias para o comando git push ser executado se rodarmos o comando &ldquo;gp&rdquo; (git push) da seguinte maneira:</p>
+<p>alias gp=&ldquo;git push&rdquo;
+Fiz o teste e deu certo! Com certeza se tivesse feito isso antes, economizaria preciosos segundos na minha vida.</p>
+<p>Para deixar esse comando salvo para não precisar sempre criar o alias, podemos incluir esse comando direto no arquivo .bashrc (caso você esteja utilizando o interpretador de comandos Bash), no meu caso, como utilizo o zsh, preciso alterar o .zshrc.</p>
+<p>Também criei um alias para outro comando que utilizo muito, que é o &ldquo;git add .&rdquo;:</p>
+<p>alias ga=&ldquo;git add .&rdquo;
+Para esses comando simples, o alias já é bastante útil, porém existem casos que queremos passar um argumento para o comando git, como por exemplo, o nome de um commit ou o nome da branch remote, para esses casos, podemos criar uma função bash:</p>
+<p>gc ()
+{
+git commit -m $1
+}
+Agora com o simples comando &ldquo;gc &ldquo;Alterado função que busca usuário&rdquo;&rdquo;, consigo realizar um commit sem ter que digitar toda vez &ldquo;git commit -m&rdquo;, legal né?</p>
+<p>Outro comando que de vez em quando utilizo é quando eu faço um commit sem querer e tenho que desfazer ele, para isso, criei um alias para voltar um commit e manter as alterações que fiz:</p>
+<p>alias gr=&ldquo;git reset &ndash;soft HEAD~1&rdquo;
+Por fim, criei outra função que geralmente utilizo quando estou subindo uma branch nova e preciso informar a origem :</p>
+<p>gpo ()
+{
+git push -u origin $1
+}
+Como gostaria de ter pensado nessa ideia antes 😅</p>
+<p>Se quiser utilizar esses atalhos no seu workflow, copie as seguintes linhas abaixo, cole no seu .bashrc e economize tempo você também:</p>
+<p>alias ll=&ldquo;ls -la&rdquo;
+alias ga=&ldquo;git add .&rdquo;
+alias gp=&ldquo;git push&rdquo;
+alias gr=&ldquo;git reset &ndash;soft HEAD~1&rdquo;
+gc ()
+{
+  git commit -m $1
+}
+gpo ()
+{
+  git push -u origin $1
+}
+<img src="https://marco-blog-post-images.s3.sa-east-1.amazonaws.com/ea7dc9ec-d008-4624-bb0c-764f32ddad2c.jpg" alt=""></p>
+<p>Referências:</p>
+<p><a href="https://linuxize.com/post/how-to-create-bash-aliases">https://linuxize.com/post/how-to-create-bash-aliases</a></p>
+<p>Acessado em 23 de Janeiro de 2024</p>
+
+    </div>
+    <footer class="content__footer"></footer>
+
+            </section>
+
+            <section class="page__aside">
+                <div class="aside__about">
+
+<ul class="aside__social-links">
+    
+</ul>
+</div>
+                <hr>
+                <div class="aside__content">
+    <p>Tempo é dinheiro!</p>
+    
+        <p>
+            By Marco Pegoraro, 
+            2024-01-24
+        </p>
+    
+
+    
+
+                </div>
+            </section>
+
+            <footer class="page__footer"><p>
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+          
+            
+            
+                <br/><span class="active">$ echo $LANG<br/><b></b></span><br/>
+
+            
+          
+      
+    
+</p>
+<br /><br />
+<p class="copyright"></p>
+<p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
+</footer>
+
+        </div>
+    </body>
+
+</html>

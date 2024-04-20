@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>Criando uma aplicação web com Dart. Parte 2: AngularDart: Básico, roteamento e chamadas HTTP &ndash; Blog do Marco(Marco&#39;s Blog)</title>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/palettes/base16-dark.css">
+<link rel="stylesheet" href="http://localhost:1313/css/risotto.css">
+<link rel="stylesheet" href="http://localhost:1313/css/custom.css">
+
+
+
+
+
+
+
+</head>
+
+    <body>
+        <div class="page">
+
+            <header class="page__header"><nav class="page__nav main-nav">
+    <ul>
+      <li class="nomarker"><h1 class="page__logo"><a href="http://localhost:1313/" class="page__logo-inner">Blog do Marco(Marco&#39;s Blog)</a></h1></li>
+    
+    
+    </ul>
+</nav>
+
+</header>
+
+            <section class="page__body">
+    <header class="content__header">
+        <h1>Criando uma aplicação web com Dart. Parte 2: AngularDart: Básico, roteamento e chamadas HTTP</h1>
+    </header>
+    <div class="content__body">
+        <p><img src="https://miro.medium.com/v2/resize:fit:1400/1*x9n1DT5QKLTZa9sFxNxtkg.png" alt=""></p>
+<p>No artigo anterior, ensinei como criar uma aplicação backend utilizando a linguagem de programação Dart juntamente com o framework Aqueduct, o artigo pode ser encontrado no seguinte link:</p>
+<h2 id="criando-uma-aplicação-web-com-dart-parte-1-aqueduct-básico-conexão-com-banco-e-autenticação-jwthttpsmediumcomflutter-comunidade-brcriando-uma-aplicação-web-com-dart-parte-1-aqueduct-básico-conexão-com-banco-e-autenticação-jwt-bd3afad3ae1asourcepost5fpage-----9a7e7187a477--------------------------------"><a href="https://medium.com/flutter-comunidade-br/criando-uma-aplica%C3%A7%C3%A3o-web-com-dart-parte-1-aqueduct-b%C3%A1sico-conex%C3%A3o-com-banco-e-autentica%C3%A7%C3%A3o-jwt-bd3afad3ae1a?source=post%5Fpage-----9a7e7187a477--------------------------------">Criando uma aplicação web com Dart. Parte 1: Aqueduct: Básico, conexão com banco e autenticação JWT</a></h2>
+<h3 id="o-dart-é-uma-linguagem-de-programação-criada-dentro-da-google-em-2011-com-o-objetivo-de-substituir-o-javascript-comohttpsmediumcomflutter-comunidade-brcriando-uma-aplicação-web-com-dart-parte-1-aqueduct-básico-conexão-com-banco-e-autenticação-jwt-bd3afad3ae1asourcepost5fpage-----9a7e7187a477--------------------------------"><a href="https://medium.com/flutter-comunidade-br/criando-uma-aplica%C3%A7%C3%A3o-web-com-dart-parte-1-aqueduct-b%C3%A1sico-conex%C3%A3o-com-banco-e-autentica%C3%A7%C3%A3o-jwt-bd3afad3ae1a?source=post%5Fpage-----9a7e7187a477--------------------------------">O Dart é uma linguagem de programação criada dentro da Google em 2011 com o objetivo de substituir o javascript como…</a></h3>
+<p><a href="https://medium.com/flutter-comunidade-br/criando-uma-aplica%C3%A7%C3%A3o-web-com-dart-parte-1-aqueduct-b%C3%A1sico-conex%C3%A3o-com-banco-e-autentica%C3%A7%C3%A3o-jwt-bd3afad3ae1a?source=post%5Fpage-----9a7e7187a477--------------------------------">medium.com</a></p>
+<p>Para consumir a api criada, utilizaremos um framework frontend chamado AngularDart, que é uma variação do conhecido framework Angular, só que, ao invés de utilizar o TypeScript, é utilizado o Dart. O resultado da aplicação pode ser vista no GIF a seguir:</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/1*mOvWe2rRYUJAqmTiFcSDWw.gif" alt=""></p>
+<p>Demonstração da aplicação</p>
+<p>Aviso: para este tutorial, é recomendado ter um conhecimento prévio sobre frameworks single page application, não entrarei em muitos detalhes de como é o funcionamento de algumas features abordadas.</p>
+<h1 id="setup">Setup</h1>
+<p>Para começar a aplicação, precisaremos clonar o projeto startup do próprio AngularDart, que pode ser encontrado no link a seguir:</p>
+<h2 id="angular-examplesquickstarthttpsgithubcomangular-examplesquickstarttreed9e768b947f2787cc45eedbfb0d97530e6b5dd07sourcepost5fpage-----9a7e7187a477--------------------------------"><a href="https://github.com/angular-examples/quickstart/tree/d9e768b947f2787cc45eedbfb0d97530e6b5dd07?source=post%5Fpage-----9a7e7187a477--------------------------------">angular-examples/quickstart</a></h2>
+<h3 id="welcome-to-the-example-app-used-in-the-setup-for-development-page-of-dart-for-the-web-you-can-run-a-hosted-copy-ofhttpsgithubcomangular-examplesquickstarttreed9e768b947f2787cc45eedbfb0d97530e6b5dd07sourcepost5fpage-----9a7e7187a477--------------------------------"><a href="https://github.com/angular-examples/quickstart/tree/d9e768b947f2787cc45eedbfb0d97530e6b5dd07?source=post%5Fpage-----9a7e7187a477--------------------------------">Welcome to the example app used in the Setup for Development page of Dart for the web. You can run a hosted copy of…</a></h3>
+<p><a href="https://github.com/angular-examples/quickstart/tree/d9e768b947f2787cc45eedbfb0d97530e6b5dd07?source=post%5Fpage-----9a7e7187a477--------------------------------">github.com</a></p>
+<p>Precisaremos também, instalar o WebDev, que será utilizado para servir a aplicação, a ferramenta poderá ser instalada com o comando:</p>
+<p>pub global activate webdev 2.5.3
+Para subir uma aplicação AngularDart em modo de desenvolvedor, utilizamos o seguinte comando dentro da pasta do projeto:</p>
+<p>webdev serve
+No desenvolvimento deste tutorial, encontrei um problema ao rodar a aplicação dizendo que meu compilador estava com bugs, talvez não aconteça com você, mas para resolver isso, foi necessário somente o seguinte comando no terminal para limpar o cache da aplicação:</p>
+<p>pub run build_runner clean
+No arquivo pubspec.yaml, podemos observar que estamos utilizando a versão 6.0.0-alpha, que é a versão mais recente do framework no momento que este artigo foi escrito. Para darmos continuação ao desenvolvimento, iremos adicionar algumas dependências, o arquivo então ficará assim:</p>
+<ol>
+<li>angular_router — Dependência do angular utilizado para roteamento.</li>
+<li>bulma_scss — Framework CSS que utilizaremos no projeto.</li>
+<li>font_awesome — Biblioteca de ícones.</li>
+<li>http — Biblioteca para realização de requisições HTTP.</li>
+<li>angular_forms — Dependência do angular utilizado para formulários.</li>
+<li>sass_builder — Utilizado para uso de arquivos scss.</li>
+</ol>
+<h1 id="estilos"><strong>Estilos</strong></h1>
+<p>Agora, iremos apagar o conteúdo do arquivo styles.css e substituir com o seguinte conteúdo para deixar a página com uma fonte mais agradável e ocupando 100% da página, não precisaremos de mais nenhum estilo pois estaremos utilizando o framework CSS <a href="https://bulma.io/">Bulma</a>.</p>
+<p>Para adicionar o Bulma no projeto, criaremos um arquivo <em>app_component.scss</em> dentro da pasta lib com as importações necessárias, o arquivo ficará assim:</p>
+<p>Em seguida, precisaremos importar o arquivo scss no <em>app_component.dart</em>, para fazer isso, adicionaremos a seguinte propriedade no <em>@component</em>:</p>
+<p>styleUrls: [    &lsquo;app_component.css&rsquo;,],
+O arquivo scss será convertido para css automaticamente pela dependência <em>sass_builder</em>.</p>
+<h1 id="roteamento"><strong>Roteamento</strong></h1>
+<p>Para começar a implementação do Angular router, precisaremos injetar o router no app Angular, para fazer isso, edite o arquivo main.dart para ficar da seguinte maneira:</p>
+<p>Dentro de lib, criaremos uma pasta chamada components, no qual colocaremos todos os componentes da aplicação. Nossa aplicação terá 4 componentes principais, um componente de barra de navegação que ficará sempre visível a aplicação, um componente de login, outro de cadastro e por fim, um dashboard para listar os ToDo’s.</p>
+<p>Então dentro da pasta components, crie as pastas navbar, login, signup e dashboard e dentro de cada pasta, crie dois arquivos, um com extensão dart e outro html com o mesmo nome da pasta, a estrutura do projeto ficará assim:</p>
+<p>lib
+│
+└───components
+│    │
+│    └───dashboard
+│    │   │   dashboard.dart
+│    │   │   dashboard.html
+│    │
+│    └───login
+│    │   │   login.dart
+│    │   │   login.html
+│    │
+│    └───navbar
+│    │   │   navbar.dart
+│    │   │   navbar.html <br>
+│    └───signup
+│    │   │   signup.dart
+│    │   │   signup.html
+│
+│   app_component.dart
+│   app_component.scss
+Dentro de cada componente, criaremos um código base só para podermos ver o roteamento funcionando.</p>
+<p>Dentro de cada html, você pode colocar um texto somente para diferenciar cada componente caso desejar.</p>
+<p>Em seguida, criaremos um arquivo <em>route_paths.dart</em> dentro da pasta <em>lib</em>, este arquivo será onde declararemos nossas rotas:</p>
+<p>Por fim, criaremos um arquivo chamado <em>routes.dart</em> dentro da pasta <em>lib</em> que será o arquivo que relacionará as rotas com os componentes do sistema:</p>
+<p>Definido as rotas, precisaremos editar o app_component.dart para que o sistema reconheça as rotas criadas e dependendo da url, mostrar o componente desejado, para isso, importaremos as classes de roteamento recém criadas e criaremos um arquivo app_component.html no qual terá a tag router-outlet, que será responsável pela renderização dos componentes dependendo da rota.</p>
+<p>app_component.dart:</p>
+<p>app_component.html:</p>
+<p>E com isso, o roteamento básico da página já estará funcionando, com o comando <em>webdev serve</em> rodando, você já poderá navegar entre as páginas:</p>
+<p>http://localhost:8080/#/login
+http://localhost:8080/#/signup
+http://localhost:8080/#/dashboard</p>
+<h1 id="navbar"><strong>Navbar</strong></h1>
+<p>Antes de criar a navbar, precisaremos de uma variável global para a nossa aplicação para verificar se o usuário está ou não autenticado. Também criaremos uma variável chamada baseUrl na qual será utilizada para auxiliar nas requisições http, para isso, criaremos uma pasta utils dentro de lib, e dentro desta pasta, criaremos um arquivo utils.dart:</p>
+<p>A navbar do sistema ainda será um componente, porém ele ficará fixo na página independente da rota, para fazer isso, importaremos o componente diretamente no app component junto com a classe Utils:</p>
+<p>Logo a seguir, colocaremos o navbar no html do app:</p>
+<p>Com isso, já será possível observar que o navbar se mantem presente em todas as rotas do sistema</p>
+<h1 id="finalizando-o-navbar"><strong>Finalizando o navbar</strong></h1>
+<p>Utilizaremos o seguinte html no componente navbar, todo o processo pode ser visto na documentação do bulma. Na linha 11, temos um método necessário para lidar com o menu quando é uma tela de celular, iremos implementar este método no Dart. Os botões da barra de navegação serão diferentes caso o usuário esteja logado ou não, por isso, implementamos na linha 22 e 28 dois IFs para fazer esta verificação, um para se o usuário esta logado e outro caso não esteja.</p>
+<p>navbar.dart:</p>
+<p>Feito isso, já é para o navbar da aplicação estar funcionando.</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/1*FEiTlKLTIe2O7Qb7wEivAg.gif" alt=""></p>
+<h1 id="componente-de-signup"><strong>Componente de Signup</strong></h1>
+<p>Para o design da tela de Sign Up, utilizaremos um card, e dentro dele, colocaremos os campos necessários para o cadastro e um botão para cadastro do usuário, também criaremos um modal de confirmação de cadastro.</p>
+<h1 id="componente-de-login"><strong>Componente de Login</strong></h1>
+<p>O design da tela de login será bem semelhante, dentro de um card, colocaremos dois campos para o usuário digitar os dados de login e um botão para realizar o login, também colocaremos um modal para informar o usuário caso o login informado não exista na base de dados:</p>
+<h1 id="componente-dashboard"><strong>Componente Dashboard</strong></h1>
+<p>Para o componente de dashboard, estaremos utilizando dois cards, um para os botões de ação (adicionar e atualizar), e outro para a listagem de tarefas, perceba que cada tarefa terá seu próprio botão de exclusão e edição. Estaremos utilizando também um modal que será usado tanto para adicionar tarefas quanto para editar tarefas, para fazer isso, o método que chama o modal pode ou não receber uma tarefa como argumento, caso não receba, o modal será utilizado para adição, caso receba, será utilizado para editar a tarefa recebida.</p>
+<p>Assim que a página for carregada (ngOnInit), será chamado um método getTodos, no qual será responsável de carregar as tarefas da nossa API Rest.</p>
+<p>E com isso, finalizamos nosso frontend feito em AngularDart, espero ter gostado deste tutorial, o repositório do projeto final, tanto a api rest quanto o frontend poderão ser encontrados nos seguintes links:</p>
+<h2 id="marcoagpegorarotodo-app-aqueducthttpsgithubcommarcoagpegorarotodo-app-aqueductsourcepost5fpage-----9a7e7187a477--------------------------------"><a href="https://github.com/marcoagpegoraro/todo-app-aqueduct?source=post%5Fpage-----9a7e7187a477--------------------------------">marcoagpegoraro/todo-app-aqueduct</a></h2>
+<h3 id="its-necessary-a-postgres-database-in-order-for-this-application-to-work-properly-modify-channeldart-anthttpsgithubcommarcoagpegorarotodo-app-aqueductsourcepost5fpage-----9a7e7187a477--------------------------------"><a href="https://github.com/marcoagpegoraro/todo-app-aqueduct?source=post%5Fpage-----9a7e7187a477--------------------------------">It&rsquo;s necessary a postgres database in order for this application to work properly, modify channel.dart ant…</a></h3>
+<p><a href="https://github.com/marcoagpegoraro/todo-app-aqueduct?source=post%5Fpage-----9a7e7187a477--------------------------------">github.com</a></p>
+<h2 id="marcoagpegorarotodo-app-angular-darthttpsgithubcommarcoagpegorarotodo-app-angular-dartsourcepost5fpage-----9a7e7187a477--------------------------------"><a href="https://github.com/marcoagpegoraro/todo-app-angular-dart?source=post%5Fpage-----9a7e7187a477--------------------------------">marcoagpegoraro/todo-app-angular-dart</a></h2>
+<h3 id="contribute-to-marcoagpegorarotodo-app-angular-dart-development-by-creating-an-account-on-githubhttpsgithubcommarcoagpegorarotodo-app-angular-dartsourcepost5fpage-----9a7e7187a477--------------------------------"><a href="https://github.com/marcoagpegoraro/todo-app-angular-dart?source=post%5Fpage-----9a7e7187a477--------------------------------">Contribute to marcoagpegoraro/todo-app-angular-dart development by creating an account on GitHub.</a></h3>
+<p><a href="https://github.com/marcoagpegoraro/todo-app-angular-dart?source=post%5Fpage-----9a7e7187a477--------------------------------">github.com</a></p>
+
+    </div>
+    <footer class="content__footer"></footer>
+
+            </section>
+
+            <section class="page__aside">
+                <div class="aside__about">
+
+<ul class="aside__social-links">
+    
+</ul>
+</div>
+                <hr>
+                <div class="aside__content">
+    
+    
+        <p>
+            By Marco Pegoraro, 
+            2019-10-27
+        </p>
+    
+
+    
+
+                </div>
+            </section>
+
+            <footer class="page__footer"><p>
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+          
+            
+            
+                <br/><span class="active">$ echo $LANG<br/><b></b></span><br/>
+
+            
+          
+      
+    
+</p>
+<br /><br />
+<p class="copyright"></p>
+<p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
+</footer>
+
+        </div>
+    </body>
+
+</html>

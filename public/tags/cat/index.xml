@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cat on Blog do Marco(Marco&#39;s Blog)</title>
+    <link>http://localhost:1313/tags/cat/</link>
+    <description>Recent content in Cat on Blog do Marco(Marco&#39;s Blog)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Nov 2023 01:34:04 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mimo</title>
+      <link>http://localhost:1313/posts/mimo-21/</link>
+      <pubDate>Mon, 20 Nov 2023 01:34:04 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mimo-21/</guid>
+      <description>Em fevereiro de 2023, estávamos pensando em adotar um novo gato, não lembro exatamente o motivo mas sabíamos que a casa tinha espaço pra pelo menos mais um, optamos então por procurar um gato já com uma certa idade em uma ONG, de preferência um gato que ninguém gostaria, por conta de alguma deficiência ou algo do tipo.&#xA;Foi ai que fomos na ONG de animais da cidade procurar um gato, marcamos a visita para um sábado, vimos diversos gatos la, muitos chamaram a atenção, mas entre eles, dois principais, um que tinha a pata da frente quebrada devido a um atropelamento que sofrera quando era ainda jovem, e outro que não tinha a pata da frente por completo.</description>
+    </item>
+  </channel>
+</rss>

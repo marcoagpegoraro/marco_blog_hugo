@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DLNA on Blog do Marco(Marco&#39;s Blog)</title>
+    <link>http://localhost:1313/tags/dlna/</link>
+    <description>Recent content in DLNA on Blog do Marco(Marco&#39;s Blog)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/dlna/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configurando do inicio ao fim um media server com Raspberry PI, Docker e Plex.</title>
+      <link>http://localhost:1313/posts/configurando-do-inicio-ao-fim-um-media-server-com-raspberry-pi-docker-e-plex.-8/</link>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/configurando-do-inicio-ao-fim-um-media-server-com-raspberry-pi-docker-e-plex.-8/</guid>
+      <description>Introdução Há tempos que tinha um Raspberry PI 3 aqui comigo porém nunca cheguei a utilizar ele para nada além de alguns testes para ver o funcionamento, pois bem, recentemente comprei uma smart TV, e nela, eu conseguia assistir meus filmes, series e animes pelo meu HD externo, foi ai que pensei na ideia, e se fosse possível utilizar meu Raspberry como um media server e acessar meus vídeos diretamente pela TV utilizando minha rede local?</description>
+    </item>
+  </channel>
+</rss>

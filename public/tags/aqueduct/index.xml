@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aqueduct on Blog do Marco(Marco&#39;s Blog)</title>
+    <link>http://localhost:1313/tags/aqueduct/</link>
+    <description>Recent content in Aqueduct on Blog do Marco(Marco&#39;s Blog)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/aqueduct/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Criando uma aplicação web com Dart. Parte 1: Aqueduct: Básico, conexão com banco e autenticação JWT</title>
+      <link>http://localhost:1313/posts/criando-uma-aplica%C3%A7%C3%A3o-web-com-dart.-parte-1-aqueduct-b%C3%A1sico-conex%C3%A3o-com-banco-e-autentica%C3%A7%C3%A3o-jwt-6/</link>
+      <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/criando-uma-aplica%C3%A7%C3%A3o-web-com-dart.-parte-1-aqueduct-b%C3%A1sico-conex%C3%A3o-com-banco-e-autentica%C3%A7%C3%A3o-jwt-6/</guid>
+      <description>O Dart é uma linguagem de programação criada dentro da Google em 2011 com o objetivo de substituir o javascript como linguagem principal nos navegadores. porém, devido a sua facilidade e curva de aprendizado, acabou se tornando uma linguagem com propósito geral, podendo hoje ser utilizada no backend, frontend e principalmente no mobile e desktop utilizando o framework Flutter.&#xA;Nesse tutorial, iremos utilizar o dart para construir o básico de uma aplicação “to-do list” utilizando o framework Aqueduct.</description>
+    </item>
+  </channel>
+</rss>
