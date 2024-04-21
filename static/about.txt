@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Comme
+- Font Author: Copyright 2014 The Comme Project Authors (https://github.com/googlefonts/comme)
+- Font Source: https://fonts.gstatic.com/s/comme/v2/8QIUdirKhMbn-uG1kHz0MgviDe1zZcFr644fWsRO9w.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
