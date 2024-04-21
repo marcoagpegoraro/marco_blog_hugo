@@ -3,9 +3,9 @@ title = "Blog do Marco(Marco's Blog)"
 theme = 'risotto'
 author = "Marco Pegoraro"
 copyright = "© [Marco Pegoraro](https://marcoagpegoraro.com.br)."
-paginate = 3
-languageCode = "en"
-DefaultContentLanguage = "en"
+# paginate = 3
+# languageCode = "en"
+# DefaultContentLanguage = "en"
 
 [params.theme]
 palette = "base16-dark"
