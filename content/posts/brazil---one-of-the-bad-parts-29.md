@@ -4,14 +4,14 @@
   date = "2023-12-25 04:46:04.694000000"
   description = ""
   tags = ["","Brazil"] 
-  header_image = "https://marco-blog-post-images.s3.sa-east-1.amazonaws.com/7ee8ad6b-de3f-4542-bc5d-e53c685f5e4a.jpg"
+  header_image = "/images/7ee8ad6b-de3f-4542-bc5d-e53c685f5e4a.jpg"
 +++
   
 Imagine this, it's Christmas Eve, you are tired because you traveled to a nearby city that is a reference when it comes to Christmas decoration. So you go back home and wait until 12:00 PM to watch the fireworks and then go to sleep, but in Brazil, everything can happen.
 
 Out of nowhere, a Car with a very loud sound system starts playing a "music" genre called Brazilian Funk, or just, Funk. A very bad type of music, with no sonority whatsoever and the most obscene lyrics ever written in the history of the humanity.
 
-![](https://marco-blog-post-images.s3.sa-east-1.amazonaws.com/7ee8ad6b-de3f-4542-bc5d-e53c685f5e4a.jpg)
+![](/images/7ee8ad6b-de3f-4542-bc5d-e53c685f5e4a.jpg)
 
 In the street that i live, exists a third age retirement place, i cannot understand how a person can be so selfish to turn on a music this loud in this neighborhood.
 

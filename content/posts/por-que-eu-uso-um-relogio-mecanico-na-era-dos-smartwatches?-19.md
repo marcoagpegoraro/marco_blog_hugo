@@ -4,12 +4,12 @@
   date = "2023-11-23 12:49:35.004000000"
   description = "A tecnologia mais avançada nem sempre é a melhor escolha"
   tags = ["","Apple","Casio","Smart Watches","Watches"] 
-  header_image = "https://marco-blog-post-images.s3.sa-east-1.amazonaws.com/2016bd39-3b5b-4131-8ecd-a0b373a357f8.jpg"
+  header_image = "/images/2016bd39-3b5b-4131-8ecd-a0b373a357f8.jpg"
 +++
   
 O ano era 2010, a Apple em seu evento anual, o WWDC, anuncia o iPod nano de sexta geração, removendo de vez os botões físicos presentes no iPod desde sua primeira geração trazendo uma tela quadrada com a capacidade de multi touch.
 
-![](https://marco-blog-post-images.s3.sa-east-1.amazonaws.com/2016bd39-3b5b-4131-8ecd-a0b373a357f8.jpg)
+![](/images/2016bd39-3b5b-4131-8ecd-a0b373a357f8.jpg)
 
 Steve Jobs, em sua penúltima apresentação, até brinca que um dos executivos da apple estava utilizando o aparelho em formato de relógio devido ao seu formato. Com isso, não demorou muito para que empresas começassem a fazer pulseiras especificas para o novo aparelho, foi um sucesso e a Apple vendo isso, lançou também muitas "Watch Faces" para o iPod. Nascia assim então o primeiro "iWatch", embora sendo apenas um iPod.
 
@@ -33,7 +33,7 @@ Uma smart band como a Mi Band é muito interessante, pois pode durar por no mín
 
 Um relógio convencional a bateria, um da Casio por exemplo, não tem essa necessidade, já que sua bateria pode durar até 10 anos ou mais, e caso chegue a hora de trocar a bateria, você provavelmente vai ter outro ali pra usar de reserva, pois eles são baratos.
 
-![](https://marco-blog-post-images.s3.sa-east-1.amazonaws.com/1066d45f-f8e7-4968-9cef-c6b442a8cc9f.jpg)
+![](/images/1066d45f-f8e7-4968-9cef-c6b442a8cc9f.jpg)
 
 Um relógio mecânico automático dura conforme você continue usando-o no braço, tendo uma reserva de carga aproximadamente de 40 horas, é mais do que suficiente para tirar a noite para usar no outro dia, e caso acabe a corda, em questão de no máximo 1 minutos você consegue dar corda nele e ajustar a hora novamente.
 

@@ -4,7 +4,7 @@
   date = "2024-01-24 01:32:29.516000000"
   description = "Tempo é dinheiro!"
   tags = ["Bash","Git","Terminal"] 
-  header_image = "https://marco-blog-post-images.s3.sa-east-1.amazonaws.com/ea7dc9ec-d008-4624-bb0c-764f32ddad2c.jpg"
+  header_image = "/images/ea7dc9ec-d008-4624-bb0c-764f32ddad2c.jpg"
 +++
   
 Hoje estava, como de costume, trabalhando em uma feature no qual eu fazia recorrentes commits e pushs, até que percebi o tanto de tempo gasto na minha vida só para digitar os mesmos comandos todas as vezes, ai que pensei se não existe uma maneira de deixar os comandos mais simples, fui pesquisar e encontrei que existe o comando "alias" no bash para criar um link de um comando para outro, por exemplo, podemos criar uma alias para o comando git push ser executado se rodarmos o comando "gp" (git push) da seguinte maneira:
@@ -50,7 +50,7 @@ gpo ()
 {
   git push -u origin $1
 }
-![](https://marco-blog-post-images.s3.sa-east-1.amazonaws.com/ea7dc9ec-d008-4624-bb0c-764f32ddad2c.jpg)
+![](/images/ea7dc9ec-d008-4624-bb0c-764f32ddad2c.jpg)
 
 Referências:
 
