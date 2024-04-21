@@ -4,12 +4,12 @@
   date = "2019-10-26 00:00:00"
   description = ""
   tags = ["Api","Aqueduct","Dart","Databases","JWT"] 
-  header_image = "https://miro.medium.com/v2/resize:fit:1400/1*E2_tBhriGjKZz3NM_Lh3QA.png"
+  header_image = "/images/1*E2_tBhriGjKZz3NM_Lh3QA.png"
 +++
   
 O Dart é uma linguagem de programação criada dentro da Google em 2011 com o objetivo de substituir o javascript como linguagem principal nos navegadores. porém, devido a sua facilidade e curva de aprendizado, acabou se tornando uma linguagem com propósito geral, podendo hoje ser utilizada no backend, frontend e principalmente no mobile e desktop utilizando o framework Flutter.
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*E2_tBhriGjKZz3NM_Lh3QA.png)
+![](/images/1*E2_tBhriGjKZz3NM_Lh3QA.png)
 
 Nesse tutorial, iremos utilizar o dart para construir o básico de uma aplicação “to-do list” utilizando o framework Aqueduct.
 
@@ -167,11 +167,11 @@ Para aplicar a migração, precisaremos rodar o comando:
 aqueduct db upgrade
 Aplicada a migração, você já poderá testar o projeto realizando requisições HTTP, você perceberá que os dados agora estão sendo persistidos.
 
-![](https://miro.medium.com/v2/resize:fit:1330/1*1EcLJoehsq7pmjj91bSmPg.png)
+![](/images/1*1EcLJoehsq7pmjj91bSmPg.png)
 
 Exemplo de requisição POST
 
-![](https://miro.medium.com/v2/resize:fit:538/1*ko_oy_7s09m5Q8zd2g9syw.png)
+![](/images/1*ko_oy_7s09m5Q8zd2g9syw.png)
 
 Dados persistidos no banco de dados
 
@@ -251,25 +251,25 @@ Por fim, precisaremos fazer algumas modificações no ToDoController, pois agora
   
 **Testes**
 
-![](https://miro.medium.com/v2/resize:fit:1344/1*rVL2n9z5uSC0Vo-ufFKbLg.png)
+![](/images/1*rVL2n9z5uSC0Vo-ufFKbLg.png)
 
 Criação de usuário
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*VUB06K9BaZcJNonGfHvhrw.png)
+![](/images/1*VUB06K9BaZcJNonGfHvhrw.png)
 
 Autenticação de usuário
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*qOqasYbla8vIa1fU7Nl5fg.png)
+![](/images/1*qOqasYbla8vIa1fU7Nl5fg.png)
 
 Colocando o token no header da requisição
 
 Agora você poderá criar, editar, listar e deletar os ToDo’s baseado no usuário logado.
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*1CLn1ArVmPhGyS-AN47aNg.png)
+![](/images/1*1CLn1ArVmPhGyS-AN47aNg.png)
 
 Inclusão de _ToDo_
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*TPPunKpj7PlmcfyOxWfEpg.png)
+![](/images/1*TPPunKpj7PlmcfyOxWfEpg.png)
 
 Listagem de _ToDo_
 

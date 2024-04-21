@@ -4,10 +4,10 @@
   date = "2019-10-27 00:00:00"
   description = ""
   tags = [""] 
-  header_image = "https://miro.medium.com/v2/resize:fit:1400/1*x9n1DT5QKLTZa9sFxNxtkg.png"
+  header_image = "/images/1*x9n1DT5QKLTZa9sFxNxtkg.png"
 +++
   
-![](https://miro.medium.com/v2/resize:fit:1400/1*x9n1DT5QKLTZa9sFxNxtkg.png)
+![](/images/1*x9n1DT5QKLTZa9sFxNxtkg.png)
 
 No artigo anterior, ensinei como criar uma aplicação backend utilizando a linguagem de programação Dart juntamente com o framework Aqueduct, o artigo pode ser encontrado no seguinte link:
 
@@ -20,7 +20,7 @@ No artigo anterior, ensinei como criar uma aplicação backend utilizando a ling
   
 Para consumir a api criada, utilizaremos um framework frontend chamado AngularDart, que é uma variação do conhecido framework Angular, só que, ao invés de utilizar o TypeScript, é utilizado o Dart. O resultado da aplicação pode ser vista no GIF a seguir:
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*mOvWe2rRYUJAqmTiFcSDWw.gif)
+![](/images/1*mOvWe2rRYUJAqmTiFcSDWw.gif)
 
 Demonstração da aplicação
 
@@ -148,7 +148,7 @@ navbar.dart:
   
 Feito isso, já é para o navbar da aplicação estar funcionando.
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*FEiTlKLTIe2O7Qb7wEivAg.gif)
+![](/images/1*FEiTlKLTIe2O7Qb7wEivAg.gif)
 
 # **Componente de Signup**
 

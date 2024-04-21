@@ -4,14 +4,14 @@
   date = "2023-04-02 00:00:00"
   description = ""
   tags = ["","Italian","Language"] 
-  header_image = "https://miro.medium.com/v2/resize:fit:996/0*cHwHgiJcCMhQ9ezp.gif"
+  header_image = "/images/0*cHwHgiJcCMhQ9ezp.gif"
 +++
   
 Inglorious Bastards é uma obra prima do cinema, o tempo de mais de dez anos de escrita que Tarantino levou de 1998 até o inicio das filmagens em 2008 prova que esta obra pode e deve ser lembrada para toda uma geração de amantes do cinema.
 
 Estou começando a estudar italiano e, como todo inicio de aprendizado de uma nova lingua, buscamos referencias em filmes, series, musicas, etc. para observar como a lingua é falada. O objetivo deste artigo é dissecar a cena do filme na qual a personagem Bridget Von Hammersmark (Diane Kruger) apresenta o trio de americanos, o personagem de Brad Pitt disfarçado do duble de cinema Enzo Gorlami, um camera man chamado Antonio Margarete (Eli Roth) e seu assistente Dominic Decoco (Omar Doom).
 
-![](https://miro.medium.com/v2/resize:fit:996/0*cHwHgiJcCMhQ9ezp.gif)
+![](/images/0*cHwHgiJcCMhQ9ezp.gif)
 
   
 A cena começa com a epica introdução aos três supostos italianos, seguida por uma fala em italiano da Bridget:
@@ -26,7 +26,7 @@ _"es un vecchio"_ também fica fácil entender o significado, _es_ significa "é
 
 Digo que essa palavra é interessante pois a pronuncia do "_chi_" é identica ao som do "qui" no portugues, isso acontece por que a letra "C" no italiano tem uma pronuncia diferente dependendo da vogal que a acompanha, chamamos isso de pronuncia "_Duro_" e "_Dolce_" (doce em italiano):
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*IDXVaEmsmrfakwQUYXEbjg.png)
+![](/images/1*IDXVaEmsmrfakwQUYXEbjg.png)
 
 Escrita e pronuncia da letra C seguida de uma vogal. Do Autor.
 
@@ -47,13 +47,13 @@ _Gli amici della vedetta ammirata da tutti noi_ é uma frase que o tradutor ital
 
 Deixando de lado o sentido da frase e partindo para uma analise gramatical, a frase começa com o artigo definido "Gli" (se pronuncia "lhi"), o que significa "Os".
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*AJRMLFCXuDPB6uLpoM2DWQ.png)
+![](/images/1*AJRMLFCXuDPB6uLpoM2DWQ.png)
 
 Tabela contendo os artigos definidos em italiano, perceba que Gli é um artigo definido masculino. Do Autor.
 
 Em seguida, temos a palavra “Amici”, que é o plural de "amico" (amigo), em italiano, como "amico" é uma palavra masculina, o plural da palavra muda de "o" para "i"; palavras no masculino terminadas em "e" ou "o", o plural sempre é "i", no caso das palavras no feminino, as que terminam com "a" no singular viram "e" e as que terminam com "e" no singular viram "i". Segue uma imagem bem legal que encontrei que explica isso:
 
-![](https://miro.medium.com/v2/resize:fit:1400/0*Iw0rhPD3CixP5K71.jpg)
+![](/images/0*Iw0rhPD3CixP5K71.jpg)
 
 Imagem retirada do vídeo do Youtube " SINGOLARE E PLURALE-LEZIONE 10" do canal do ITALIANO CON VANY- LIVELLO BASE DALL’ A1 AL B1" — Disponível em: <https://www.youtube.com/watch?v=YEtz9Y20DVQ>. Acesso em: 01/04/2023.
 
@@ -77,7 +77,7 @@ _Fun fact: sabia que a versão de despedida do carro Fiat Uno em 2013 se chamava
 
 Essa frase é interessante pois temos uma conjugação verbal. Igual temos no portugues, o verbo muda dependendo do tipo de conjugação, aqui temos o verbo _pronunciare_ conjugado na primeira pessoa do singular, ficando assim:
 
-![](https://miro.medium.com/v2/resize:fit:684/1*IeYONpUKgxJ5N38o3L2c8A.png)
+![](/images/1*IeYONpUKgxJ5N38o3L2c8A.png)
 
 Conjugação completa do verbo _pronunciare_ no presente do indicativo, tente praticar a pronuncia, lembre-se da maneira que é pronunciado a letra "C", caso tenha esquecido, é só subir o artigo para revisar — Disponível em: <https://it.bab.la/coniugazione/italiano/pronunciare>. Acesso em: 02/04/2023.
 
@@ -121,4 +121,4 @@ Segundo o italiano do Reddit (se não fosse por ele, estariamos perdidos), esta 
 
 Por fim, Brad Pitt responde a despedida dos dois com talvez o _Arrivederci_ com o sotaque mais americano já pronunciado na face da terra, encerrando assim essa cena epica do cinema, bom, é isso pessoal, peço que me corrija no campo de comentários se viu que cometi qualquer erro, o italiano é uma lingua muito rica e interessante de aprender, espero um dia ser fluente nela, se gostou, curta e compartilhe, até mais!
 
-![](https://miro.medium.com/v2/resize:fit:996/0*yXYHE1VORJtGmS3H.gif)
+![](/images/0*yXYHE1VORJtGmS3H.gif)

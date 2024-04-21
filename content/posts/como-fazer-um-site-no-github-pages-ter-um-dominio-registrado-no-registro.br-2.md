@@ -4,11 +4,11 @@
   date = "2023-07-30 00:00:00"
   description = "Configurando tanto o registro.br e o Github pages"
   tags = ["DNS","Github Pages","Registro.br"] 
-  header_image = "https://miro.medium.com/v2/resize:fit:1400/1*w1-0p7xElUKPEw_ILNJvZA.png"
+  header_image = "/images/1*w1-0p7xElUKPEw_ILNJvZA.png"
 +++
   
   
-![](https://miro.medium.com/v2/resize:fit:1400/1*w1-0p7xElUKPEw_ILNJvZA.png)
+![](/images/1*w1-0p7xElUKPEw_ILNJvZA.png)
 
 # Introdução
 
@@ -26,11 +26,11 @@ Pode até ser que faça sentido para quem quer gerenciar tudo na mesma plataform
 
 Primeiramente, você precisará entrar no registro.br e criar uma conta, é um processo bem simples e rapido. Em seguida, clique em registrar logo acima
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*Uqa6YvhvCQF6iZZtuyvV9w.png)
+![](/images/1*Uqa6YvhvCQF6iZZtuyvV9w.png)
 
 Nesta tela, você deverá digitar o dominio que deseja e o site te mostrará se está disponível ou não, ao validar que o dominio desejado está disponível, aparecerá a opção de registrar.
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*7ax0hw6ffF0TVtL9AuxU7Q.png)
+![](/images/1*7ax0hw6ffF0TVtL9AuxU7Q.png)
 
 Na tela de registrar, você terá que preencher algumas informações pessoais e concluir o pagamento, realizando o pagamento, seu dominio estará disponível em poucas horas, no meu caso não demorou nem uma hora e o dominio já estava publicado.
 
@@ -40,7 +40,7 @@ Para validar se seu dominio está valido, logue na sua conta do registro.br e cl
 
 Lá embaixo, você verá uma seção DNS, clique nela, se tiver uma opção "modo avançado", alguma coisa assim, ative-a, em seguida, clique em configurar zona DNS, aparecerá uma tela assim, porém a sua lista estará vazia:
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*tiz5qFELwF5nvnOAzEcKNw.png)
+![](/images/1*tiz5qFELwF5nvnOAzEcKNw.png)
 
 Agora é só clicar em nova entrada e adicionar igual está no meu, exceto que você vai substituir conforme a imagem.
 
@@ -50,15 +50,15 @@ Feito isso, salve as alterações e vamos agora la pro Github configurar ele.
 
 No repositório do seu Github pages, clique em "Settings"
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*LwVUF9Zk3KLPcNYrGIRVnA.png)
+![](/images/1*LwVUF9Zk3KLPcNYrGIRVnA.png)
 
 Em seguida, clique em "Pages"
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*kmBQohuMeEQtoiJ_l0vvSg.png)
+![](/images/1*kmBQohuMeEQtoiJ_l0vvSg.png)
 
 Agora salve essa configuração, com isso, o Github criará um arquivo CNAME na branch de deploy do seu projeto com o endereço do seu site, nunca apague este arquivo pois o Github não saberá como encontrar seu site.
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*df1lZZJ9Efx8JClSf2CVTw.png)
+![](/images/1*df1lZZJ9Efx8JClSf2CVTw.png)
 
 Estou utilizando React em outra branch, e utilizo uma lib chamada gh-pages para realizar o deploy, ela gera o build e joga os arquivos na branch master, e com isso, ficava toda vez sobrescrevendo esse arquivo, fazendo meu site parar de funcionar, demorou um certo tempo pra eu perceber que era esse o problema. Então caso esse seja seu caso, coloque o arquivo CNAME com o endereço do site na pasta “public” do seu projeto, para que o build sempre tenha esse arquivo na pasta raiz.
 

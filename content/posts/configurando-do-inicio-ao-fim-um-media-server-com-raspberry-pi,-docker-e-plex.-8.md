@@ -4,10 +4,10 @@
   date = "2022-01-04 00:00:00"
   description = ""
   tags = ["","DLNA","Docker","Linux","Plex","Raspberry Pi","Ubuntu"] 
-  header_image = "https://miro.medium.com/v2/resize:fit:1400/1*GsqI4vM5akhcVLgsq_8Fyw.jpeg"
+  header_image = "/images/1*GsqI4vM5akhcVLgsq_8Fyw.jpg"
 +++
   
-# ![](https://miro.medium.com/v2/resize:fit:1400/1*GsqI4vM5akhcVLgsq_8Fyw.jpeg)Introdução
+# ![](/images/1*GsqI4vM5akhcVLgsq_8Fyw.jpg)Introdução
 
 Há tempos que tinha um Raspberry PI 3 aqui comigo porém nunca cheguei a utilizar ele para nada além de alguns testes para ver o funcionamento, pois bem, recentemente comprei uma smart TV, e nela, eu conseguia assistir meus filmes, series e animes pelo meu HD externo, foi ai que pensei na ideia, e se fosse possível utilizar meu Raspberry como um _media server_ e acessar meus vídeos diretamente pela TV utilizando minha rede local?
 
@@ -15,7 +15,7 @@ Há tempos que tinha um Raspberry PI 3 aqui comigo porém nunca cheguei a utiliz
 
 Foi ai que comecei meu projeto para fazer meu pequeno servidor de media, o Raspberry eu já tinha, só faltava comprar o armazenamento dele e a fonte, optei por um cartão micro SDHC 1 de 32GB que já é mais do que suficiente para instalar o que eu preciso e uma fonte básica micro USB, lembrando que a fonte para o Raspberry deve ser de 5 Volts (V) e 3 Amperes (A). Feito isso, baixei o programa [Raspberry PI Imager](https://www.raspberrypi.com/software/) para gravar a imagem Linux no meu cartão SD, optei por instalar o Ubuntu Server na versão 20.04 LTS mas você poderia instalar a distro de sua preferência para esse projeto.
 
-![](https://miro.medium.com/v2/resize:fit:1380/1*B5bpnaQIwewf35hu6vu2UQ.png)
+![](/images/1*B5bpnaQIwewf35hu6vu2UQ.png)
 
 O Raspberry Pi Imager é um programa que facilita muito instalar um sistema operacional em um cartão de memória
 
@@ -72,7 +72,7 @@ Com o container do Plex funcionando, você já poderá acessar o servidor do Ple
 
 Depois disso, você só precisará fazer as configurações que o Plex necessita, apontar onde está sua pasta de vídeos e seus vídeos já estarão disponíveis para seus clientes Plex.
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*t9h0CGyK6XrUckan6VjsMg.jpeg)
+![](/images/1*t9h0CGyK6XrUckan6VjsMg.jpg)
 
 Assistindo Akira diretamente da minha televisão utilizando o Plex.
 
@@ -86,7 +86,7 @@ Existe um tutorial bem fácil para instalar e configurar o Samba na própria doc
 
 Só que ao invés de criar uma pasta nova, você irá compartilhar seu drive, no meu caso, compartilhei o caminho "/media/hd2tb", depois de configurar o caminho e os usuários samba, só nos resta testar utilizando outro computador na rede, utilizei um computador macOS, mas poderia ser qualquer sistema operacional
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*iNDbly8zpgjdfEluPrvM_w.png)
+![](/images/1*iNDbly8zpgjdfEluPrvM_w.png)
 
 Podemos ver que agora nós conseguimos acessar e editar ao nosso gosto nossa pasta de vídeos do Plex de uma maneira fácil e intuitiva.
 
