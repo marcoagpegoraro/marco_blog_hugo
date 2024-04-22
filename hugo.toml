@@ -8,7 +8,7 @@ copyright = "© [Marco Pegoraro](https://marcoagpegoraro.com.br)."
 # DefaultContentLanguage = "en"
 
 [params.theme]
-palette = "base16-dark"
+palette = "tender"
 
 [taxonomies]
 category = "categories"

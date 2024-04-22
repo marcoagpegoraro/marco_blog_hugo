@@ -27,10 +27,10 @@
       {{ else }}
         {{ if ne .Summary "" }}
         <img src="{{ .Params.header_image }}"
-          style="float:left; max-width: 200px; max-height: 200px; margin: 20px;"></img>
+          style="float:left; max-width: 200px; max-height: 200px; margin: 20px;" loading="lazy"></img>
         {{ else }}
         <div style="text-align: center;">
-          <img src="{{ .Params.header_image }}" style="max-width: 200px; margin: 20px;"></img>
+          <img src="{{ .Params.header_image }}" style="max-width: 200px; margin: 20px;" loading="lazy"></img>
         </div>
         {{ end }}
       {{ end }}
