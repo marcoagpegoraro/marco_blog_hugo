@@ -8,7 +8,7 @@
 ---
 ## Introduction
 
-A while ago i wrote a [post explaining how i created my blog using Golang](http://localhost:1313/posts/como-aprendi-a-linguagem-de-programa%C3%A7%C3%A3o-go-e-utilizei-a-mesma-para-programar-meu-blog-pessoal-15), and how incredible was the experience, but now, six months latter, i migrated my blog to [Hugo](https://gohugo.io/), an opensource framework coded in Go to create static sites.
+A while ago i wrote a [post explaining how i created my blog using Golang](https://marcoagpegoraro.com.br/posts/como-aprendi-a-linguagem-de-programa%C3%A7%C3%A3o-go-e-utilizei-a-mesma-para-programar-meu-blog-pessoal-15), and how incredible was the experience, but now, six months latter, i migrated my blog to [Hugo](https://gohugo.io/), an opensource framework coded in Go to create static sites.
 
 Not that i was unsatisfied with my blog project in Go, in fact, it had a lot of things that i would like to improve overtime, for example, configure GitHub Actions to automatically deploy in AWS, or a VPC. The possibility to have multiple users, change the default template engine from django to [templ](https://templ.guide/), start using [htmx](https://htmx.org/), etc.
 
