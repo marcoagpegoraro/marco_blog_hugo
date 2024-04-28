@@ -49,8 +49,8 @@ url = "https://medium.com/@tete5423"
 
 [menu]
   [[menu.main]]
-    identifier = "portifolio"
-    name = "Portifolio 🔗"
+    identifier = "portfolio"
+    name = "portfolio 🔗"
     url = "http://portifolio.marcoagpegoraro.com.br"
     weight = 10
     params = { target = "_blank" }
