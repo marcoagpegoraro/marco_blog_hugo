@@ -4,10 +4,10 @@
   date = "2023-07-30 00:00:00"
   description = "Utilizando Github Pages, Material Ui Design, animações e i18n"
   tags = ["Github Pages","i18n","Material UI","React"] 
-  header_image = "/images/1*aIBlqgTuJH5IhAd5rWAe_A.png"
+  header_image = "/images/1aIBlqgTuJH5IhAd5rWAe_A.png"
 +++
   
-# ![](/images/1*aIBlqgTuJH5IhAd5rWAe_A.png)Introdução
+# ![](/images/1aIBlqgTuJH5IhAd5rWAe_A.png)Introdução
 
 Com a facilidade das redes sociais, fica muito facil termos como criar um perfil no qual podemos inserir quaisquer informaçoes sobre nós mesmos, por exemplo, no Instagram existe a opção de criar _highliths_ com momentos importantes da nossa vida agrupadamente, como uma viagem ao exterior ou com as primeiras fotos de nossos filhos.
 
@@ -51,7 +51,7 @@ Optei por deixar o site bem simples e direto, sem roteamento, somente utilizando
 
 A primeira página do site contem somente uma [AppBar](https://mui.com/material-ui/api/app-bar/) com links para minhas redes sociais, posteriormente, coloquei um input [select](https://mui.com/material-ui/react-select/) com as linguagens disponíveis no site e um botão para alterar o tema do site.
 
-![](/images/1*FPdVSzeQwLSJk6w6menf-A.png)
+![](/images/1FPdVSzeQwLSJk6w6menf-A.png)
 
 É bom sempre adotar as melhores práticas de componentização, por exemplo, os icones de redes sociais eu utilizo tanto na AppBar quanto no Footer do site, e como está componentizado, só preciso importar o mesmo componente nessas partes do código.
 
@@ -69,13 +69,13 @@ Para deixar centralizado, utilizei as propriedades de [flex](https://css-tricks.
 
 Em seguida, temos a página na qual escrevi um texto com um mini resumo da minha vída, separei em três paragrafos principais, caso queira se basear, o primeiro paragrafo é uma pequena introdução sobre mim e onde trabalho atualmente. O segundo paragrafo é algo mais tecnico, para demonstrar quais habilidades eu sei e quais que já trabalhei e, por tanto, tenho afinidade. Por fim, escrevi um ultimo paragrafo para "quebrar o gelo" e falar sobre meus hobbies e coisas da minha vida pessoal, afinal, i'm only human, after all.
 
-![](/images/1*ih26j9TcviKBIEjWn6IJfg.png)
+![](/images/1ih26j9TcviKBIEjWn6IJfg.png)
 
 ## Experiencia profissional
 
 Aqui eu pensei em deixar minha experiencia profissional, bem semelhante a aquela seção que temos no perfil do linkedin, porém queria deixar com um visual criativo que remetesse a algo que gosto.
 
-![](/images/1*76ansUJaCSvsVCDIL7YkkQ.png)
+![](/images/176ansUJaCSvsVCDIL7YkkQ.png)
 
 Por ai sempre vejo os tutoriais utilizarem a janela do macOS como frame para códigos, com aqueles três botões: vermelho, amarelo e verde, decidi fazer o mesmo mas achei que ficou muito genérico, então tive a ideia de programar o estilo da janela do Windows XP, já que gosto bastante de tecnologias antigas, foi o primeiro sistema operacional que tive, porém iria dar bastante trabalho, então optei por fazer a janela do Windows 98, então com um pouco de CSS, ficou pronto do jeito que eu queria, dentro da janela, decidi deixar o visual do material design mesmo para facilitar a navegação e leitura de quem estiver lendo, imagine aqueles [chips](https://mui.com/material-ui/react-chip/) com o visual do Windows 98, todo quadrado e sem icones, não iria ficar tão legal, né?
 
@@ -83,7 +83,7 @@ Por ai sempre vejo os tutoriais utilizarem a janela do macOS como frame para có
 
 Aqui eu dediquei uma area para projetos e coisas legais que já fiz ou conquistei, como por exemplo, certificados, projetos, apresentações e artigos.
 
-![](/images/1*xdEDLcT2rPXVFr-Svm90Gw.png)
+![](/images/1xdEDLcT2rPXVFr-Svm90Gw.png)
 
 No futuro gostaria de separar os projetos em uma página especifica, o problema é que não tenho muitos projetos rs, poís a maioria dos códigos que já escrevi na vida foram códigos para a empresa onde trabalho e empresas que já trabalhei, e códigos de empresas são das empresas (e permanecerá assim), então ainda preciso dedicar alguns finais de semana para fazer [POCs](https://www.techtarget.com/searchcio/definition/proof-of-concept-POC) sobre tecnologias ou frameworks nas quais tenho interesse em aprender, e, em seguida, fazer uma página só para esses projetos.
 
@@ -95,7 +95,7 @@ Para finalizar, fiz uma página de contato bem simples, com o titulo ao lado esq
 
 Abaixo temos o footer do site, deixei um texto sobre as tecnologias utilizadas no site e os links das mesmas, também deixei o link do repositório para caso alguem queira ver.
 
-![](/images/1*ENjI9a25gvZNXo-2x17oBg.png)
+![](/images/1ENjI9a25gvZNXo-2x17oBg.png)
 
 A direita deixei os mesmos links de redes sociais que tem na app bar, graças a componentização, foi só importar o mesmo componente nas duas partes do site.
 
@@ -105,23 +105,23 @@ Depois que programei o site, foi necessário corrigir alguns problemas quando o 
 
 Na app bar, quando o tamanho da tela é menor que um tamanho especifico, eu troco de lugar o componente de icones de redes sociais com os botões de troca de idioma e dark mode, para a visualização ficar mais agradavel.
 
-![](/images/1*8gsUJWF4XV9wzr16X_kxkQ.png)
+![](/images/18gsUJWF4XV9wzr16X_kxkQ.png)
 
 Na tela de apresentação, eu ocultei completamente minha foto apresentando pois não haveria espaço para ela, então eu coloquei um media query exatamente no ponto na qual a imagem quebraria para a linha de baixo e faço ela ter um display: none.
 
 Uma página que precisei alterar bastante o design foi a de experiências profissionais, não teria espaço para uma sidebar ao lado, então eu ocultei ela por completo, então tive a ideia de substituir ela por uma ["File menu bar"](https://en.wikipedia.org/wiki/File%5Fmenu) logo abaixo da ["title bar"](https://learn.microsoft.com/en-us/windows/apps/develop/title-bar?tabs=wasdk), com um select para a pessoa escolher qual informação deseja visualizar, ficou bem fácil a adaptação, já que os componentes do conteudo se ajustaram automaticamente.
 
-![](/images/1*EKStUfbzaVxWUhfwV_OWpw.png)
+![](/images/1EKStUfbzaVxWUhfwV_OWpw.png)
 
 As demais páginas não precisaram de nenhum ajuste muito especifico, somente ajustar o tamanho quando a tela diminuia foi o suficiente para caber tudo na mesma tela.
 
-![](/images/1*khLS8NKmcNakJGO1racVNA.png)
+![](/images/1khLS8NKmcNakJGO1racVNA.png)
 
 # Animações
 
 Gostaria de deixar o site mais agradavel aos olhos, para isso, utilizei também algumas animações CSS, na página inicial, utilizei uma simples animação de [fade in](https://blog.hubspot.com/website/css-fade-in), já deixou o site com uma cara bem profissional.
 
-![](/images/1*SzDxG8t3NePwhoyryBkfVg.gif)
+![](/images/1SzDxG8t3NePwhoyryBkfVg.gif)
 
 Para as demais páginas (exceto o footer), utilizei uma classe do Javascript chamada [Intersection Observer](https://www.youtube.com/watch?v=T33NN%5FpPeNI), com ele, é possível saber se o usuario está visualizando ou não determinado elemento HTML, e com isso, realizar alguma logica desejada, é muito utilizado pra fazer um scroll infinito, como o do Facebook por exemplo, ou em animações quando o usuário passa por uma parte do site, igual acontece no meu caso.
 
@@ -140,7 +140,7 @@ ${isAnimatedAlready ? 'animation-in' : 'animation-out'}`}>
 </div>
 Precisei utilizar uma variavel isAnimatedAlready pra gravar se o usuário já passou pela página para ela ser animada só na primeira vez, caso eu quisesse animar todas as vezes, seria necessário só remover essa variavel.
 
-![](/images/1*41dPGvM6f746nh_Bx9fnXQ.gif)
+![](/images/141dPGvM6f746nh_Bx9fnXQ.gif)
 
 # Suporte a outros idiomas
 

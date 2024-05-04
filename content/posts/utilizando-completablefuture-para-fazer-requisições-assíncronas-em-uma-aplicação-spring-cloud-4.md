@@ -4,10 +4,10 @@
   date = "2020-08-22 00:00:00"
   description = ""
   tags = ["Completable Future","Java","Spring"] 
-  header_image = "/images/1*eWlh07xrpxE2LHGjGqqjzg.png"
+  header_image = "/images/1eWlh07xrpxE2LHGjGqqjzg.png"
 +++
   
-![](/images/1*eWlh07xrpxE2LHGjGqqjzg.png)Com um mundo cada vez mais demandando velocidade e usuários cada vez mais exigentes, surge a necessidade de realizar otimizações em aplicações rest para o tempo de requisição ser o menor possível.
+![](/images/1eWlh07xrpxE2LHGjGqqjzg.png)Com um mundo cada vez mais demandando velocidade e usuários cada vez mais exigentes, surge a necessidade de realizar otimizações em aplicações rest para o tempo de requisição ser o menor possível.
 
 Imagine um cenário onde você possui um orquestrador e para devolver a resposta para seu usuário, você precisa realizar outras requisições _HTTP_ em outros microsserviços,
 
@@ -17,7 +17,7 @@ Para demonstrar como realizar requisições assíncronas no _Spring_ _Cloud_ uti
 
 A aplicação principal será uma aplicação _spring_ _cloud_ criada no site [https://start.spring.io](https://start.spring.io/) como mostrado na figura 1:
 
-![](/images/1*HYUHDAVQCp9BXo7JjlOwlA.png)
+![](/images/1HYUHDAVQCp9BXo7JjlOwlA.png)
 
 Figura 1: Configuração utilizada no microserviço orquestrador
 
@@ -29,7 +29,7 @@ Para simular os serviços a serem consumidos, foi feito três scripts utilizando
 
 A figura 2 mostra respectivamente os scripts do serviço um, que será utilizado para buscar informações de musicas do usuário, serviço dois que será utilizado para buscar informações gerais e serviço três que será utilizado para buscar informações de postagens desse usuário. Logo abaixo, existe o script _bash_ para rodar os servers simultaneamente e logo ao lado, a declaração de uma função _sleepOneSecond_ que será utilizada para simular um delay em um banco de dados fictício, o que não existe no exemplo pois os dados estão _mockados_.
 
-![](/images/1*gR1GPYGtHdJNgXrA_u0vQQ.png)
+![](/images/1gR1GPYGtHdJNgXrA_u0vQQ.png)
 
 Figura 2 — Estrutura dos serviços em Node que serão consumidos.
 
@@ -37,19 +37,19 @@ Figura 2 — Estrutura dos serviços em Node que serão consumidos.
 
 Com o projeto criado no _Spring Initializr_, será criado primeiramente algumas classes para preenchimento dos dados que serão recebidos pela api, como pode ser visto na figura 3:
 
-![](/images/1*4U7Uku3IJ7hSwxZyhXo4ZQ.png)
+![](/images/14U7Uku3IJ7hSwxZyhXo4ZQ.png)
 
 Figura 3 — POJOs que serão utilizadas no projeto, a classe UserResponse será utilizada como a classe de saída do endpoint, já as demais serão as classes que serão preenchidas ao realizar as requisições.
 
 Também será criado uma camada de _services_ e _clients_ na aplicação, que ficará responsável principalmente pela responsabilidade de realizar requisições _HTTP_ e retornar um objeto para quem estiver consumindo a camada de _service_, bem semelhante o que existe no _framework frontend Angular_, a implementação pode ser vista na figura 4:
 
-![](/images/1*hSKtoil1DrkreghWqmijJQ.png)
+![](/images/1hSKtoil1DrkreghWqmijJQ.png)
 
 Figura 4 — Classes responsáveis por realizar as requisições HTTP, note que cada endpoint que será chamado tem sua própria camada de service e client.
 
 Feito isso, agora será estruturado o _controller_ da aplicação, a estrutura do método principal conterá as três chamadas para os serviços, logo em seguida, será montado o objeto final do usuário utilizando o padrão de projeto _Builder_, já implementado pelo plugin _Lombok_, a figura 5 demonstra como ficou o resultado final da classe:
 
-![](/images/1*70ndlTX_to3ekmkSa31qPg.png)
+![](/images/170ndlTX_to3ekmkSa31qPg.png)
 
 Figura 5 — Controller principal da aplicação
 
@@ -57,7 +57,7 @@ Figura 5 — Controller principal da aplicação
 
 Observe que também foi colocado um _println_ para mostrar no console quanto tempo durou a requisição, agora subindo a aplicação e enviando uma requisição pelo _postman_, verificamos que está tudo funcionando (lembre-se de subir as aplicações em Node também!) , como mostra a figura 6:
 
-![](/images/1*NE8Gvg2oZYmL86xNURTMIA.png)
+![](/images/1NE8Gvg2oZYmL86xNURTMIA.png)
 
 Figura 6 — Resposta da API funcionando, i see this as an absolute win… right?
 
@@ -67,7 +67,7 @@ Isto ocorre pois as requisições _HTTP_ estão acontecendo uma atrás da outra,
 
 A versão 8 do Java possui uma API muito simples de ser utilizada chamada _CompletableFuture_, com ela, é possível solucionar o problema visto anteriormente com bastante facilidade, para demonstrar como é utilizado, será criado um novo método no _controller_ só que desta vez, utilizado requisições assíncronas, como visto na figura 7:
 
-![](/images/1*BOfXdmWv1x3FlQRsr41kmw.png)
+![](/images/1BOfXdmWv1x3FlQRsr41kmw.png)
 
 Figura 7 — Novo método utilizando a API do CompletableFuture.
 
@@ -81,7 +81,7 @@ A aplicação só será bloqueante novamente quando é feito um _.get()_ no obje
 
 Com as alterações feitas, será feito então uma nova requisição pelo _postman_ só que pelo novo endpoint, como mostra a figura 8:
 
-![](/images/1*Qfol7zdRSRfTy_AD3ezywg.png)
+![](/images/1Qfol7zdRSRfTy_AD3ezywg.png)
 
 Figura 8 — Requisição feita no novo _endpoint_ usando programação assíncrona, observe que durou 1/3 do tempo original da requisição.
 
