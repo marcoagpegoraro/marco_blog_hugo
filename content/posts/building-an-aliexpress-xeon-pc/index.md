@@ -28,7 +28,7 @@ Before the current government, this 92% tax was random, sometimes the buyer had 
 
 # Why those Ali Express parts are getting famous in Brazil?
 
-As you can probably imagine, Brazil is not one of the best countries of the world to be born, the minimum wage is a joke, only R$1412, around 278 dollars, but the thing is, while we have very high taxes like, for example, sweden, the state doesn't provide any good services, for example, the free healthcare is a meme, the education rates are getting worst every year, we are one of the unsafest countries of the world, it is not common for a foreigner to think of something of Brazil and the first thing that they think of is the violence.
+As you can probably imagine, Brazil is not one of the best countries of the world to be born, the minimum wage is a joke, only R$1412, around 278 dollars, but the thing is, while we have very high taxes like, for example, sweden, the state doesn't provide any good services, the free healthcare is a meme, the education rates are getting worst every year, we are one of the unsafest countries of the world, it is not common for a foreigner to think of something of Brazil and the first thing that they think of is the violence.
 
 A motherboard like the Aorus B450 costs 658 Reais, a Ryzen 5600G CPU costs 878 Reais, this alone already is worth more than the minimal wage, it is very common to see a lot of brazilians houses that don't have a lot of new tech, in fact, the PS2, PS3 and Xbox 360 are still one of the most played video games here.
 
