@@ -1,0 +1,18 @@
+{{ with .Site.Params.about }}
+<div class="aside__about">
+    {{ with .logo }}<span class="about__logo" role="img">{{ . }}</span>&nbsp;{{ end }}
+    {{ with .logo_image }}<img class="about__logo" src="{{ . | absURL }}" alt="Logo">{{ end }}
+<h1 class="about__title">{{ .title }}</h1>
+{{ with .description }}<p class="about__description">{{ . | markdownify }}</p>{{ end }}
+</div>
+{{ end }}
+
+<ul class="aside__social-links">
+    {{ range $item := .Site.Params.socialLinks }}
+    <li>
+        <a href="{{ $item.url }}" rel="me" aria-label="{{ $item.title }}" title="{{ $item.title }}"><i class="{{ $item.icon }}" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    {{ end }}
+</ul>
+
+<iframe width="215" height="215" src="https://www.youtube-nocookie.com/embed/EKyA3x_yh9A?si=kEKAC3hUWnSlgb2m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
