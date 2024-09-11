@@ -1,6 +1,6 @@
 ---
   author: Marco Pegoraro
-  title: Yes, i migrated my blog coded in Go to Hugo, here's why
+  title: I migrated my blog coded in Go to Hugo, here's why
   date: 2024-04-28 13:30:00
   description: ""
   tags: ["Go","Hugo"] 
