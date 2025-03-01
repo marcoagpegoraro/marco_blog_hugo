@@ -1,7 +1,7 @@
 ---
   author: Marco Pegoraro
   title: My car, a 2017 Toyota Etios Cross
-  date: 2025-02-24 13:30:00
+  date: 2025-03-01 00:47:00
   description: ""
   tags: ["Cars", "Toyota", "Etios"] 
   header_image: /posts/my-car-a-2017-toyota-etios/toyota-etios.jpeg
