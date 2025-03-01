@@ -8,114 +8,120 @@
 ---
 ## A brief history of me and cars
 
-I really like cars, it doesn't matter if it is an old car, or a modern car, or a sports or a basic car, i like cars in general, i believe that all cars serve purpose, and if is solving someone problem, than it is a good car.
+I really like cars. It doesn't matter if it's an old car, a modern car, a sports car, or a basic car — I like cars in general. I believe that all cars serve purpose, and if a car is solving someone's problem, than it's a good car.
 
-With that said, a had a few cars in my life, an old Civic, an old Accord(which is the car that I've had the longest), a Fiat Palio and Chevrolet Vectra(also know as Opel Astra H in europe) to say a few. And the last car that i had before the one i have today was a Chevrolet Celta. If you are from Argentina, you may know this model as the Suzuki Fun.
+With that said, I have had a few cars in my life: an old Civic, an old Accord (which is the car I owned the longest), a Fiat Palio, and Chevrolet Vectra (also known as Opel Astra H in europe), to name a few. The last car i had before my current one was a Chevrolet Celta. If you are from Argentina, you may know this model as the Suzuki Fun.
 
-Don't get me wrong, it's a great car, extremely reliable, cheap parts and good gas mileage, but it was a product made for poor countries like Brazil, so nothing luxurious, it was made using the same chassis of the Opel Corsa B, a car that was debuted in 1993. it had a 1.0 liter engine and a manual transmission, and the inside is very simple, good thing that my car had at least air conditioner, power steering and airbags, which was mandatory to cars that were produced after 2014 in Brazil. 
+Don't get me wrong — it's a great car: extremely reliable, with cheap parts and good gas mileage. However, it was a product made for developing countries like Brazil, so there was nothing luxurious about it. It was built on the same chassis as the Opel Corsa B, a car that was debuted in 1993. It had a 1.0-liter engine and a manual transmission, and the interior was very simple. Luckily, my car as least had air conditioner, power steering, ABS, and airbags. Although air conditioner and power steering were optional, airbags and ABS became mandatory for cars produced in Brazil after 2014. 
 
 ![Chevrolet Celta](./chevrolet-celta.jpeg)
 
 ## Looking for a new car
 
-So i started to look for a newer car for me, These were my prerequisites(from the highest importance to lowest):
-- To cost around R$60k (approximately USD10k)
-- Reliable
+So, i started looking for a newer car for myself. These were my prerequisites, ranked from the most to least important:
+- Cost around R$60k (approximately USD 10k)
+- Reliability
 - Automatic transmission
-- have good gas mileage
+- Good gas mileage
 - Newer than my Chevrolet Celta
 
-First, i looked in the internet for a car, i wasn't finding anything interesting, all de midsize sedans (for Brazil standards, in the US they are called compact sedans) were very old, for instance, a 2012 basic Toyota Corolla is around R$60K, that is very expensive, a 2012 Honda Civic is around the same price. You can find something like, a french midsize sedan like de Citroen C4 or the Peugeot 408 way newer, but these cars are not know for their reliability.
+First, i searched the internet for a car, but I wasn't finding anything interesting. All de midsize sedans (by Brazil standards—considered compact sedans in the US) were very old. For instance, a 2012 basic Toyota Corolla costs around R$60K, which is very expensive. A 2012 Honda Civic is priced similarly. You can find a much newer french midsize sedan, like de Citroën C4 Pallas or the Peugeot 408, but these cars are not known for their reliability.
 
-And then i start looking for a compact car(once again, in the US are called sub compact), like the the Honda City, Toyota Yaris and the Chevrolet Onix, but all of them were also too expensive for the money i was planing to pay or older than i was looking for. Especially when looking for an automatic transmission.
+Then, I start looking for a compact car (which, in the US, is considered a subcompact), like the the Honda City, Toyota Yaris, and the Chevrolet Onix, However, all of them were either too expensive for my budget or older than I was looking for. Especially when considering models with an automatic transmission.
 
-Then there is a category of cars that i don't believe that exists in the US, because they are even more compact than a subcompact car in US standards, here in Brazil we called this type of car a subcompact, in europe this type of car is more common. In Brazil we have some examples, like the Volkswagen UP, Nissan March, Kia Picanto, Fiat Mobi and the Toyota Etios.
+Then, there is a category of cars that I don't believe exists in the US, as they are even smaller than a subcompact car by US standards. Here in Brazil we called this type of car a subcompact, and it is more common in Europe. In Brazil we have some examples, include the Volkswagen UP, Nissan March, Kia Picanto, Fiat Mobi, and Toyota Etios.
 
-Since i do not have children, i don't travel a lot and i just want a car that works when i need it, this type of car would satisfy my need, in the examples above, the only ones that has a automatic transmission are the March, the Picanto and the Etios. The VW UP is a car that i would have, it is compact, kinda charming and it has a 1.0 turbo engine that has a good power to weight ratio, but it's only offered with a manual or a single clutch transmission, and although i wouldn't have the need to change gears with this clutch, this kinda of transmission is know in Brazil for it's bad reputation, not exclusively to Volkswagen cars but all automakers that has this kind of transmission in cars.  
+Since i don't have children, don't travel much and just want a car that works when I need it, this type of car would suit my needs. Among the examples above, the only ones with an automatic transmission are the March, Picanto and Etios. 
+
+The VW UP is a car that i would consider—it's is compact, somewhat charming, and has a 1.0 turbo engine with a good power-to-weight ratio. However, it's only avaliable with either a manual or a single-clutch transmission. And although I wouldn't need to shift gears myself with the single-clutch option, this type of transmission has a bad reputation in Brazil—not just in Volkswagen cars, but across all automakers that offer it.  
 
 ![Sub Sub Compact Cars](./sub-sub-compact-cars.jpg)
 
 
-I don't really like the design of the Picanto and March so i opted for the Toyota Etios, then one day when i was walking in a local used car convention where people go there to sell their own cars (i don't know if this kind of event has a specific name in english, sorry), i saw a 2017 Toyota Etios automatic that was selling for R$62k, the only thing is that it was a "cross" model, which is why it was this plastic parts around the car. 
+I don't really like the design of the Picanto and March so i opted for the Toyota Etios.
+
+One day, while walking through a local used car convention—where people go to sell their own cars (I'm not sure if this type of event has a specific name in english)—I saw a 2017 Toyota Etios automatic for sale at R$62k. The only thing was that it was a "cross" model, which is why it was those plastic cladding parts around the car. 
 
 ![Toyota Etios Cross](./toyota-etios.jpeg)
 
-It was a car that was only owned by one person, a Toyota salesman and it had almost all repairs done by a Toyota dealership, the owner of the car agreed to receive my Chevrolet Celta as part of the payment, so i bought the car.
+It was a one-owner car, previously owned by a Toyota salesman, and almost all of its maintenance had been done at a Toyota dealership, the owner agreed to take my Celta as part of the payment, so i bought the car.
 
 ## First impressions
 
-Driving the car for the first time was a great experience overall, coming from a Chevrolet Celta, the Etios is so much better, the seats are pretty nice, not as comfortable as a Toyota Corolla seat but very comfortable still, and it's a letter seat, which is something that entry level cars usually do not have.
+Driving the car for the first time was a great experience overall. Coming from a Celta, the Etios felt like a significant upgrade. The seats are pretty nice—not as comfortable as those in a Toyota Corolla, but still very good. Plus, they are leather, which is uncommon in entry-level cars.
 
-The automatic transmission is also great, it has only four gears, and together with the 1.5 liter engine, it is more than capable of carrying the 935kg (2061lbs) that the car weights. 
+The automatic transmission is also great. It has only four gears, but when paired with the 1.5-liter engine, it is more than capable of handling the car's 935 kg (2061 lbs) weight. 
 
 ## Positive points:
 
-I really like all the optionals that this car have, the Etios Cross is equivalent of an Etios XLS(in the line up of the year, there was the entry level Etios X, then the mid level Etios XS, the mid to high end Etios XLS and finally the Etios Platinum as the high end version), so it has a lot of things that the basic versions doesn't have, like the previous mentioned letter seat.
+I really like all the optionals features this car has. The Etios Cross is equivalent to the Etios XLS. In the lineup, there was the entry level Etios X, the mid-level Etios XS, the mid-to-high-end Etios XLS, and finally, the high-end Etios Platinum. So, the Etios Cross comes with many features that the basic version don't have, such as the previously mentioned leather seats.
 
-Here are the things that the Etios Cross has:
+Here are the features that come with the Etios Cross:
 
-Come with all versions:
+Standard in all versions:
 - Onboard computer
 - Power steering
-- Air conditioner
+- Air conditioning
 - Power windows
-- lock system
+- Central locking system
 
 Etios XS:
 - Bluetooth stereo
 - Cruise control (only when paring with an automatic transmission)
 - Audio controls in the steering wheel
-- Chrome details in the interior
+- Chrome interior details
 
 Etios XLS:
-- Touch screen stereo with bluetooth (more on that later)
+- Touchscreen stereo with bluetooth (more on that later)
 - Fog lights
-- 15 inch alloy wheels
+- 15-inch alloy wheels
 - Letter steering wheel and letter seats
-- Rear view mirror with turn signals
+- Side mirrors with integrated turn signals
 
 Etios Cross:
-- All the thing that the other versions have
-- An "off-road" visual
+- All the features from the other versions
+- An "off-road" look
 - A roof rack
 
-As you can see, the Etios Cross has a lot o optionals for a entry level car, and a really like the aperance of the car, it is small and quirky, kinda like a Renault Twingo of the 2010s, the center dashboard is very similar to the Twingo as well.
+As you can see, the Etios Cross has a lot o optional features for an entry-level car. I really like its appearance—it's small and quirky, somewhat like a 1990s Renault Twingo of the 2010s. The center dashboard is also very similar to the Twingo's.
 
 ![Toyota Etios Cross interior](./toyota-etios-interior.jpeg)
 
 ## Negative points
 
-But it's not all roses with the Etios, there are some points that i didn't really like about the car, nothing that makes me regret my buy, but things that irritates me sometimes still.
+But it's not all perfect with the Etios. There are some aspects I didn't really like about the car—nothing that makes me regret my purchase, but things that still irritate me at times.
 
-Here are somethings that i didn't like about the car:
+Here are some things that I didn't like about the car:
 
 ### Opening the trunk
 
-There is a button on the trunk of the car that opens it electrically, which is way better then opening with a key, like it was with the Celta, but something that irritates me is the fact that when i press the button, the trunk doesn't open automatically, i need to press the button with one hand and pull the trunk up with another hand. If i press the button and then try to open, the trunk will not open, this is a very bad design
+There is a button on the trunk of the car that opens it electronically, which is much better then having to open it with a key like i did with the Celta. However, something that irritates me is that when i press the button, the trunk doesn't open automatically. I have to press the button with one hand and then lift the trunk with the other hand. If I press the button and then try to open it, the trunk won't open. this is a very poor design.
 
 ![Etios and UP comparison](./etios-up-back.jpg)
 
-As you can see in the image above, the Etios only has a button while in the VW UP, for example, the button is there, but it has also a thing that you can grab with the same hand to open the trunk, but that's a problem that only Etios Hatch owners will face, because the sedan model have a lever that the driver can pull inside the vehicle that opens the trunk.  
+As you can see in the image above, the Etios only has a button to open the trunk. In the VW Up, for example, the button is there too, but it has also has a handle you can grab with the same hand to open the trunk. However, this is a problem that only Etios Hatch owners will face, because the sedan model has a lever inside the vehicle that that the driver can pull to open the trunk.  
 
-### The touch screen stereo
+### The touchscreen Stereo
 
-One of the worst things in this car is the radio, it has a bluetooth connection, a usb to plug a flash drive and a HDMI port, an nothing else. It does not have TV, Apple Carplay, Android Auto, and it even does not have physical  volume buttons, to change the volume you need to press the up or down buttons in the steering wheel or enter in the "settings" screen in the screen and then change the volume, it has a volume icon when listen to a song, but it is only for changing the equalizer, it should be in the settings and the volume should be there when you are listening to the song.
+One of the worst things about this car is the radio. It has Bluetooth connectivity, a USB port to plug in a flash drive, and an HDMI port—but nothing else. It doesn't have TV, Apple CarPlay, or Android Auto, and it doesn't even have physical volume buttons. To adjust the volume, you have to press the up or down buttons on the steering wheel or go into the "settings" screen on the display and adjust the volume from there. It has a volume icon when listen to a song, but it is only for adjusting the equalizer.
 
-The HDMI port does not mirror your cellphone screen, my cellphone is a samsung and it kinda opens the samsung dex, but the resolution is all over the place, i didn't test it with an iPhone, but i don't have hope that will work too, so i only use the radio with bluetooth. I would rather have an regular stereo without screen instead of this touch screen, ate least i would have physical volume buttons.
+The HDMI port does not mirror your phone's screen. On my Samsung phone, it sort of opens Samsung DeX,but the resolution is all over the place. I haven't tested it with an iPhone, but i don't have much hope that it would work either. So, i only use the radio via bluetooth. 
 
-### Another minor inconveniences
+Honestly, I would rather have a regular stereo without a touchscreen—ate least then I'd have physical volume buttons.
 
-- Cruise control is good only when the highway is flat, otherwise the RPM goes all over the place when traveling through hills.
-- The car doesn't lock the doors automatically after start driving, i need to manually press the "lock" button to lock all the doors.
-- It has an anoying beep when i'm not using the seat belt, i get it, is safe, but sometimes i just wanna go to the gym near my house and when is time to drive back home, i don't wanna put the seat belts because my back hurts because i did hit my back in the training (which proves that the car has some sensor that detects when i'm moving, but instead of using this sensor to lock the doors, the car uses to beep because i'm not wearing the seat belt).
-- When driving on a highway, the wind noises are very loud.
+### Other Minor Inconveniences
+
+- Cruise control works well only on flat highways. When driving through hills, the RPM fluctuates a lot.
+- The car doesn't automatically lock the doors when i start driving; i have to manually press the lock button to secure all the doors.
+- There's an annoying beep when I'm not wearing a seat belt. I get it—it's for safety—but sometimes i just want to drive to the gym near my house. And when it's time to drive back home, I don't wanna put wear the seat belt because my back hurts from training (which proves that the car has a sensor detecting when I'm moving, but instead of using it to lock the doors, it only triggers the seat belt warning).
+- Wind noise is very loud when driving on the highway.
 
 ## Do I recommend the 2017 Toyota Etios?
 
-Absolutely, it's a great car, perfect for those that want a car that will just work, just like a 1984 two door Civic, but these optionals that the Etios Cross have are not so important to me, so if i would buy an Etios, then i would prefer a newer Etios X with automatic transmission, the radio without screen is the same thing as the radio with touchscreen and i don't really like the letter seat, a cloth seat works just fine for me, you can get an 2019 basic Etios for the same price as mine, but of course, without the optionals, so it is up to you which option is better.
+Absolutely! It's a great car, perfect for those who want a vehicle that just works—much like a 1984 two-door Civic. However, the optional features on the Etios Cross aren't that important to me. If I were to buy the Etios again, I'd prefer a newer Etios X with an automatic transmission, the standard radio without a touchscreen is essentially the same as the one with a screen, and I don't really like letter seats—cloth seat works just fine for me, but of course, without the extra features. So, it is up to you to decide which option is better.
 
-And i also would look for a sedan instead of a hatch, because the trunk does not have a lot of space.
+I'd also consider getting the sedan instead of the hatchback, as the trunk does not have much space.
 
-Thats it, i hope you liked my post about my car, i don't pretend to sell it so soon, it's such a good car that i want to own it forever, but lets see what the future will look like.
+Thats it! I hope you enjoyed my post about my car, I don't plan on selling it anytime soon—it's such a good car that I want to keep it forever. But let's see what the future holds.
 
-See ya.
+See ya!

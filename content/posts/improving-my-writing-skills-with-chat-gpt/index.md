@@ -8,7 +8,3 @@
 ---
 ## Introduction
 
-- comma when describing a list of things
-- en dash and em dash
--  I have had
-- I always capitalized 
