@@ -109,3 +109,11 @@ The HDMI port does not mirror your cellphone screen, my cellphone is a samsung a
 - The car doesn't lock the doors automatically after start driving, i need to manually press the "lock" button to lock all the doors.
 - It has an anoying beep when i'm not using the seat belt, i get it, is safe, but sometimes i just wanna go to the gym near my house and when is time to drive back home, i don't wanna put the seat belts because my back hurts because i did hit my back in the training (which proves that the car has some sensor that detects when i'm moving, but instead of using this sensor to lock the doors, the car uses to beep because i'm not wearing the seat belt).
 - When driving on a highway, the wind noises are very loud.
+
+## Do I recommend the 2017 Toyota Etios?
+
+Absolutely, it's a great car, perfect for those that want a car that will just work, just like a 1984 two door Civic, but these optionals that the Etios Cross have are not so important to me, so if i would buy an Etios, then i would prefer a newer Etios X with automatic transmission, the radio without screen is the same thing as the radio with touchscreen and i don't really like the letter seat, a cloth seat works just fine for me, you can get an 2019 basic Etios for the same price as mine, but of course, without the optionals, so it is up to you which option is better.
+
+Thats it, i hope you liked my post about my car, i don't pretend to sell it so soon, it's such a good car that i want to own it forever, but lets see what the future will look like.
+
+See ya.
