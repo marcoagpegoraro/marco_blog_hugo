@@ -111,6 +111,7 @@ Honestly, I would rather have a regular stereo without a touchscreen—ate least
 
 ### Other Minor Inconveniences
 
+- When I turn on the lights, the instrument cluster gets dimmer to be easily visible at night. But when it's day, I can't see anything because it is too dark.
 - Cruise control works well only on flat highways. When driving through hills, the RPM fluctuates a lot.
 - The car doesn't automatically lock the doors when i start driving; i have to manually press the lock button to secure all the doors.
 - There's an annoying beep when I'm not wearing a seat belt. I get it—it's for safety—but sometimes i just want to drive to the gym near my house. And when it's time to drive back home, I don't wanna put wear the seat belt because my back hurts from training (which proves that the car has a sensor detecting when I'm moving, but instead of using it to lock the doors, it only triggers the seat belt warning).
