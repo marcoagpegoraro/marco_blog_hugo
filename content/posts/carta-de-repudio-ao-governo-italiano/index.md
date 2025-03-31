@@ -2,14 +2,23 @@
   author: Marco Pegoraro
   title: Carta de repudio ao governo italiano
   date: 2025-03-30 20:00:00
-  description: "ℹ️🇮🇹👉 Ho lasciato il seguente link così puoi leggerlo in italiano: https://marcoagpegoraro-com-br.translate.goog/posts/carta-de-repudio-ao-governo-italiano?_x_tr_sl=pt&_x_tr_tl=it&_x_tr_hl=pt-BR&_x_tr_pto=wapp"
+  description: ""
   tags: ["Italy", "Italia", "Citzenship", "Cittadinanza", "Passport"] 
   header_image: /posts/carta-de-repudio-ao-governo-italiano/Italian-passport.jpg
 ---
+
 ## Introdução
 
 > Antes de iniciar esta carta, gostaria de dizer primeiramente que essa carta não é sobre o povo italiano, muito menos a rica cultura italiana que influenciou e influencia o mundo no qual vivemos até hoje como a arte e a culinária, esse post é sobre as decisões absurdas do governo italiano a respeito da limitação ao direito de sangue da cidadania italiana e somente isso. Também me reservo do direito de escrever utilizando minha lingua materna, que é o português brasileiro, até poderia tentar escrever em italiano mas me recuso depois das decisões já citadas anteriormente neste paragrafo. 
 
+<center>
+<a href="https://marcoagpegoraro-com-br.translate.goog/posts/carta-de-repudio-ao-governo-italiano?_x_tr_sl=pt&_x_tr_tl=it&_x_tr_hl=pt-BR&_x_tr_pto=wapp">
+    <button style="display: flex;align-items: center;background-color: #4285F4;color: white;border: none;padding: 10px 15px;font-size: 16px;cursor: pointer;border-radius: 5px;" class="translate-button">
+      ℹ️🇮🇹👉 Clicca qui per leggere questo post in italiano
+    </button>
+</a>
+</center>
+<br/>
 Resolvi escrever essa carta para expressar minha indignação a decisão recente do governo italiano por através de uma medida provisória de limitar o reconhecimento da cidadania italiana para descendentes no qual o cidadão originário da Italia seja acima da segunda geração, ou seja, bisnetos e trisnetos de um cidadão italiano reconhecido pela Italia não teriam o direito de reconhecimento de cidadania mais.
 
 Essa decisão é um desrespeito com todos os cidadãos italianos no qual nasceram no exterior, sendo eles Brasileiros, Argentinos, Americanos, etc. Esses mesmos italianos que, ao perceberem que a Italia os abandonou no passado, tentaram uma nova vida em outro país, muitos desses italianos morreram no processo, mesmo assim, os que sobreviveram e não morreram por doenças, conseguiram construir algum patrimonio no novo país, deixando assim descendentes nos quais fizeram de tudo para levar a cultura adiante.
@@ -76,6 +85,8 @@ Não sei o que vai acontecer agora, se meu processo se enquadrará nas regras an
 Sim, eu sei que tem pessoas que querem reconhecer a cidadania que não estão nem ai pra Italia, tem esse tipo de gente em qualquer lugar, mas e as pessoas que querem reconhecer pois querem se reconectar com o país? Vão simplesmente virar as costas? 
 
 Desde que comecei meu processo, procuro conhecer mais sobre a Italia, pois pra mim ter a cidadania de um país é ter novas responsabilidades, então comecei a pesquisar sobre a cultura, as regiões, de onde meu antepassado veio, como era naquela época. Comecei a aprender a culinária, a cultura, de como a Italia como conhecemos hoje se formou, tudo isso. Além do fato de aprender a lingua também, estava em uma ofensiva de quase 700 dias de italiano, antes mesmo de começar meu processo já estava começando a aprender a lingua, de tando que comecei a me interessar pela Italia.
+
+![My duolingo streak.](./duolingo.jpg)
 
 Mas tudo isso parece que não tem importância para o governo italiano, pra ele eu só quero meu passaporte pra "ir para Miami", então não tem problema, a partir de hoje deixarei de aprender italiano pra começar a aprender uma lingua mais util, como o espanhol, francês ou alemão, não me decidi ainda. Também pararei de acompanhar todos os canais de brasileiros que vivem na Italia mostrando como é o dia a dia, o que pode fazer, o que não pode, pois esse conhecimento que aprendi foi tudo jogado no lixo.
 
