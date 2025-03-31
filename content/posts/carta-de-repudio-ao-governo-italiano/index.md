@@ -8,7 +8,7 @@
 ---
 ## Introdução
 
-> Antes de iniciar com meu blogpost, gostaria de dizer primeiramente que essa carta não é sobre o povo italiano, muito menos a rica cultura italiana que influenciou e influencia o mundo no qual vivemos até hoje como a arte e a culinária, esse post é sobre as decisões absurdas do governo italiano a respeito da limitação ao direito de sangue da cidadania italiana e somente isso. Também me reservo do direito de escrever utilizando minha lingua materna, que é o português brasileiro, até poderia tentar escrever em italiano mas me recuso depois das decisões já citadas anteriormente neste paragrafo. 
+> Antes de iniciar esta carta, gostaria de dizer primeiramente que essa carta não é sobre o povo italiano, muito menos a rica cultura italiana que influenciou e influencia o mundo no qual vivemos até hoje como a arte e a culinária, esse post é sobre as decisões absurdas do governo italiano a respeito da limitação ao direito de sangue da cidadania italiana e somente isso. Também me reservo do direito de escrever utilizando minha lingua materna, que é o português brasileiro, até poderia tentar escrever em italiano mas me recuso depois das decisões já citadas anteriormente neste paragrafo. 
 
 Resolvi escrever essa carta para expressar minha indignação a decisão recente do governo italiano por através de uma medida provisória de limitar o reconhecimento da cidadania italiana para descendentes no qual o cidadão originário da Italia seja acima da segunda geração, ou seja, bisnetos e trisnetos de um cidadão italiano reconhecido pela Italia não teriam o direito de reconhecimento de cidadania mais.
 
