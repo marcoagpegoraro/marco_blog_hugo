@@ -33,7 +33,7 @@ Then, there is a category of cars that I don't believe exists in the US, as they
 
 Since i don't have children, don't travel much and just want a car that works when I need it, this type of car would suit my needs. Among the examples above, the only ones with an automatic transmission are the March, Picanto and Etios. 
 
-The VW UP is a car that i would consider—it's is compact, somewhat charming, and has a 1.0 turbo engine with a good power-to-weight ratio. However, it's only avaliable with either a manual or a single-clutch transmission. And although I wouldn't need to shift gears myself with the single-clutch option, this type of transmission has a bad reputation in Brazil—not just in Volkswagen cars, but across all automakers that offer it.  
+The VW UP is a car that i would consider—it's compact, somewhat charming, and has a 1.0 turbo engine with a good power-to-weight ratio. However, it's only avaliable with either a manual or a single-clutch transmission. And although I wouldn't need to shift gears myself with the single-clutch option, this type of transmission has a bad reputation in Brazil—not just in Volkswagen cars, but across all automakers that offer it.  
 
 ![Sub Sub Compact Cars](./sub-sub-compact-cars.jpg)
 
@@ -114,7 +114,7 @@ Honestly, I would rather have a regular stereo without a touchscreen—ate least
 - When I turn on the lights, the instrument cluster gets dimmer to be easily visible at night. But when it's day, I can't see anything because it is too dark.
 - Cruise control works well only on flat highways. When driving through hills, the RPM fluctuates a lot.
 - The car doesn't automatically lock the doors when i start driving; i have to manually press the lock button to secure all the doors.
-- There's an annoying beep when I'm not wearing a seat belt. I get it—it's for safety—but sometimes i just want to drive to the gym near my house. And when it's time to drive back home, I don't wanna put wear the seat belt because my back hurts from training (which proves that the car has a sensor detecting when I'm moving, but instead of using it to lock the doors, it only triggers the seat belt warning).
+- There's an annoying beep when I'm not wearing a seat belt. I get it—it's for safety—but sometimes i just want to drive to the gym near my house. And when it's time to drive back home, I don't wanna wear the seat belt because my back hurts from training (which proves that the car has a sensor detecting when I'm moving, but instead of using it to lock the doors, it only triggers the seat belt warning).
 - Wind noise is very loud when driving on the highway.
 
 ## Do I recommend the 2017 Toyota Etios?
