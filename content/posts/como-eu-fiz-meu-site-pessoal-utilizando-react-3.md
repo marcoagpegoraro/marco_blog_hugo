@@ -254,7 +254,7 @@ E foi assim que fiz meu site, pra finalizar, contratei o serviço de dominio do 
 
 Você pode verificar tanto o código do projeto quanto o resultado nesses links a seguir:
 
-[https://www.marcoagpegoraro.com.br](https://marcoagpegoraro.com.br/)
+[https://www.pegoraro.dev](https://pegoraro.dev/)
 
 <https://github.com/marcoagpegoraro/marcoagpegoraro.github.io>
 

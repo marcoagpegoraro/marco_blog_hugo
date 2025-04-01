@@ -2,7 +2,7 @@ baseURL = 'https://example.org/'
 title = "Blog do Marco(Marco's Blog)"
 theme = 'risotto'
 author = "Marco Pegoraro"
-copyright = "© [Marco Pegoraro](https://marcoagpegoraro.com.br)."
+copyright = "© [Marco Pegoraro](https://pegoraro.dev)."
 # paginate = 3
 # languageCode = "en"
 # DefaultContentLanguage = "en"
@@ -30,7 +30,7 @@ url = "https://github.com/marcoagpegoraro"
 [[params.socialLinks]]
 icon = "fa-solid fa-envelope"
 title = "Email"
-url = "mailto:marco@marcoagpegoraro.com.br"
+url = "mailto:marco@pegoraro.dev"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-youtube"
@@ -51,7 +51,7 @@ url = "https://medium.com/@tete5423"
   [[menu.main]]
     identifier = "portfolio"
     name = "portfolio 🔗"
-    url = "http://portifolio.marcoagpegoraro.com.br"
+    url = "http://portifolio.pegoraro.dev"
     weight = 10
     params = { target = "_blank" }
 

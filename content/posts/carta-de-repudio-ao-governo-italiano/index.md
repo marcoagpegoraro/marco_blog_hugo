@@ -12,7 +12,7 @@
 > Antes de iniciar esta carta, gostaria de dizer primeiramente que essa carta não é sobre o povo italiano, muito menos a rica cultura italiana que influenciou e influencia o mundo no qual vivemos até hoje como a arte e a culinária, esse post é sobre as decisões absurdas do governo italiano a respeito da limitação ao direito de sangue da cidadania italiana e somente isso. Também me reservo do direito de escrever utilizando minha lingua materna, que é o português brasileiro, até poderia tentar escrever em italiano mas me recuso depois das decisões já citadas anteriormente neste paragrafo. 
 
 <center>
-<a href="https://marcoagpegoraro-com-br.translate.goog/posts/carta-de-repudio-ao-governo-italiano?_x_tr_sl=pt&_x_tr_tl=it&_x_tr_hl=pt-BR&_x_tr_pto=wapp">
+<a href="https://pegoraro-dev.translate.goog/posts/carta-de-repudio-ao-governo-italiano?_x_tr_sl=pt&_x_tr_tl=it&_x_tr_hl=pt-BR&_x_tr_pto=wapp">
     <button style="display: flex;align-items: center;background-color: #4285F4;color: white;border: none;padding: 10px 15px;font-size: 16px;cursor: pointer;border-radius: 5px;" class="translate-button">
       ℹ️🇮🇹👉 Clicca qui per leggere questo post in italiano
     </button>
