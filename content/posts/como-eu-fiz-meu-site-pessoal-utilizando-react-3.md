@@ -79,7 +79,7 @@ Aqui eu pensei em deixar minha experiencia profissional, bem semelhante a aquela
 
 Por ai sempre vejo os tutoriais utilizarem a janela do macOS como frame para códigos, com aqueles três botões: vermelho, amarelo e verde, decidi fazer o mesmo mas achei que ficou muito genérico, então tive a ideia de programar o estilo da janela do Windows XP, já que gosto bastante de tecnologias antigas, foi o primeiro sistema operacional que tive, porém iria dar bastante trabalho, então optei por fazer a janela do Windows 98, então com um pouco de CSS, ficou pronto do jeito que eu queria, dentro da janela, decidi deixar o visual do material design mesmo para facilitar a navegação e leitura de quem estiver lendo, imagine aqueles [chips](https://mui.com/material-ui/react-chip/) com o visual do Windows 98, todo quadrado e sem icones, não iria ficar tão legal, né?
 
-## Portifolio (Projetos)
+## Portfólio (Projetos)
 
 Aqui eu dediquei uma area para projetos e coisas legais que já fiz ou conquistei, como por exemplo, certificados, projetos, apresentações e artigos.
 
