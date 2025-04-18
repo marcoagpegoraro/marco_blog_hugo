@@ -1,6 +1,6 @@
 ---
   author: Marco Pegoraro
-  title: Minha opinião sobre a mudança da lei de reconhecimento da cidadania italiana
+  title: Minha opinião sobre as mudanças no processo de reconhecimento da cidadania italiana
   date: 2025-03-30 20:00:00
   description: ""
   tags: ["Italy", "Italia", "Citzenship", "Cittadinanza", "Passport"] 
@@ -24,9 +24,9 @@ Resolvi escrever essa carta para expressar minha indignação a decisão recente
 Essa decisão é um desrespeito com todos os cidadãos italianos no qual nasceram no exterior, sendo eles Brasileiros, Argentinos, Americanos, etc. Esses mesmos italianos que, ao perceberem que a Italia os abandonou no passado, tentaram uma nova vida em outro país, muitos desses italianos morreram no processo, mesmo assim, os que sobreviveram e não morreram por doenças, conseguiram construir algum patrimonio no novo país, deixando assim descendentes nos quais fizeram de tudo para levar a cultura adiante.
 
 Durante o período da segunda guerra mundial, o brasil vivia uma ditadura nas mãos de Getúlio Vargas, no qual incorporou diversas leis fascistas (No sentido literal da palavra) que penduram até os dias de hoje, como por exemplo a CLT, que era a "Carta de Lavoro" de Mussolini só que copiada para o Brasil.
-
+<center>
 ![Cartaz dizendo que é proibido falar os idiomas alemão, italiano e japonês.](./e-proibido-falar-os-idiomas-alemao-italiano-e-japones.jpg)
-
+</center>
 Nesse período, foi criado uma lei que obrigava as pessoas a falarem somente o português brasileiro, qualquer pessoa que fosse pego falando outro idioma seria punido ou até preso.
 
 Não precisa nem dizer que isso afetou demais as inúmeras colonias de outros países no brasil, era comum as pessoas terem medo de falar umas com as outras com medo de serem denunciadas a policia, nisso, a maioria das familias que tinham ancestralidade de algum país, se viram obrigadas a falar somente o portugues, deixando a cultura de seus países originarios perdidas.
