@@ -1,6 +1,6 @@
 ---
   author: Marco Pegoraro
-  title: What is the best way to do dependency injection in Spring?
+  title: What is the best way to perform dependency injection in Spring?
   date: 2025-04-19 11:00:00
   description: "@Autowired VS Constructor - which one is the best?"
   tags: ["Java", "Spring", "Autowired", "Lombok", "Constructor", "Dependency Injection"] 
