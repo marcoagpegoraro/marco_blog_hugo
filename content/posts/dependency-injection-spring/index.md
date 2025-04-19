@@ -5,11 +5,9 @@
   description: "@Autowired VS Constructor - which one is the best?"
   tags: ["Java", "Spring", "Autowired", "Lombok", "Constructor", "Dependency Injection"] 
   header_image: /posts/dependency-injection-spring/banner.png
-  show_summary: false 
 ---
 
 As you probably know, there are two ways to perform dependency injection in a Spring component, by using constructor: 
-<br/>
 
 ```java
 @Component
@@ -23,12 +21,7 @@ public class GreetingController {
 
 } 
 ```
-
-<br/>
-
 Or by using the ``@Autowired`` annotation:
-
-<br/>
 
 ```java
 @Component
@@ -39,8 +32,6 @@ public class GreetingController {
 
 } 
 ```
-
-<br/>
 
 When I was a junior developer, I really liked how the @Autowired annotation worked. I thought it was easier to use compared to the constructor method — just one annotation on each dependency and you’re good to go. Not to mention, you don’t need to create a constructor for the class.
 
