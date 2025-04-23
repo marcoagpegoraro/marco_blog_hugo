@@ -66,6 +66,7 @@ public class TestUseCase {
         this.valueFromProperties = valueFromProperties;
     }
 
+    //code
 } 
 ```
 
@@ -79,7 +80,7 @@ If you're a Java developer, you most certainly know Lombok, so I won’t go into
 @RequiredArgsConstructor <br/><br/>
 </a>
 
-The annotation we're interested in is the last one: @RequiredArgsConstructor. It automatically generates a constructor for all the required dependencies marked with the final keyword, like this:
+The annotation we're interested in is the last one: ``@RequiredArgsConstructor``. It automatically generates a constructor for all the required dependencies marked with the final keyword, like this:
 
 ```java
 @Component
@@ -91,6 +92,7 @@ public class TestUseCase {
     private final StockService stockService;
     private final String valueFromProperties;
 
+    //code
 } 
 ```
 
@@ -109,6 +111,7 @@ public class TestUseCase {
     @Value("${valueFromProperties}")
     private final String valueFromProperties;
 
+    //code
 } 
 ```
 
@@ -140,3 +143,60 @@ To check whether you need the config file, open the target folder and inspect th
 ![Generated class](./generated-class.png)
 
 See ya.
+
+## EDIT
+
+Well, I recently found out there’s another way to handle this. If you’re using a version of Java prior to 14, you’ll need to rely on Lombok. But if you’re using Java 14 or later, you also have the option to use Java Records. So in this edit, I’ll show you how to implement dependency injection using records.
+
+Records are a new type of Java class that automatically provides many of the features you'd normally use Lombok for, such as:
+
+- private, final field for each piece of data
+- getter for each field
+- public constructor with a corresponding argument for each field
+- equals method that returns true for objects of the same class when all fields match
+- hashCode method that returns the same value when all fields match
+- toString method that includes the name of the class and the name of each field and its corresponding value
+
+> Albano, J. (January 16, 2024). <i>Java record keyword.</i> Baeldung. Retrieved April 22, 2025, from https://www.baeldung.com/java-record-keyword
+
+One of the main benefits here is that Java Records automatically generate a public constructor for all fields, which means we can ditch Lombok entirely for this use case.
+
+The code would look like this:
+
+```java
+@Component
+public record TestUseCase(
+    UserService userService,
+    ProductService productService,
+    StockService stockService,
+    @Value("${valueFromProperties}") String valueFromProperties
+)
+{
+   //code 
+}
+```
+
+Look how much easier it is to implement it this way! However, be careful: when using a record as a component, you can’t use ``ReflectionTestUtils`` to set variables annotated with ``@Value``.
+
+If you want to test a record-based component, the recommended approach is to use Mockito.mock, like this:
+
+![If you want to test a record component, use Mockito.mock, like this](./using-mockito-mock.png)
+
+This approach works for both @RequiredArgsConstructor-based classes and Java record implementations.
+
+![If you use a regular Java class with @RequiredArgsConstructor, in addition to use Mockito.mock, you can also use @InjectMocks](./using-inject-mocks.png)
+
+Now, if you're using a regular class with ``@RequiredArgsConstructor``, in addition to Mockito.mock, you also have the option to use ``@InjectMocks``.
+
+But here's the catch: if you try to use ``@InjectMocks`` with a Java record, it won't work and will throw an ``IllegalStateException`` like this:
+
+<font color="red">
+
+> java.lang.IllegalStateException: Could not access method or field: Can not set final java.lang.String field com.marcoagpegoraro.spring_dependency_injection_the_best_way.controller.UsingRecordController.valueFromProperties to java.lang.String
+</font>
+
+I highly recommend using the Mockito.mock approach because it leads to cleaner, more intuitive code. It’s easier to read and understand, and it's consistent with patterns used in many other programming languages. But in the end, it’s up to you and your team to decide what works best for your context.
+
+Another important thing to keep in mind when using Java records as components is that they’re only suitable for stateless components. For example, if you have a variable inside the component that needs to change over time, you can’t use a record — all fields in a record are implicitly final. That said, I believe this is a pretty rare use case in most applications, but it’s definitely something to be aware of.
+
+And that’s it — see ya! 👋
