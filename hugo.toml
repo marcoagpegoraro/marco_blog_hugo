@@ -47,6 +47,11 @@ icon = "fa-brands fa-medium"
 title = "Medium"
 url = "https://medium.com/@tete5423"
 
+[[params.socialLinks]]
+icon = "fa-brands fa-x-twitter"
+title = "X"
+url = "https://x.com/MarcoPegoraro"
+
 [menu]
   [[menu.main]]
     identifier = "portfolio"
