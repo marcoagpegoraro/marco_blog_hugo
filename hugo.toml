@@ -50,7 +50,7 @@ url = "https://medium.com/@tete5423"
 [[params.socialLinks]]
 icon = "fa-brands fa-x-twitter"
 title = "X"
-url = "https://x.com/MarcoPegoraro"
+url = "https://x.com/PegoraroDev"
 
 [menu]
   [[menu.main]]
