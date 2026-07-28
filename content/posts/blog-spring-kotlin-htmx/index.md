@@ -49,7 +49,7 @@ For the persistence layer, i will create then a package ```adapters.out``` and i
 For this blog application we will create in total 4 models:
 
 adapters/out/comment/Post.kt:
-```java
+```kotlin
 @Entity
 class Post(
     @Id
@@ -77,7 +77,7 @@ class Post(
 ```
 
 adapters/out/comment/Tag.kt:
-```java
+```kotlin
 @Entity
 class Tag(
     @Id
@@ -96,7 +96,7 @@ class Tag(
 ```
 
 adapters/out/comment/Comment.kt:
-```java
+```kotlin
 @Entity
 class Comment(
     @Id
@@ -119,7 +119,7 @@ class Comment(
 ```
 
 adapters/out/comment/AppUser.kt:
-```java
+```kotlin
 @Entity
 class AppUser(
     @Id
@@ -142,3 +142,34 @@ enum class Role {
     ADMIN
 }
 ```
+
+
+Also create the repositories:
+
+adapters/out/comment/PostRepository.kt:
+```kotlin
+@Repository
+interface PostRepository : JpaRepository<Post, Long> {
+    fun findAllByIsDraftFalse(pageable: Pageable): Page<Post>
+}
+```
+
+adapters/out/comment/TagRepository.kt:
+```kotlin
+@Repository
+interface TagRepository : JpaRepository<Tag, Long>
+```
+
+adapters/out/comment/CommentRepository.kt:
+```kotlin
+@Repository
+interface CommentRepository : JpaRepository<Comment, Long>
+```
+
+adapters/out/comment/AppUserRepository.kt:
+```kotlin
+@Repository
+interface AppUserRepository : JpaRepository<AppUser, Long>
+```
+
+
