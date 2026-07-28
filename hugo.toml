@@ -1,5 +1,5 @@
 baseURL = 'https://example.org/'
-title = "Blog do Marco(Marco's Blog)"
+title = "Marco's Blog"
 theme = 'risotto'
 author = "Marco Pegoraro"
 copyright = "© [Marco Pegoraro](https://pegoraro.dev)."
