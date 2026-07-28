@@ -4,7 +4,7 @@
   date: 2025-03-01 00:47:00
   description: ""
   tags: ["Cars", "Toyota", "Etios"] 
-  header_image: /posts/my-car-a-2017-toyota-etios/toyota-etios.jpeg
+  header_image: /posts/my-car-a-2017-toyota-etios/toyota-etios.webp
 ---
 ## A brief history of me and cars
 
@@ -14,7 +14,7 @@ With that said, I have had a few cars in my life: an old Civic, an old Accord (w
 
 Don't get me wrong — it's a great car: extremely reliable, with cheap parts and good gas mileage. However, it was a product made for developing countries like Brazil, so there was nothing luxurious about it. It was built on the same chassis as the Opel Corsa B, a car that was debuted in 1993. It had a 1.0-liter engine and a manual transmission, and the interior was very simple. Luckily, my car as least had air conditioner, power steering, ABS, and airbags. Although air conditioner and power steering were optional, airbags and ABS became mandatory for cars produced in Brazil after 2014. 
 
-![Chevrolet Celta](./chevrolet-celta.jpeg)
+![Chevrolet Celta](./chevrolet-celta.webp)
 
 ## Looking for a new car
 
@@ -35,14 +35,14 @@ Since i don't have children, don't travel much and just want a car that works wh
 
 The VW UP is a car that i would consider—it's compact, somewhat charming, and has a 1.0 turbo engine with a good power-to-weight ratio. However, it's only avaliable with either a manual or a single-clutch transmission. And although I wouldn't need to shift gears myself with the single-clutch option, this type of transmission has a bad reputation in Brazil—not just in Volkswagen cars, but across all automakers that offer it.  
 
-![Sub Sub Compact Cars](./sub-sub-compact-cars.jpg)
+![Sub Sub Compact Cars](./sub-sub-compact-cars.webp)
 
 
 I don't really like the design of the Picanto and March so i opted for the Toyota Etios.
 
 One day, while walking through a local used car convention—where people go to sell their own cars (I'm not sure if this type of event has a specific name in english)—I saw a 2017 Toyota Etios automatic for sale at R$62k. The only thing was that it was a "cross" model, which is why it was those plastic cladding parts around the car. 
 
-![Toyota Etios Cross](./toyota-etios.jpeg)
+![Toyota Etios Cross](./toyota-etios.webp)
 
 It was a one-owner car, previously owned by a Toyota salesman, and almost all of its maintenance had been done at a Toyota dealership, the owner agreed to take my Celta as part of the payment, so i bought the car.
 
@@ -85,7 +85,7 @@ Etios Cross:
 
 As you can see, the Etios Cross has a lot o optional features for an entry-level car. I really like its appearance—it's small and quirky, somewhat like a 1990s Renault Twingo of the 2010s. The center dashboard is also very similar to the Twingo's.
 
-![Toyota Etios Cross interior](./toyota-etios-interior.jpeg)
+![Toyota Etios Cross interior](./toyota-etios-interior.webp)
 
 ## Negative points
 
@@ -97,7 +97,7 @@ Here are some things that I didn't like about the car:
 
 There is a button on the trunk of the car that opens it electronically, which is much better then having to open it with a key like i did with the Celta. However, something that irritates me is that when i press the button, the trunk doesn't open automatically. I have to press the button with one hand and then lift the trunk with the other hand. If I press the button and then try to open it, the trunk won't open. this is a very poor design.
 
-![Etios and UP comparison](./etios-up-back.jpg)
+![Etios and UP comparison](./etios-up-back.webp)
 
 As you can see in the image above, the Etios only has a button to open the trunk. In the VW Up, for example, the button is there too, but it has also has a handle you can grab with the same hand to open the trunk. However, this is a problem that only Etios Hatch owners will face, because the sedan model has a lever inside the vehicle that that the driver can pull to open the trunk.  
 

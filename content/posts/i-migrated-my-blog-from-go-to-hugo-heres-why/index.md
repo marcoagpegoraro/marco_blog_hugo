@@ -15,7 +15,7 @@ Not that i was unsatisfied with my blog project in Go, in fact, it had a lot of 
 But then i realized that this would not be the the best approach to the problem that i was trying to solve, i just need a simple static page blog, i don't need a database, an instance running, a logging service, i don't need any of that. 
 
 And on top of that, the [railway](https://railway.app/) free tier was ending, it started with 5 dollars and ended with 1.97, not bad for a service that was running non stop for 6 months.
-![railway freetier showing 1.97USD left](./railway-freetier.png)
+![railway freetier showing 1.97USD left](./railway-freetier.webp)
 And the nail on the coffin was the fact that [Planet Scale](https://planetscale.com/) was ending the [free tier plan](https://dev.to/lukeecart/planet-scale-is-removing-free-tier-2f17), which is where my database was hosted.
 
 ## Sunsetting my old blog

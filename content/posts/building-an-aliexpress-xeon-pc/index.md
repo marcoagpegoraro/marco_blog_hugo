@@ -14,7 +14,7 @@ So, a few days ago i bought a new case for my old gaming PC that i built in the 
 
 After the pc was ready to use, i then installed the PC in my living room to play games in my TV using my XBOX controller, the problem is, my office didn't have any PC anymore. Thats when i have an idea to build a new PC using parts from Ali Express, such as the RAM, Processor and motherboard.
 
-<img src="./xeon_performance.png" alt="A Xeon performance compared to the i7 7700K" style="display: block; margin: 0 auto;"></img>
+<img src="./xeon_performance.webp" alt="A Xeon performance compared to the i7 7700K" style="display: block; margin: 0 auto;"></img>
 
 
-!["neofetch of my new PC"](./neofetch.png)
+!["neofetch of my new PC"](./neofetch.webp)

@@ -5,3 +5,9 @@
 3. Edit hugo.toml, setting the "theme" property to the theme name.
 4. Create new content with the command "hugo new content <SECTIONNAME>/<FILENAME>.<FORMAT>".
 5. Start the embedded web server with the command "hugo server --buildDrafts".
+
+
+
+
+before running the hugo server command, make sure to include the submodule risotto:
+```git submodule update --init --recursive```

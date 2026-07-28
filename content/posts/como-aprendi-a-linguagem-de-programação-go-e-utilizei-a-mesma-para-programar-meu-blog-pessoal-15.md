@@ -4,7 +4,7 @@
   date = "2023-10-27 21:44:06.531000000"
   description = "Golang + Fiber + Gorm + AWS S3 + Django Templates + FlatifyCSS + Railway"
   tags = ["AWS","Fiber","FlatifyCSS","Go","GoLang","GORM","Railway","S3"] 
-  header_image = "/images/2365d858-d162-4736-89d4-6d2e7eeab154.jpg"
+  header_image = "/images/2365d858-d162-4736-89d4-6d2e7eeab154.webp"
 +++
   
 Em 2007, engenheiros da Google perceberam que a base de código, principalmente escrita em C++, estava complexa demais e isso estava atrasando entregas, foi então visto que seria necessário a criação de uma nova linguagem de programação. Então Robert Griesemer, Rob Pike, e Ken Thompson - também criador da linguagem B - se reuniram e, com suas habilidades, criaram a linguagem Go, com o propósito de ser uma linguagem simples como Python, porém robusta e performática como C.
@@ -15,7 +15,7 @@ Uma das opções foi a linguagem Rust, criada pela Mozilla, porém percebi que p
 
 Resolvi então pegar o que as pessoas consideram a linguagem "rival" do Rust, a linguagem Go, percebi que o mesmo é bem mais utilizado em serviços web comparado ao Rust. Algumas empresas brasileiras já estão migrando suas bases de código para o Go, incluindo Magazine Luiza, Mercado Livre e Globo.com
 
-![](/images/2365d858-d162-4736-89d4-6d2e7eeab154.jpg)
+![](/images/2365d858-d162-4736-89d4-6d2e7eeab154.webp)
 
 # Como aprender uma linguagem nova?
 
@@ -55,7 +55,7 @@ Comecei o desenvolvimento utilizando Postgres rodando em um container docker loc
 
 Comecei o desenvolvimento utilizando bootstrap, estava ficando bem legal, porém queria tentar algo diferente, foi ai que pesquisando alguns design systems de empresas como Airbnb, IBM, Microsoft e Google, resolvi utilizar um que se baseia no design system do Duolingo. Porém ainda quero aprender TailwindCSS para utilizar no site e deixar com uma aparência mais única.
 
-![](/images/20ff4c03-f72e-4361-9c6d-d15345d41897.jpg)
+![](/images/20ff4c03-f72e-4361-9c6d-d15345d41897.webp)
 
 # CRUD de posts
 
@@ -77,13 +77,13 @@ Ai percebi que precisaria realizar o upload dessas imagens em algum lugar, a pri
 
 Feito isso, agora precisei escrever um código no meu service la do Go para realizar o upload dessas imagens base64 para o bucket, e fazer o replace pelo link da imagem la no bucket publico do S3, foi muito bom pois assim consegui colocar em pratica a manipulação de slices utilizando Go.
 
-![](/images/9a5cbb19-df6d-4b72-a17e-8437ebbdc2ea.jpg)
+![](/images/9a5cbb19-df6d-4b72-a17e-8437ebbdc2ea.webp)
 
 # Cache
 
 Para não sobrecarregar o banco de dados com request que raramente mudariam, somente quando eu fizesse uma atualização ou inserção de post, utilizei uma biblioteca chamada go-cache, no qual serve para guardar dados em memória e, com isso, obter esses dados caso precise muito mais rápido que realizar uma query no banco de dados. A proposta é muito semelhante a um Redis ou Memcached, porém muito mais simples pois tudo está em memória, não existe um serviço externo de cache, para o projeto que estou desenvolvendo, é mais do que suficiente.Claro que não poderia deixar o cache crescer infinitamente, então criei um middleware que, a cada requisição, remove os caches invalidados e caso o numero de itens no cache supere 15, ele limpa o cache inteiro, prevenindo assim o uso excessivo de memória da aplicação.
 
-# ![](/images/9b2349b4-99ce-4d1a-9618-d2e4a87b490e.jpg)
+# ![](/images/9b2349b4-99ce-4d1a-9618-d2e4a87b490e.webp)
 
 # Goroutines
 
@@ -93,7 +93,7 @@ Para criar uma Goroutine, basta colocar a palavra chave "go" antes de uma chamad
 
 Caso seja necessário obter o valor de retorno da Goroutine, podemos utilizar os channels, são variáveis que criamos com o intuito de passar para dentro de uma ou mais Goroutines e então colocar valores nela com o intuito de obter depois da execução da Goroutine. No exemplo a seguir, mostro como utilizei Goroutines + Channels para rodar assincronamente três funções e obter o valor de cada uma delas:
 
-![](/images/26e97979-793e-4660-abed-098d3186fa88.jpg)
+![](/images/26e97979-793e-4660-abed-098d3186fa88.webp)
 
 # Autenticação
 
@@ -103,13 +103,13 @@ Como somente eu irei acessar o blog, achei desnecessário criar uma tabela "user
 
 Com o token guardado nos cookies 🍪, criei um middleware de autenticação para validar se o token é válido ou não, e com isso, se for válido ou não, eu guardo dentro de uma variavel booleana chamada "is\_auth" dentro dos locals (https://docs.gofiber.io/api/ctx/#locals), e com isso, consigo validar quais rotas necessitam ou não de autenticação.
 
-![](/images/e1102a5a-a26c-4734-8b49-89b2952bfd98.jpg)
+![](/images/e1102a5a-a26c-4734-8b49-89b2952bfd98.webp)
 
 # Deploy
 
 Para fazer o deploy, queria algo simples e barato, pensei em utilizar o AWS Elastic Beanstalk, mas achei muito complicado de configurar, além de ter que configurar o code commit para funcionar o deploy automático ao realizar o push em uma branch no git, ai decidir usar o Heroku, porém achei muito caro, o plano eco custa 5$ por mes e a aplicação fica caindo se não existe atividade. Encontrei então uma alternativa muito boa chamada Railway, é igual um Heroku porém mais barato, e tem um free trial bem generoso de 5 dólares. foi só questão de dar permissão ao meu repositório git e o deploy aconteceu automaticamente utilizando docker, dentro da plataforma, posso configurar ainda as variáveis de ambiente do container, a rota de health check, comando de build/run, etc. Achei bem completo e recomendo bastante.
 
-![](/images/bc257c3e-aed1-4b85-95f8-8478a440ebc7.jpg)
+![](/images/bc257c3e-aed1-4b85-95f8-8478a440ebc7.webp)
 
 # Vale a pena aprender Go?
 

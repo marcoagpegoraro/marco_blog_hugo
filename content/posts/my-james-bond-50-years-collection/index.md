@@ -4,7 +4,7 @@
   date: 2025-02-24 13:30:00
   description: ""
   tags: ["Cars", "Toyota", "Etios"] 
-  header_image: /posts/my-car-a-2017-toyota-etios/toyota-etios.jpeg
+  header_image: /posts/my-car-a-2017-toyota-etios/toyota-etios.webp
 ---
 ## Introduction
 

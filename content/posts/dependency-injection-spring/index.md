@@ -4,7 +4,7 @@
   date: 2025-04-19 11:00:00
   description: "@Autowired VS Constructor - which one is the best?"
   tags: ["Java", "Spring", "Autowired", "Lombok", "Constructor", "Dependency Injection"] 
-  header_image: /posts/dependency-injection-spring/banner.png
+  header_image: /posts/dependency-injection-spring/banner.webp
 ---
 
 As you probably know, there are two ways to perform dependency injection in a Spring component, by using constructor: 
@@ -117,7 +117,7 @@ public class TestUseCase {
 
 And that’s everything you need! But still, if this code doesn’t work and you’re getting an error like this one:
 
-![Application failed to start](./app-failed-to-start.png)
+![Application failed to start](./app-failed-to-start.webp)
 
 You're probably using an older version of Java or Lombok. If that’s the case, Lombok might not automatically apply the ``@Value`` annotation in the generated constructor. To fix this, you’ll need to create a file called ``lombok.config`` in the same folder as your ``pom.xml`` or ``build.gradle``. Inside that file, add the following lines:
 
@@ -140,7 +140,7 @@ I'm using Java 8 here just to demonstrate how the ``lombok.config`` file works. 
 
 To check whether you need the config file, open the target folder and inspect the generated .class file. Look at the constructor — if the ``@Value`` annotation appears in the constructor parameters (as shown in the example below), then you're good to go.
 
-![Generated class](./generated-class.png)
+![Generated class](./generated-class.webp)
 
 See ya.
 
@@ -180,11 +180,11 @@ Look how much easier it is to implement it this way! However, be careful: when u
 
 If you want to test a record-based component, the recommended approach is to use Mockito.mock, like this:
 
-![If you want to test a record component, use Mockito.mock, like this](./using-mockito-mock.png)
+![If you want to test a record component, use Mockito.mock, like this](./using-mockito-mock.webp)
 
 This approach works for both @RequiredArgsConstructor-based classes and Java record implementations.
 
-![If you use a regular Java class with @RequiredArgsConstructor, in addition to use Mockito.mock, you can also use @InjectMocks](./using-inject-mocks.png)
+![If you use a regular Java class with @RequiredArgsConstructor, in addition to use Mockito.mock, you can also use @InjectMocks](./using-inject-mocks.webp)
 
 Now, if you're using a regular class with ``@RequiredArgsConstructor``, in addition to Mockito.mock, you also have the option to use ``@InjectMocks``.
 

@@ -26,7 +26,7 @@ _"es un vecchio"_ também fica fácil entender o significado, _es_ significa "é
 
 Digo que essa palavra é interessante pois a pronuncia do "_chi_" é identica ao som do "qui" no portugues, isso acontece por que a letra "C" no italiano tem uma pronuncia diferente dependendo da vogal que a acompanha, chamamos isso de pronuncia "_Duro_" e "_Dolce_" (doce em italiano):
 
-![](/images/1*IDXVaEmsmrfakwQUYXEbjg.png)
+![](/images/1IDXVaEmsmrfakwQUYXEbjg.webp)
 
 Escrita e pronuncia da letra C seguida de uma vogal. Do Autor.
 
@@ -47,13 +47,13 @@ _Gli amici della vedetta ammirata da tutti noi_ é uma frase que o tradutor ital
 
 Deixando de lado o sentido da frase e partindo para uma analise gramatical, a frase começa com o artigo definido "Gli" (se pronuncia "lhi"), o que significa "Os".
 
-![](/images/1*AJRMLFCXuDPB6uLpoM2DWQ.png)
+![](/images/1AJRMLFCXuDPB6uLpoM2DWQ.webp)
 
 Tabela contendo os artigos definidos em italiano, perceba que Gli é um artigo definido masculino. Do Autor.
 
 Em seguida, temos a palavra “Amici”, que é o plural de "amico" (amigo), em italiano, como "amico" é uma palavra masculina, o plural da palavra muda de "o" para "i"; palavras no masculino terminadas em "e" ou "o", o plural sempre é "i", no caso das palavras no feminino, as que terminam com "a" no singular viram "e" e as que terminam com "e" no singular viram "i". Segue uma imagem bem legal que encontrei que explica isso:
 
-![](/images/0*Iw0rhPD3CixP5K71.jpg)
+![](/images/0Iw0rhPD3CixP5K71.webp)
 
 Imagem retirada do vídeo do Youtube " SINGOLARE E PLURALE-LEZIONE 10" do canal do ITALIANO CON VANY- LIVELLO BASE DALL’ A1 AL B1" — Disponível em: <https://www.youtube.com/watch?v=YEtz9Y20DVQ>. Acesso em: 01/04/2023.
 
@@ -77,7 +77,7 @@ _Fun fact: sabia que a versão de despedida do carro Fiat Uno em 2013 se chamava
 
 Essa frase é interessante pois temos uma conjugação verbal. Igual temos no portugues, o verbo muda dependendo do tipo de conjugação, aqui temos o verbo _pronunciare_ conjugado na primeira pessoa do singular, ficando assim:
 
-![](/images/1*IeYONpUKgxJ5N38o3L2c8A.png)
+![](/images/1IeYONpUKgxJ5N38o3L2c8A.webp)
 
 Conjugação completa do verbo _pronunciare_ no presente do indicativo, tente praticar a pronuncia, lembre-se da maneira que é pronunciado a letra "C", caso tenha esquecido, é só subir o artigo para revisar — Disponível em: <https://it.bab.la/coniugazione/italiano/pronunciare>. Acesso em: 02/04/2023.
 

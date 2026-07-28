@@ -4,7 +4,7 @@
   date: 2025-04-22 22:00:00
   description: "There's a better, more manageable way"
   tags: ["Java", "Spring", "Environment"] 
-  header_image: /posts/managing-environment-spring/application-properties-files.png
+  header_image: /posts/managing-environment-spring/application-properties-files.webp
 ---
 
 Let's suppose that you have a spring application, and then you need to run this application locally in your machine, in the staging and production environment.
@@ -12,13 +12,13 @@ Let's suppose that you have a spring application, and then you need to run this 
 One of the default aproches that Java developers like to use is to create an application.properties file for each environment, like this:
 <center>
 
-![Application properties files](./application-properties-files.png)
+![Application properties files](./application-properties-files.webp)
 </center>
 
 And it is a fair way to segregate the environment variables by files, it's very easy for beginners to understand id and also it's easy to tell spring to use a specified file, you just need to declare the spring.profiles.active env variable in the IntelliJ run configuration with the value corresponding to the desired environment and you are good to go.
 <center>
 
-![Environment variable spring.profiles.active declared in the IntelliJ run configuration](./environment-variable.png)
+![Environment variable spring.profiles.active declared in the IntelliJ run configuration](./environment-variable.webp)
 </center>
 
 In this article, i will demonstrate a better approach that shines when you are using infrastructure as code.
@@ -55,7 +55,7 @@ kafka.topic.name=kakfa-topic-name-equal-for-every-env
 Now, if we run the application passing the desired environment, it will run without any problem:
 <center>
 
-![Json response](./response.png)
+![Json response](./response.webp)
 </center>
 
 And then, in your Dockerfile, the only thing that you need to do is pass the environment in the container 
@@ -90,7 +90,7 @@ But the best argument to use environment variables is when you are using a infra
 
 Look at the example bellow, now we have a terraform folder structure, and inside of it, two files for each environment containing the instance type.
 
-![Project folder structure with terraform](./terraform-files.png)
+![Project folder structure with terraform](./terraform-files.webp)
 
 Now, the only thing that we have to do is put the variable values inside of the terraform environment files, way easier than using the spring application files for each environment.
 
